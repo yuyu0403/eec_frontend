@@ -1,0 +1,196 @@
+<!--Begin base.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+        <meta http-equiv="expires" content="0" />
+        <title>RWD Platform</title>
+        {% include "/generic_classifier/base/css_import.html" %} {% block customized_css %}{% endblock %}
+    </head>
+    <body class="hold-transition sidebar-mini-lg">
+        <!-- Site wrapper -->
+        <div class="wrapper">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand navbar-white navbar-color navbar-style">
+                <!-- Left navbar links -->
+                <ul class="navbar-nav header-icon">
+                    <li class="nav-item">
+                        <div id="nav-bar">
+                            <svg class="svg-icon" width="40" height="40" viewBox="0 0 62 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="31.0301" cy="5.29412" rx="5.31429" ry="5.29412" fill="white" />
+                                <ellipse cx="31.0301" cy="54.7057" rx="5.31429" ry="5.29412" fill="white" />
+                                <ellipse cx="5.31429" cy="30.238" rx="5.31429" ry="5.29412" fill="white" />
+                                <ellipse cx="56.6854" cy="30.238" rx="5.31429" ry="5.29412" fill="white" />
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav w-100 justify-content-between align-items-center" id="rightNAV">
+                    <li class="nav-item d-flex col-5">
+                        <i class="fa-solid fa-angle-left text-white text-font-arrow my-auto m-left-arrow"></i>
+                        <i class="fa-solid fa-angle-right text-white text-font-arrow my-auto m-right-arrow"></i>
+                        <div class="search-frame mx-2 p-3 w-100">
+                            <i class="fa-solid fa-magnifying-glass text-gray"></i>
+                            <input type="text" id="search-input" placeholder="Search" />
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-flex">
+                        <div class="mr-4 d-flex justify-content-center align-items-center">
+                            <i class="mx-2 fa-solid fa-bell text-white fa-hover fa-nav-style"></i>
+                            <i class="mx-2 fa-regular fa-circle-question text-white fa-hover fa-nav-style"></i>
+                        </div>
+                        <div class="mx-2 nav-tool">
+                            <img src="https://picsum.photos/40/40" alt="Lorem Picsum Image" />
+                            <p class="mx-2 text-white">ITRI_01</p>
+                            <i class="fa-solid fa-caret-down text-white fa-hover mx-2 mb-1 fa-tool-style"></i>
+                        </div>
+                    </li>
+                    <!-- /.Logout -->
+                </ul>
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Main Sidebar Container -->
+            <aside class="sidebar-light" id="aside-frame">
+                <!-- Sidebar -->
+                <div class="sidebar sidebar-border d-flex" style="width: 6.25rem !important">
+                    <nav>
+                        <ul id="menu_bar" class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                            <li class="nav-item menu-open">
+                                <div id="dataset_items" class="collapse show" aria-labelledby="headingPages" data-parent="#menu_bar">
+                                    <div class="bg-transparent rounded menu_frame">
+                                        <a class="collapse-item nav-link {{ active_policy }}" href="{{ STATIC_BASE }}/generic_classifier/policy" id="overview_link">
+                                            <i class="fas fa-file-invoice"></i>
+                                            <p>Policy</p>
+                                        </a>
+                                        <!-- <div id="machine_learning_frame" class="p-0 m-0 flex-column justify-content-center align-items-center" style="display: none"> -->
+                                        <a class="collapse-item nav-link {{ active_dashboard }}" href="{{ STATIC_BASE }}/generic_classifier/dashboard" id="collection_link">
+                                            <i class="fas fa-chart-line"></i>
+                                            <p>Dashboard</p>
+                                        </a>
+                                        <a class="collapse-item nav-link {{ active_proposal }}" href="{{ STATIC_BASE }}/generic_classifier/proposal">
+                                            <i class="fas fa-tasks"></i>
+                                            <p>Proposal</p>
+                                        </a>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </li>
+                            `
+                        </ul>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Pod_JP modal -->
+            <div class="modal fade" id="Pod_JP" data-backdrop="static" data-keyboard="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-center">Warning</h4>
+                            <button type="button" class="close Pod_JP_close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row pb-3">AutoML Pod 未關閉，若開啟 Jupyter Pod 將自動關閉 AutoML Pod 並停止所有工作。</div>
+                            <div class="modal-footer justify-content-between">
+                                <button type="button" class="btn btn-default Pod_JP_cancel">Cancel</button>
+                                <button type="button" class="btn btn-primary Pod_JP_confirm">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+            <!-- Pod_AML modal -->
+            <div class="modal fade" id="Pod_AML" data-backdrop="static" data-keyboard="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Warning</h4>
+                            <button type="button" class="close Pod_AML_close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row pb-3">Jupyter Pod 未關閉，若開啟 AutoML Pod 將自動關閉 Jupyter Pod 並停止所有工作。</div>
+                            <div class="modal-footer justify-content-between">
+                                <button type="button" class="btn btn-default Pod_AML_cancel">Cancel</button>
+                                <button type="button" class="btn btn-primary Pod_AML_confirm">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+            {% block content %}{% endblock %} {% include "/generic_classifier/base/footer.html" %}
+        </div>
+
+        <!-- js_import -->
+        <!-- jQuery -->
+        <script src="{{ STATIC_BASE }}/static/plugins/jquery/jquery.min.js"></script>
+        <!-- Fontawesome Animation -->
+        <script src="{{ STATIC_BASE }}/static/plugins/fontawesome/b63eacdc60.js" crossorigin="anonymous"></script>
+        <!-- overlayScrollbars -->
+        <script src="{{ STATIC_BASE }}/static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="{{ STATIC_BASE }}/static/plugins/adminlte/adminlte.min.js"></script>
+        <!-- Select2 -->
+        <script src="{{ STATIC_BASE }}/static/plugins/select2/js/select2.full.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+        <!-- dropzonejs -->
+        <script src="{{ STATIC_BASE }}/static/plugins/dropzone/min/dropzone.min.js"></script>
+        <!-- ApexCharts -->
+        <script src="{{ STATIC_BASE }}/static/plugins/ApexCharts/ApexCharts.js"></script>
+        <!-- DataTables  & Plugins -->
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/jszip/jszip.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/pdfmake/pdfmake.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/pdfmake/vfs_fonts.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/jquery-file-download/jquery.fileDownload.js"></script>
+        <!-- InputMask -->
+        <script src="{{ STATIC_BASE }}/static/plugins/moment/moment.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/inputmask/jquery.inputmask.min.js"></script>
+        <!-- date-range-picker -->
+        <script src="{{ STATIC_BASE }}/static/plugins/daterangepicker/daterangepicker.js"></script>
+        <!-- Bootstrap 4 -->
+        <script src="{{ STATIC_BASE }}/static/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap tour  -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/js/bootstrap-tour-standalone.min.js"></script> -->
+        <!-- <script src="{{ STATIC_BASE }}/static/plugins/bootstrap-tour/bootstrap-tour-standalone.min.js"></script> -->
+        <script src="{{ STATIC_BASE }}/static/plugins/bootstrap-tour/cdnjs.cloudflare.com_ajax_libs_bootstrap-tour_0.12.0_js_bootstrap-tour-standalone.js"></script>
+        <!-- axios -->
+        <script src="{{ STATIC_BASE }}/static/plugins/axios/axios.min.js"></script>
+        <!-- Customized JS -->
+        <script src="{{ STATIC_BASE }}/static/dist/js/base.js?v={{ ASSET_VERSION }}"></script>
+        <!-- Idle JS -->
+        <script src="{{ STATIC_BASE }}/static/plugins/jquery-idle/jquery.idle.min.js"></script>
+        <script src="{{ STATIC_BASE }}/static/dist/js/idle.js?v={{ ASSET_VERSION }}"></script>
+        <!-- /.js_import -->
+
+        {% include "base.html" %} {% include "/generic_classifier/base/js_block.html" %} {% block customized_js %}{% endblock %}
+    </body>
+</html>
+<!--End base.html-->

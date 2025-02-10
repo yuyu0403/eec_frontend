@@ -1,0 +1,17 @@
+{% extends "/generic_classifier/base/main.html" %} {% block customized_css %}
+<link rel="stylesheet" href="{{ STATIC_BASE }}/static/dist/css/generic_classifier/policy/main.css?v={{ ASSET_VERSION }}" />
+{% endblock %} {% block content %}
+<div class="content-wrapper pt-1" id="default_page">
+    <div class="w-100 title_column">
+        <label class="currently">Proposal</label>
+    </div>
+</div>
+
+{% endblock %} {% block customized_js %}
+<script src="{{ STATIC_BASE }}/static/dist/js/generic_classifier/policy/main.js?v={{ ASSET_VERSION }}"></script>
+<script>
+    $(function () {
+        ai.ProposalGC.setCallback();
+    });
+</script>
+{% endblock %}

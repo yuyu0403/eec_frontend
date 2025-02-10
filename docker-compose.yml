@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  ai-portal-frontend:
+    image: rwd_ai-portal-frontend
+    build: .
+    ports:
+      - "5000:5000"
+    restart: always

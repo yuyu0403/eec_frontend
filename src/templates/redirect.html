@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <title>FAST AI</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ STATIC_BASE }}/static/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ STATIC_BASE }}/static/plugins/adminlte/adminlte.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ STATIC_BASE }}/static/plugins/jquery-powertip/css/jquery.powertip-light.min.css">
+    <link rel="stylesheet" href="{{ STATIC_BASE }}/static/dist/css/home.css?v={{ asset_version }}">
+</head>
+<body class="hold-transition sidebar-mini-lg">
+
+<!-- Axios Warning modal -->
+<div class="modal fade" id="axios_warning_modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <label class="modal-header-title mb-0">
+                    <i class="fas fa-exclamation-triangle warning_delete_color"></i>
+                    {{ _('System Warning') }}
+                </label>
+            </div>
+            <div class="modal-body">
+                <label class="modal-content-title axios_warning_msg_content"></label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close_axios_warning_modal">{{ _('OK') }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Axios Warning modal -->
+
+<!-- jQuery -->
+<script src="{{ STATIC_BASE }}/static/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="{{ STATIC_BASE }}/static/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="{{ STATIC_BASE }}/static/plugins/adminlte/adminlte.min.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="{{ STATIC_BASE }}/static/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- axios -->
+<script src="{{ STATIC_BASE }}/static/plugins/axios/axios.min.js"></script>
+<!-- JavaScript -->
+<script src="{{ STATIC_BASE }}/static/plugins/jquery-powertip/jquery.powertip.min.js"></script>
+<script src="{{ STATIC_BASE }}/static/dist/js/base.js?v={{ asset_version }}"></script>
+<script>
+    ai.api_base = "{{ API_BASE }}";
+    ai.static_base = "{{ STATIC_BASE }}";
+    ai._oauth2_proxy = ai.Global.ToolKit.Cookie.get("_oauth2_proxy");
+
+    localStorage.removeItem("userinfo");
+    axios({
+        method: 'POST',
+        url: `${ai.api_base}/account/userinfo`,
+        headers: {
+            '-oauth2-proxy': ai._oauth2_proxy
+        }
+    }).then((res) => {
+        ai.Global.ToolKit.Cookie.set("locale", "en");
+        if (res["data"]["role"] == "Super Admin") {
+            location.href = `${ai.static_base}/management/company_list`;
+        } else if (res["data"]["role"] == "Company Admin") {
+            location.href = `${ai.static_base}/management/employee_list`;
+        } else{
+            location.href = `${ai.static_base}/home`;
+        }
+    }).catch((error) => {
+        ai.Global.Loading.ErrorRaise.show();
+        // 401: cookie過期，登出，重新登入
+        if (error.response.status === 401) { // Unauthorized
+            axios_api.post(`/account/logout`).then(res => {
+                location.reload();
+            });
+        } else if (error.response.status === 403) { // Forbidden
+            location.reload();
+        } else if (error.response.status >= 400 && error.response.status <= 500) { // other error status
+            $(".axios_warning_msg_content").empty().html(error.response.data.message);
+            $("#axios_warning_modal").modal("show");
+            ai.Global.Loading.Common.hide();
+        }
+
+        // 關閉 Axios Warning modal，也須關閉對應的 Loading
+        $(document).on("click", ".close_axios_warning_modal", function () {
+            ai.Global.Loading.ErrorRaise.hide();
+            $("#axios_warning_modal").modal("hide");
+        });
+
+        // 點選 確認刪除 btn
+        $(document).on("click", ".confirm_to_delete", function () {
+            ai.Global.Loading.Common.show();
+            let url = $(this).data("callback_info")["url"];
+            let request_body = $(this).data("callback_info")["request_body"];
+            axios_api.delete(url, request_body).then(res => {
+                if (res) {
+                    $("#delete_confirm_modal").modal("hide");
+                    // reload
+                    location.reload();
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

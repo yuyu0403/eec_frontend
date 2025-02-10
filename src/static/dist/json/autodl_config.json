@@ -1,0 +1,38 @@
+{
+  "DEMO": {
+    "classification": {
+      "tuner": "bayesian",
+      "batch_size": 32,
+      "max_trials": 5,
+      "epochs": 50
+    }
+  },
+  "QUICK": {
+    "classification": {
+      "tuner": "bayesian",
+      "max_trials": 20,
+      "epochs": 100
+    }
+  },
+  "NORMAL": {
+    "classification": {
+      "tuner": "bayesian",
+      "max_trials": 100,
+      "epochs": 500
+    }
+  },
+  "LONG": {
+    "classification": {
+      "tuner": "bayesian",
+      "max_trials": 200,
+      "epochs": 1000
+    }
+  },
+  "CUSTOMIZED": {
+    "classification": {
+      "tuner": "bayesian",
+      "max_trials": 20,
+      "epochs": 500
+    }
+  }
+}

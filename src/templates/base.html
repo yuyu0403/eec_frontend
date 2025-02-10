@@ -1,0 +1,182 @@
+<!-- Confirm Deletion modal -->
+<div class="modal fade" id="delete_confirm_modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <label class="modal-header-title mb-0">{{ _('Warning') }}</label>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="delete_confirm_content_div">
+                            <label class="modal-content-title delete_confirm_content_label">
+                                {{ _('Are you sure you want to delete ') }}
+                                <b class="confirm_to_delete_target"></b>
+                                ?
+                                <br />
+                                <i class="fas fa-exclamation-triangle warning_delete_color"></i>
+                                <span class="warning_delete_color">{{ _('This deletion cannot be undone!') }}</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">{{ _('Close') }}</button>
+                <button type="button" class="btn btn-danger confirm_to_delete">{{ _('Delete') }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Confirm Deletion modal -->
+
+<!-- Axios Warning modal -->
+<div class="modal fade" id="axios_warning_modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <label class="modal-header-title mb-0">
+                    <i class="fas fa-exclamation-circle warning_delete_color"></i>
+                    {{ _('System Warning') }}
+                </label>
+            </div>
+            <div class="modal-body">
+                <label class="modal-content-title axios_warning_msg_content"></label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary close_axios_warning_modal">{{ _('OK') }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Axios Warning modal -->
+
+<!-- Axios Confirmation modal -->
+<div class="modal fade" id="axios_confirm_modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <label class="modal-header-title mb-0">
+                    <i class="fas fa-exclamation-circle warning_confirm_color"></i>
+                    {{ _('Confirmation') }}
+                </label>
+            </div>
+            <div class="modal-body">
+                <label class="modal-content-title axios_confirm_msg_content"></label>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default confirm_no">Back</button>
+                <button type="button" class="btn btn-primary confirm_yes">confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Axios Confirmation modal -->
+
+<script>
+    ai.api_base = "{{ API_BASE }}";
+    ai.static_base = "{{ STATIC_BASE }}";
+    ai._oauth2_proxy = ai.Global.ToolKit.Cookie.get("_oauth2_proxy");
+    ai.userinfo = JSON.parse(localStorage.getItem("userinfo"));
+    setTimeout(function () {
+        if (ai.userinfo.role == "Super Admin") {
+            // user info
+            setTimeout(function () {
+                $(".dropdown_username").text(ai.userinfo.username);
+                $(".dropdown_email").text(ai.userinfo.email);
+                $(".dropdown_role").text(ai.userinfo.role);
+            }, 500);
+        } else if (ai.userinfo.role == "Company Admin") {
+            // user info
+            setTimeout(function () {
+                $(".dropdown_company_name").text(ai.userinfo.company_name);
+                $(".dropdown_username").text(ai.userinfo.username);
+                $(".dropdown_email").text(ai.userinfo.email);
+                $(".dropdown_role").text(ai.userinfo.role);
+            }, 500);
+        } else {
+            // Project Admin、Label Manager、Developer
+            // DataRefine 的開關狀態處理
+            ai.AppStatus.setCallback();
+
+            // user info
+            setTimeout(function () {
+                $(".dropdown_company_name").text(ai.userinfo.company_name);
+                $(".dropdown_username").text(ai.userinfo.username);
+                $(".dropdown_email").text(ai.userinfo.email);
+                $(".dropdown_project_name").text(ai.userinfo.project_name);
+                $(".project_name").text(ai.userinfo.project_name);
+                $(".dropdown_project_type").text(ai.userinfo.project_type);
+                $(".dropdown_role").text(ai.userinfo.role);
+                // 只有 PA 可以看到 member list
+                if (ai.userinfo.role == "Project Admin") {
+                    $(".only_ca").removeClass("hide");
+                }
+            }, 500);
+
+            // 先檢查是否可以使用 jupyter (jpuyter與ai pipeline不可同時使用)
+            ai.JupyterCheck.getStatus(function (ongoing_app) {
+                if (ongoing_app == "Jupyter") {
+                    $(".open_jupyter").removeClass("disabled");
+                    $(".open_jupyter").closest("li").attr("title", "");
+                } else if (ongoing_app == "AI Pipeline") {
+                    $(".open_jupyter").addClass("disabled");
+                    $(".open_jupyter").closest("li").attr("title", "You cannot run Jupyter and AI Pipeline simultaneously.");
+                } else {
+                    // 全開
+                    $(".open_jupyter").removeClass("disabled");
+                    $(".open_jupyter").closest("li").attr("title", "");
+                }
+            });
+        }
+    }, 500);
+
+    // 定義所有axios的setting & 錯誤狀態
+    let axios_api = axios.create({
+        baseURL: ai.api_base,
+        headers: {
+            "-oauth2-proxy": ai._oauth2_proxy,
+        },
+    });
+
+    axios_api.interceptors.response.use(
+        (response) => response.data,
+        (error) => {
+            ai.Global.Loading.ErrorRaise.show();
+            // 401: cookie過期，登出，重新登入
+            if (error.response.status === 401) {
+                // Unauthorized
+                axios_api.post(`/account/logout`).then((res) => {
+                    location.reload();
+                });
+            } else if (error.response.status === 403) {
+                // Forbidden
+                location.reload();
+            } else if (error.response.status >= 400 && error.response.status <= 500) {
+                // other error status
+                $(".axios_warning_msg_content").empty().html(error.response.data.message);
+                $("#axios_warning_modal").modal("show");
+                ai.Global.Loading.Common.hide();
+            }
+        }
+    );
+    // 關閉 Axios Warning modal，也須關閉對應的 Loading
+    $(document).on("click", ".close_axios_warning_modal", function () {
+        ai.Global.Loading.ErrorRaise.hide();
+        $("#axios_warning_modal").modal("hide");
+    });
+
+    // 點選 確認刪除 btn
+    $(document).on("click", ".confirm_to_delete", function () {
+        ai.Global.Loading.Common.show();
+        let url = $(this).data("callback_info")["url"];
+        let request_body = $(this).data("callback_info")["request_body"];
+        axios_api.delete(url, request_body).then((res) => {
+            if (res) {
+                $("#delete_confirm_modal").modal("hide");
+                // reload
+                location.reload();
+            }
+        });
+    });
+</script>

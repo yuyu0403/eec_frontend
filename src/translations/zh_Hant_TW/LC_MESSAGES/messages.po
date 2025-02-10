@@ -1,0 +1,2080 @@
+# Chinese (Traditional, Taiwan) translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-06-09 01:53+0000\n"
+"PO-Revision-Date: 2023-02-05 18:03+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hant_TW\n"
+"Language-Team: zh_Hant_TW <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: templates/generic_classifier/base/main.html:83 templates/home.html:96
+#: templates/home.html:124 templates/home.html:152 templates/home.html:182
+#: templates/home.html:210 templates/home.html:238
+#: templates/image/base/main.html:60
+#: templates/management_ca/project/main.html:66
+#: templates/management_ca/project/main.html:176
+#: templates/management_sa/project/main.html:51
+#: templates/management_sa/project/main.html:136
+#: templates/object_detection/base/main.html:60
+#: templates/pretrained_model/base/main.html:60
+#: templates/time_series/base/main.html:83
+msgid "Project Type"
+msgstr "專案類型"
+
+#: templates/home.html:102 templates/home.html:130 templates/home.html:158
+#: templates/home.html:188 templates/home.html:216 templates/home.html:244
+msgid "My Role"
+msgstr "角色"
+
+#: templates/generic_classifier/base/footer.html:4
+#: templates/generic_classifier/dataset/main.html:46
+#: templates/generic_classifier/dataset/main.html:119
+#: templates/generic_classifier/training_dataset/main.html:197
+#: templates/image/base/footer.html:4 templates/image/dataset/main.html:46
+#: templates/image/dataset/main.html:132
+#: templates/management_ca/base/footer.html:4
+#: templates/management_sa/base/footer.html:4
+#: templates/object_detection/base/footer.html:4
+#: templates/pretrained_model/base/footer.html:4
+#: templates/pretrained_model/dataset/main.html:46
+#: templates/pretrained_model/dataset/main.html:132
+#: templates/time_series/base/footer.html:4
+#: templates/time_series/dataset/main.html:46
+#: templates/time_series/dataset/main.html:120
+#: templates/time_series/training_dataset/main.html:203
+msgid "Version"
+msgstr "版本"
+
+#: templates/generic_classifier/base/main.html:47
+#: templates/generic_classifier/dataset/main.html:79
+#: templates/time_series/base/main.html:47
+#: templates/time_series/dataset/main.html:79
+msgid "DataRefine"
+msgstr "資料清理"
+
+#: templates/generic_classifier/base/main.html:75
+#: templates/image/base/main.html:52 templates/management_ca/base/main.html:51
+#: templates/management_ca/base/main.html:90
+#: templates/management_ca/employee/main.html:127
+#: templates/management_ca/employee/main.html:163
+#: templates/management_sa/base/main.html:88
+#: templates/management_sa/company/main.html:67
+#: templates/management_sa/company/main.html:180
+#: templates/object_detection/base/main.html:52
+#: templates/pretrained_model/base/main.html:52
+#: templates/time_series/base/main.html:75
+msgid "Company"
+msgstr "公司"
+
+#: templates/generic_classifier/base/main.html:77
+#: templates/image/base/main.html:54 templates/management_ca/base/main.html:53
+#: templates/management_sa/base/main.html:51
+#: templates/object_detection/base/main.html:54
+#: templates/pretrained_model/base/main.html:54
+#: templates/time_series/base/main.html:77
+msgid "User"
+msgstr "使用者"
+
+#: templates/generic_classifier/base/main.html:79
+#: templates/generic_classifier/member/main.html:43
+#: templates/generic_classifier/member/main.html:80
+#: templates/image/base/main.html:56 templates/image/member/main.html:43
+#: templates/image/member/main.html:80
+#: templates/management_ca/base/main.html:55
+#: templates/management_ca/employee/main.html:44
+#: templates/management_ca/employee/main.html:99
+#: templates/management_ca/employee/main.html:139
+#: templates/management_ca/employee/main.html:175
+#: templates/management_sa/base/main.html:53
+#: templates/management_sa/company/main.html:230
+#: templates/management_sa/company/main.html:312
+#: templates/management_sa/employee/main.html:49
+#: templates/management_sa/employee/main.html:71
+#: templates/object_detection/base/main.html:56
+#: templates/object_detection/member/main.html:43
+#: templates/object_detection/member/main.html:80
+#: templates/pretrained_model/base/main.html:56
+#: templates/pretrained_model/member/main.html:43
+#: templates/pretrained_model/member/main.html:80
+#: templates/time_series/base/main.html:79
+#: templates/time_series/member/main.html:43
+#: templates/time_series/member/main.html:80
+msgid "Email"
+msgstr "信箱"
+
+#: templates/generic_classifier/base/main.html:81
+#: templates/image/base/main.html:58 templates/management_ca/base/main.html:105
+#: templates/management_sa/base/main.html:105
+#: templates/object_detection/base/main.html:58
+#: templates/pretrained_model/base/main.html:58
+#: templates/time_series/base/main.html:81
+msgid "Project"
+msgstr "專案名稱"
+
+#: templates/generic_classifier/base/main.html:86
+#: templates/generic_classifier/member/main.html:44
+#: templates/generic_classifier/member/main.html:81
+#: templates/generic_classifier/member/main.html:119
+#: templates/image/base/main.html:63 templates/image/member/main.html:44
+#: templates/image/member/main.html:81 templates/image/member/main.html:119
+#: templates/management_ca/base/main.html:57
+#: templates/management_sa/base/main.html:55
+#: templates/object_detection/base/main.html:63
+#: templates/object_detection/member/main.html:44
+#: templates/object_detection/member/main.html:81
+#: templates/object_detection/member/main.html:119
+#: templates/pretrained_model/base/main.html:63
+#: templates/pretrained_model/member/main.html:44
+#: templates/pretrained_model/member/main.html:81
+#: templates/pretrained_model/member/main.html:119
+#: templates/time_series/base/main.html:86
+#: templates/time_series/member/main.html:44
+#: templates/time_series/member/main.html:81
+#: templates/time_series/member/main.html:119
+msgid "Role"
+msgstr "角色"
+
+#: templates/generic_classifier/base/main.html:119
+#: templates/generic_classifier/training_dataset/main.html:235
+#: templates/image/base/main.html:96
+#: templates/management_ca/overview/main.html:65
+#: templates/management_ca/overview/main.html:107
+#: templates/object_detection/base/main.html:96
+#: templates/pretrained_model/base/main.html:96
+#: templates/time_series/base/main.html:119
+#: templates/time_series/training_dataset/main.html:256
+msgid "Type"
+msgstr "預測類型"
+
+#: templates/generic_classifier/base/main.html:126
+#: templates/generic_classifier/model_info/main.html:103
+#: templates/generic_classifier/training_dataset/main.html:193
+#: templates/image/base/main.html:103 templates/image/model_info/main.html:131
+#: templates/image/training_dataset/main.html:187
+#: templates/object_detection/base/main.html:103
+#: templates/object_detection/model_info/main.html:92
+#: templates/object_detection/training_dataset/main.html:184
+#: templates/pretrained_model/base/main.html:103
+#: templates/pretrained_model/model_info/main.html:102
+#: templates/pretrained_model/training_dataset/main.html:184
+#: templates/time_series/base/main.html:126
+#: templates/time_series/model_info/main.html:152
+#: templates/time_series/training_dataset/main.html:199
+msgid "Dataset"
+msgstr "資料列表"
+
+#: templates/generic_classifier/base/main.html:132
+#: templates/generic_classifier/dataset/main.html:18
+#: templates/image/base/main.html:109 templates/image/dataset/main.html:18
+#: templates/object_detection/base/main.html:109
+#: templates/object_detection/dataset/main.html:18
+#: templates/pretrained_model/base/main.html:109
+#: templates/pretrained_model/dataset/main.html:18
+#: templates/time_series/base/main.html:132
+#: templates/time_series/dataset/main.html:18
+msgid "Data List"
+msgstr "資料列表"
+
+#: templates/generic_classifier/base/main.html:134
+#: templates/generic_classifier/training_dataset/main.html:18
+#: templates/image/base/main.html:111 templates/image/model/main.html:168
+#: templates/image/training_dataset/main.html:18
+#: templates/object_detection/base/main.html:111
+#: templates/object_detection/model/main.html:178
+#: templates/object_detection/training_dataset/main.html:18
+#: templates/pretrained_model/base/main.html:111
+#: templates/pretrained_model/model/main.html:179
+#: templates/pretrained_model/training_dataset/main.html:18
+#: templates/time_series/base/main.html:134
+#: templates/time_series/training_dataset/main.html:18
+msgid "Training Dataset"
+msgstr "訓練資料集"
+
+#: templates/generic_classifier/base/main.html:143
+#: templates/generic_classifier/model/main.html:245
+#: templates/image/base/main.html:120
+#: templates/object_detection/base/main.html:120
+#: templates/pretrained_model/base/main.html:120
+#: templates/time_series/base/main.html:143
+#: templates/time_series/model/main.html:234
+msgid "AutoML"
+msgstr "自動機器學習"
+
+#: templates/generic_classifier/base/main.html:149
+#: templates/object_detection/base/main.html:126
+#: templates/pretrained_model/base/main.html:126
+#: templates/time_series/base/main.html:153
+msgid "Models List"
+msgstr "模型列表"
+
+#: templates/generic_classifier/base/main.html:158
+#: templates/image/base/main.html:136
+#: templates/management_sa/company/main.html:157
+#: templates/object_detection/base/main.html:135
+#: templates/pretrained_model/base/main.html:135
+#: templates/time_series/base/main.html:162
+msgid "Setting"
+msgstr "設置"
+
+#: templates/generic_classifier/base/main.html:165
+#: templates/generic_classifier/member/main.html:19
+#: templates/image/base/main.html:143 templates/image/member/main.html:19
+#: templates/management_ca/project/main.html:252
+#: templates/management_ca/project/main.html:405
+#: templates/object_detection/base/main.html:142
+#: templates/object_detection/member/main.html:19
+#: templates/pretrained_model/base/main.html:142
+#: templates/pretrained_model/member/main.html:19
+#: templates/time_series/base/main.html:169
+#: templates/time_series/member/main.html:19
+msgid "Member List"
+msgstr "成員列表"
+
+#: templates/generic_classifier/dataset/main.html:27
+#: templates/generic_classifier/inference/main.html:30
+#: templates/generic_classifier/member/main.html:28
+#: templates/generic_classifier/member/main.html:103
+#: templates/generic_classifier/model/main.html:27
+#: templates/generic_classifier/training_dataset/main.html:27
+#: templates/image/dataset/main.html:27 templates/image/member/main.html:28
+#: templates/image/member/main.html:103 templates/image/model/main.html:27
+#: templates/image/training_dataset/main.html:27
+#: templates/management_ca/employee/main.html:28
+#: templates/management_ca/employee/main.html:122
+#: templates/management_ca/project/main.html:28
+#: templates/management_sa/company/main.html:28
+#: templates/object_detection/dataset/main.html:27
+#: templates/object_detection/inference/main.html:30
+#: templates/object_detection/member/main.html:28
+#: templates/object_detection/member/main.html:103
+#: templates/object_detection/model/main.html:27
+#: templates/object_detection/training_dataset/main.html:27
+#: templates/pretrained_model/dataset/main.html:27
+#: templates/pretrained_model/inference/main.html:30
+#: templates/pretrained_model/member/main.html:28
+#: templates/pretrained_model/member/main.html:103
+#: templates/pretrained_model/model/main.html:27
+#: templates/pretrained_model/training_dataset/main.html:27
+#: templates/time_series/dataset/main.html:27
+#: templates/time_series/feature/main.html:27
+#: templates/time_series/member/main.html:28
+#: templates/time_series/member/main.html:103
+#: templates/time_series/model/main.html:27
+#: templates/time_series/training_dataset/main.html:27
+msgid "New"
+msgstr "新增"
+
+#: templates/generic_classifier/dataset/main.html:42
+#: templates/generic_classifier/dataset/main.html:115
+#: templates/generic_classifier/training_dataset/main.html:42
+#: templates/generic_classifier/training_dataset/main.html:133
+#: templates/image/training_dataset/main.html:42
+#: templates/image/training_dataset/main.html:135
+#: templates/object_detection/training_dataset/main.html:42
+#: templates/object_detection/training_dataset/main.html:133
+#: templates/pretrained_model/training_dataset/main.html:42
+#: templates/pretrained_model/training_dataset/main.html:133
+#: templates/time_series/dataset/main.html:42
+#: templates/time_series/dataset/main.html:116
+#: templates/time_series/feature/main.html:42
+#: templates/time_series/feature/main.html:115
+#: templates/time_series/training_dataset/main.html:42
+#: templates/time_series/training_dataset/main.html:135
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: templates/generic_classifier/dataset/main.html:43
+#: templates/generic_classifier/dataset/main.html:116
+#: templates/image/dataset/main.html:43 templates/image/dataset/main.html:129
+#: templates/image/training_dataset/main.html:44
+#: templates/image/training_dataset/main.html:137
+#: templates/object_detection/dataset/main.html:43
+#: templates/object_detection/dataset/main.html:131
+#: templates/pretrained_model/dataset/main.html:43
+#: templates/pretrained_model/dataset/main.html:129
+#: templates/time_series/dataset/main.html:43
+#: templates/time_series/dataset/main.html:117
+#: templates/time_series/feature/main.html:44
+#: templates/time_series/feature/main.html:117
+#: templates/time_series/training_dataset/main.html:44
+#: templates/time_series/training_dataset/main.html:137
+msgid "Size"
+msgstr "大小"
+
+#: templates/generic_classifier/dataset/main.html:44
+#: templates/generic_classifier/dataset/main.html:117
+#: templates/generic_classifier/model/main.html:43
+#: templates/generic_classifier/model/main.html:128
+#: templates/generic_classifier/training_dataset/main.html:44
+#: templates/generic_classifier/training_dataset/main.html:135
+#: templates/image/dataset/main.html:47 templates/image/dataset/main.html:133
+#: templates/image/model/main.html:43 templates/image/model/main.html:118
+#: templates/image/training_dataset/main.html:45
+#: templates/image/training_dataset/main.html:138
+#: templates/object_detection/dataset/main.html:48
+#: templates/object_detection/dataset/main.html:136
+#: templates/object_detection/model/main.html:43
+#: templates/object_detection/model/main.html:127
+#: templates/object_detection/training_dataset/main.html:44
+#: templates/object_detection/training_dataset/main.html:135
+#: templates/pretrained_model/dataset/main.html:47
+#: templates/pretrained_model/dataset/main.html:133
+#: templates/pretrained_model/model/main.html:43
+#: templates/pretrained_model/model/main.html:127
+#: templates/pretrained_model/training_dataset/main.html:44
+#: templates/pretrained_model/training_dataset/main.html:135
+#: templates/time_series/feature/main.html:45
+#: templates/time_series/feature/main.html:118
+#: templates/time_series/model/main.html:43
+#: templates/time_series/model/main.html:119
+#: templates/time_series/training_dataset/main.html:45
+#: templates/time_series/training_dataset/main.html:138
+msgid "Last Modified By"
+msgstr "最後修改者"
+
+#: templates/generic_classifier/dataset/main.html:45
+#: templates/generic_classifier/dataset/main.html:118
+#: templates/generic_classifier/model/main.html:44
+#: templates/generic_classifier/model/main.html:129
+#: templates/generic_classifier/training_dataset/main.html:45
+#: templates/generic_classifier/training_dataset/main.html:136
+#: templates/image/model/main.html:44 templates/image/model/main.html:119
+#: templates/object_detection/model/main.html:44
+#: templates/object_detection/model/main.html:128
+#: templates/pretrained_model/model/main.html:44
+#: templates/pretrained_model/model/main.html:128
+#: templates/time_series/dataset/main.html:45
+#: templates/time_series/dataset/main.html:119
+#: templates/time_series/feature/main.html:46
+#: templates/time_series/feature/main.html:119
+#: templates/time_series/model/main.html:44
+#: templates/time_series/model/main.html:120
+#: templates/time_series/training_dataset/main.html:46
+#: templates/time_series/training_dataset/main.html:139
+msgid "Last Update Time"
+msgstr "最後更新時間"
+
+#: templates/generic_classifier/dataset/main.html:47
+#: templates/generic_classifier/dataset/main.html:86
+#: templates/generic_classifier/dataset/main.html:120
+#: templates/generic_classifier/dataset/main.html:190
+#: templates/generic_classifier/dataset/main.html:211
+#: templates/generic_classifier/dataset/main.html:217
+#: templates/generic_classifier/model/main.html:49
+#: templates/generic_classifier/model/main.html:97
+#: templates/generic_classifier/model/main.html:134
+#: templates/generic_classifier/model/main.html:316
+#: templates/generic_classifier/model/main.html:342
+#: templates/generic_classifier/model/main.html:348
+#: templates/generic_classifier/training_dataset/main.html:48
+#: templates/generic_classifier/training_dataset/main.html:104
+#: templates/generic_classifier/training_dataset/main.html:139
+#: templates/generic_classifier/training_dataset/main.html:301
+#: templates/generic_classifier/training_dataset/main.html:323
+#: templates/generic_classifier/training_dataset/main.html:329
+#: templates/image/dataset/main.html:49 templates/image/dataset/main.html:86
+#: templates/image/dataset/main.html:135 templates/image/dataset/main.html:204
+#: templates/image/dataset/main.html:249 templates/image/dataset/main.html:269
+#: templates/image/dataset/main.html:275 templates/image/model/main.html:49
+#: templates/image/model/main.html:88 templates/image/model/main.html:124
+#: templates/image/model/main.html:198 templates/image/model/main.html:216
+#: templates/image/model/main.html:222
+#: templates/image/training_dataset/main.html:49
+#: templates/image/training_dataset/main.html:106
+#: templates/image/training_dataset/main.html:142
+#: templates/image/training_dataset/main.html:210
+#: templates/image/training_dataset/main.html:255
+#: templates/image/training_dataset/main.html:261
+#: templates/object_detection/dataset/main.html:50
+#: templates/object_detection/dataset/main.html:88
+#: templates/object_detection/dataset/main.html:138
+#: templates/object_detection/dataset/main.html:207
+#: templates/object_detection/dataset/main.html:252
+#: templates/object_detection/dataset/main.html:272
+#: templates/object_detection/dataset/main.html:278
+#: templates/object_detection/model/main.html:49
+#: templates/object_detection/model/main.html:97
+#: templates/object_detection/model/main.html:133
+#: templates/object_detection/model/main.html:198
+#: templates/object_detection/model/main.html:223
+#: templates/object_detection/model/main.html:229
+#: templates/object_detection/training_dataset/main.html:48
+#: templates/object_detection/training_dataset/main.html:104
+#: templates/object_detection/training_dataset/main.html:139
+#: templates/object_detection/training_dataset/main.html:207
+#: templates/object_detection/training_dataset/main.html:252
+#: templates/object_detection/training_dataset/main.html:258
+#: templates/pretrained_model/dataset/main.html:49
+#: templates/pretrained_model/dataset/main.html:86
+#: templates/pretrained_model/dataset/main.html:135
+#: templates/pretrained_model/dataset/main.html:204
+#: templates/pretrained_model/dataset/main.html:269
+#: templates/pretrained_model/dataset/main.html:275
+#: templates/pretrained_model/model/main.html:49
+#: templates/pretrained_model/model/main.html:97
+#: templates/pretrained_model/model/main.html:133
+#: templates/pretrained_model/model/main.html:230
+#: templates/pretrained_model/model/main.html:256
+#: templates/pretrained_model/model/main.html:262
+#: templates/pretrained_model/training_dataset/main.html:48
+#: templates/pretrained_model/training_dataset/main.html:104
+#: templates/pretrained_model/training_dataset/main.html:139
+#: templates/pretrained_model/training_dataset/main.html:207
+#: templates/pretrained_model/training_dataset/main.html:252
+#: templates/pretrained_model/training_dataset/main.html:258
+#: templates/time_series/dataset/main.html:47
+#: templates/time_series/dataset/main.html:86
+#: templates/time_series/dataset/main.html:121
+#: templates/time_series/dataset/main.html:191
+#: templates/time_series/dataset/main.html:212
+#: templates/time_series/dataset/main.html:218
+#: templates/time_series/feature/main.html:48
+#: templates/time_series/feature/main.html:86
+#: templates/time_series/feature/main.html:121
+#: templates/time_series/feature/main.html:191
+#: templates/time_series/feature/main.html:272
+#: templates/time_series/feature/main.html:278
+#: templates/time_series/model/main.html:49
+#: templates/time_series/model/main.html:88
+#: templates/time_series/model/main.html:125
+#: templates/time_series/model/main.html:340
+#: templates/time_series/model/main.html:365
+#: templates/time_series/model/main.html:371
+#: templates/time_series/training_dataset/main.html:49
+#: templates/time_series/training_dataset/main.html:106
+#: templates/time_series/training_dataset/main.html:142
+#: templates/time_series/training_dataset/main.html:458
+#: templates/time_series/training_dataset/main.html:482
+#: templates/time_series/training_dataset/main.html:488
+msgid "Description"
+msgstr "描述"
+
+#: templates/generic_classifier/dataset/main.html:48
+#: templates/generic_classifier/dataset/main.html:121
+#: templates/generic_classifier/inference/main.html:47
+#: templates/generic_classifier/inference/main.html:81
+#: templates/generic_classifier/model/main.html:48
+#: templates/generic_classifier/model/main.html:133
+#: templates/generic_classifier/training_dataset/main.html:47
+#: templates/generic_classifier/training_dataset/main.html:138
+#: templates/image/dataset/main.html:50 templates/image/dataset/main.html:136
+#: templates/image/model/main.html:48 templates/image/model/main.html:123
+#: templates/image/training_dataset/main.html:48
+#: templates/image/training_dataset/main.html:141
+#: templates/management_ca/employee/main.html:46
+#: templates/management_ca/employee/main.html:101
+#: templates/management_ca/employee/main.html:199
+#: templates/management_ca/project/main.html:68
+#: templates/management_ca/project/main.html:178
+#: templates/management_ca/project/main.html:494
+#: templates/management_sa/company/main.html:73
+#: templates/management_sa/company/main.html:186
+#: templates/management_sa/company/main.html:390
+#: templates/management_sa/employee/main.html:51
+#: templates/management_sa/employee/main.html:73
+#: templates/management_sa/project/main.html:53
+#: templates/management_sa/project/main.html:138
+#: templates/object_detection/dataset/main.html:51
+#: templates/object_detection/dataset/main.html:139
+#: templates/object_detection/inference/main.html:47
+#: templates/object_detection/inference/main.html:90
+#: templates/object_detection/model/main.html:48
+#: templates/object_detection/model/main.html:132
+#: templates/object_detection/training_dataset/main.html:47
+#: templates/object_detection/training_dataset/main.html:138
+#: templates/pretrained_model/dataset/main.html:50
+#: templates/pretrained_model/dataset/main.html:136
+#: templates/pretrained_model/inference/main.html:47
+#: templates/pretrained_model/inference/main.html:90
+#: templates/pretrained_model/model/main.html:48
+#: templates/pretrained_model/model/main.html:132
+#: templates/pretrained_model/training_dataset/main.html:47
+#: templates/pretrained_model/training_dataset/main.html:138
+#: templates/time_series/dataset/main.html:48
+#: templates/time_series/dataset/main.html:122
+#: templates/time_series/feature/main.html:47
+#: templates/time_series/feature/main.html:120
+#: templates/time_series/model/main.html:48
+#: templates/time_series/model/main.html:124
+#: templates/time_series/training_dataset/main.html:48
+#: templates/time_series/training_dataset/main.html:141
+msgid "Status"
+msgstr "狀態"
+
+#: templates/generic_classifier/dataset/main.html:49
+#: templates/generic_classifier/dataset/main.html:122
+#: templates/generic_classifier/inference/main.html:48
+#: templates/generic_classifier/inference/main.html:82
+#: templates/generic_classifier/member/main.html:45
+#: templates/generic_classifier/member/main.html:82
+#: templates/generic_classifier/model/main.html:51
+#: templates/generic_classifier/model/main.html:136
+#: templates/generic_classifier/training_dataset/main.html:49
+#: templates/generic_classifier/training_dataset/main.html:140
+#: templates/image/dataset/main.html:51 templates/image/dataset/main.html:137
+#: templates/image/member/main.html:45 templates/image/member/main.html:82
+#: templates/image/model/main.html:50 templates/image/model/main.html:125
+#: templates/image/training_dataset/main.html:50
+#: templates/image/training_dataset/main.html:143
+#: templates/management_ca/employee/main.html:47
+#: templates/management_ca/employee/main.html:102
+#: templates/management_ca/project/main.html:69
+#: templates/management_ca/project/main.html:179
+#: templates/management_sa/company/main.html:74
+#: templates/management_sa/company/main.html:187
+#: templates/object_detection/dataset/main.html:52
+#: templates/object_detection/dataset/main.html:140
+#: templates/object_detection/inference/main.html:48
+#: templates/object_detection/inference/main.html:91
+#: templates/object_detection/member/main.html:45
+#: templates/object_detection/member/main.html:82
+#: templates/object_detection/model/main.html:51
+#: templates/object_detection/model/main.html:135
+#: templates/object_detection/training_dataset/main.html:49
+#: templates/object_detection/training_dataset/main.html:140
+#: templates/pretrained_model/dataset/main.html:51
+#: templates/pretrained_model/dataset/main.html:137
+#: templates/pretrained_model/inference/main.html:48
+#: templates/pretrained_model/inference/main.html:91
+#: templates/pretrained_model/member/main.html:45
+#: templates/pretrained_model/member/main.html:82
+#: templates/pretrained_model/model/main.html:51
+#: templates/pretrained_model/model/main.html:135
+#: templates/pretrained_model/training_dataset/main.html:49
+#: templates/pretrained_model/training_dataset/main.html:140
+#: templates/time_series/dataset/main.html:49
+#: templates/time_series/dataset/main.html:123
+#: templates/time_series/feature/main.html:49
+#: templates/time_series/feature/main.html:122
+#: templates/time_series/member/main.html:45
+#: templates/time_series/member/main.html:82
+#: templates/time_series/model/main.html:50
+#: templates/time_series/model/main.html:126
+#: templates/time_series/training_dataset/main.html:50
+#: templates/time_series/training_dataset/main.html:143
+msgid "Action"
+msgstr "操作"
+
+#: templates/generic_classifier/dataset/main.html:93
+#: templates/generic_classifier/model/main.html:104
+#: templates/generic_classifier/training_dataset/main.html:111
+#: templates/image/model/main.html:95
+#: templates/image/training_dataset/main.html:113
+#: templates/object_detection/model/main.html:104
+#: templates/object_detection/training_dataset/main.html:111
+#: templates/pretrained_model/model/main.html:104
+#: templates/pretrained_model/training_dataset/main.html:111
+#: templates/time_series/dataset/main.html:93
+#: templates/time_series/feature/main.html:93
+#: templates/time_series/model/main.html:95
+#: templates/time_series/training_dataset/main.html:113
+msgid "Download"
+msgstr "下載"
+
+#: templates/generic_classifier/dataset/main.html:99
+#: templates/generic_classifier/model/main.html:111
+#: templates/generic_classifier/training_dataset/main.html:117
+#: templates/image/dataset/main.html:112 templates/image/model/main.html:101
+#: templates/image/training_dataset/main.html:119
+#: templates/management_ca/employee/main.html:84
+#: templates/object_detection/dataset/main.html:114
+#: templates/object_detection/model/main.html:110
+#: templates/object_detection/training_dataset/main.html:117
+#: templates/pretrained_model/dataset/main.html:112
+#: templates/pretrained_model/model/main.html:110
+#: templates/pretrained_model/training_dataset/main.html:117
+#: templates/time_series/dataset/main.html:100
+#: templates/time_series/feature/main.html:99
+#: templates/time_series/model/main.html:102
+#: templates/time_series/training_dataset/main.html:119
+msgid "Delete"
+msgstr "刪除"
+
+#: templates/generic_classifier/dataset/main.html:143
+#: templates/generic_classifier/inference/main.html:191
+#: templates/generic_classifier/model/main.html:157
+#: templates/generic_classifier/training_dataset/main.html:161
+#: templates/image/model/main.html:146
+#: templates/image/training_dataset/main.html:164
+#: templates/management_ca/overview/main.html:171
+#: templates/management_sa/overview/main.html:172
+#: templates/object_detection/inference/main.html:232
+#: templates/object_detection/model/main.html:156
+#: templates/object_detection/training_dataset/main.html:161
+#: templates/pretrained_model/inference/main.html:211
+#: templates/pretrained_model/model/main.html:156
+#: templates/pretrained_model/training_dataset/main.html:161
+#: templates/time_series/dataset/main.html:144
+#: templates/time_series/feature/main.html:143
+#: templates/time_series/model/main.html:147
+#: templates/time_series/training_dataset/main.html:164
+msgid "Warning"
+msgstr "警告"
+
+#: templates/generic_classifier/dataset/main.html:149
+#: templates/generic_classifier/inference/main.html:197
+#: templates/generic_classifier/model/main.html:163
+#: templates/generic_classifier/training_dataset/main.html:167
+#: templates/image/model/main.html:152
+#: templates/image/training_dataset/main.html:170
+#: templates/management_ca/overview/main.html:177
+#: templates/management_sa/overview/main.html:178
+#: templates/object_detection/inference/main.html:238
+#: templates/object_detection/model/main.html:162
+#: templates/object_detection/training_dataset/main.html:167
+#: templates/pretrained_model/inference/main.html:217
+#: templates/pretrained_model/model/main.html:162
+#: templates/pretrained_model/training_dataset/main.html:167
+#: templates/time_series/dataset/main.html:150
+#: templates/time_series/feature/main.html:149
+#: templates/time_series/model/main.html:153
+#: templates/time_series/training_dataset/main.html:170
+msgid "OK"
+msgstr "完成"
+
+#: templates/generic_classifier/dataset/main.html:161
+#: templates/generic_classifier/inference/main.html:151
+#: templates/image/dataset/main.html:158
+#: templates/object_detection/dataset/main.html:161
+#: templates/pretrained_model/dataset/main.html:158
+#: templates/time_series/dataset/main.html:162
+msgid "New Data"
+msgstr "新增資料集"
+
+#: templates/generic_classifier/dataset/main.html:168
+#: templates/generic_classifier/inference/main.html:158
+#: templates/time_series/dataset/main.html:169
+msgid "Upload CSV File"
+msgstr "上傳CSV檔案"
+
+#: templates/generic_classifier/dataset/main.html:174
+#: templates/generic_classifier/inference/main.html:164
+#: templates/time_series/dataset/main.html:175
+msgid "Upload a CSV File"
+msgstr "上傳一份CSV檔案"
+
+#: templates/generic_classifier/dataset/main.html:177
+#: templates/generic_classifier/inference/main.html:167
+#: templates/time_series/dataset/main.html:178
+msgid "Select a CSV File"
+msgstr "選擇CSV檔案"
+
+#: templates/generic_classifier/dataset/main.html:186
+#: templates/image/dataset/main.html:200
+#: templates/object_detection/dataset/main.html:203
+#: templates/pretrained_model/dataset/main.html:200
+#: templates/time_series/dataset/main.html:187
+msgid "Name the File"
+msgstr "命名"
+
+#: templates/generic_classifier/dataset/main.html:186
+#: templates/generic_classifier/model/main.html:198
+#: templates/image/dataset/main.html:200 templates/image/model/main.html:174
+#: templates/image/training_dataset/main.html:206
+#: templates/object_detection/dataset/main.html:203
+#: templates/object_detection/model/main.html:184
+#: templates/object_detection/training_dataset/main.html:203
+#: templates/pretrained_model/dataset/main.html:200
+#: templates/pretrained_model/model/main.html:185
+#: templates/pretrained_model/training_dataset/main.html:203
+#: templates/time_series/dataset/main.html:187
+#: templates/time_series/feature/main.html:187
+#: templates/time_series/model/main.html:187
+msgid "Consists of a ~ z, A ~ Z, 0 ~ 9 and _"
+msgstr "由 a ~ z、A ~ Z、0 ~ 9 和 _ 組成"
+
+#: templates/generic_classifier/dataset/main.html:198
+#: templates/generic_classifier/dataset/main.html:224
+#: templates/generic_classifier/inference/main.html:178
+#: templates/generic_classifier/member/main.html:129
+#: templates/generic_classifier/model/main.html:324
+#: templates/generic_classifier/model/main.html:355
+#: templates/generic_classifier/training_dataset/main.html:309
+#: templates/generic_classifier/training_dataset/main.html:336
+#: templates/image/dataset/main.html:212 templates/image/dataset/main.html:256
+#: templates/image/dataset/main.html:282 templates/image/member/main.html:129
+#: templates/image/model/main.html:203 templates/image/model/main.html:229
+#: templates/image/training_dataset/main.html:242
+#: templates/image/training_dataset/main.html:268
+#: templates/management_ca/employee/main.html:145
+#: templates/management_ca/employee/main.html:181
+#: templates/management_ca/employee/main.html:222
+#: templates/management_ca/employee/main.html:246
+#: templates/management_ca/overview/main.html:161
+#: templates/management_ca/project/main.html:319
+#: templates/management_ca/project/main.html:472
+#: templates/management_ca/project/main.html:517
+#: templates/management_sa/company/main.html:277
+#: templates/management_sa/company/main.html:360
+#: templates/management_sa/company/main.html:406
+#: templates/management_sa/overview/main.html:162
+#: templates/object_detection/dataset/main.html:215
+#: templates/object_detection/dataset/main.html:259
+#: templates/object_detection/dataset/main.html:285
+#: templates/object_detection/inference/main.html:219
+#: templates/object_detection/member/main.html:129
+#: templates/object_detection/model/main.html:205
+#: templates/object_detection/model/main.html:236
+#: templates/object_detection/training_dataset/main.html:239
+#: templates/object_detection/training_dataset/main.html:265
+#: templates/pretrained_model/dataset/main.html:212
+#: templates/pretrained_model/dataset/main.html:256
+#: templates/pretrained_model/dataset/main.html:282
+#: templates/pretrained_model/inference/main.html:198
+#: templates/pretrained_model/member/main.html:129
+#: templates/pretrained_model/model/main.html:238
+#: templates/pretrained_model/model/main.html:269
+#: templates/pretrained_model/training_dataset/main.html:239
+#: templates/pretrained_model/training_dataset/main.html:265
+#: templates/time_series/dataset/main.html:199
+#: templates/time_series/dataset/main.html:225
+#: templates/time_series/feature/main.html:258
+#: templates/time_series/feature/main.html:285
+#: templates/time_series/member/main.html:129
+#: templates/time_series/model/main.html:347
+#: templates/time_series/model/main.html:378
+#: templates/time_series/training_dataset/main.html:466
+#: templates/time_series/training_dataset/main.html:495
+msgid "Close"
+msgstr "關閉"
+
+#: templates/generic_classifier/dataset/main.html:199
+#: templates/generic_classifier/dataset/main.html:225
+#: templates/generic_classifier/inference/main.html:179
+#: templates/generic_classifier/member/main.html:130
+#: templates/generic_classifier/model/main.html:328
+#: templates/generic_classifier/model/main.html:356
+#: templates/generic_classifier/training_dataset/main.html:311
+#: templates/generic_classifier/training_dataset/main.html:337
+#: templates/image/dataset/main.html:213 templates/image/dataset/main.html:257
+#: templates/image/dataset/main.html:283 templates/image/member/main.html:130
+#: templates/image/model/main.html:204 templates/image/model/main.html:230
+#: templates/image/training_dataset/main.html:243
+#: templates/image/training_dataset/main.html:269
+#: templates/management_ca/employee/main.html:146
+#: templates/management_ca/employee/main.html:182
+#: templates/management_ca/employee/main.html:223
+#: templates/management_ca/employee/main.html:247
+#: templates/management_ca/project/main.html:323
+#: templates/management_ca/project/main.html:473
+#: templates/management_ca/project/main.html:518
+#: templates/management_sa/company/main.html:278
+#: templates/management_sa/company/main.html:361
+#: templates/management_sa/company/main.html:407
+#: templates/object_detection/dataset/main.html:216
+#: templates/object_detection/dataset/main.html:260
+#: templates/object_detection/dataset/main.html:286
+#: templates/object_detection/inference/main.html:220
+#: templates/object_detection/member/main.html:130
+#: templates/object_detection/model/main.html:209
+#: templates/object_detection/model/main.html:237
+#: templates/object_detection/training_dataset/main.html:240
+#: templates/object_detection/training_dataset/main.html:266
+#: templates/pretrained_model/dataset/main.html:213
+#: templates/pretrained_model/dataset/main.html:257
+#: templates/pretrained_model/dataset/main.html:283
+#: templates/pretrained_model/inference/main.html:199
+#: templates/pretrained_model/member/main.html:130
+#: templates/pretrained_model/model/main.html:242
+#: templates/pretrained_model/model/main.html:270
+#: templates/pretrained_model/training_dataset/main.html:240
+#: templates/pretrained_model/training_dataset/main.html:266
+#: templates/time_series/dataset/main.html:200
+#: templates/time_series/dataset/main.html:226
+#: templates/time_series/feature/main.html:260
+#: templates/time_series/feature/main.html:286
+#: templates/time_series/member/main.html:130
+#: templates/time_series/model/main.html:351
+#: templates/time_series/model/main.html:379
+#: templates/time_series/training_dataset/main.html:470
+#: templates/time_series/training_dataset/main.html:496
+msgid "Save"
+msgstr "儲存"
+
+#: templates/generic_classifier/deploy/main.html:18
+#: templates/generic_classifier/inference/main.html:19
+#: templates/generic_classifier/model/main.html:18
+#: templates/generic_classifier/model_info/main.html:18
+#: templates/image/base/main.html:127 templates/image/model/main.html:18
+#: templates/image/model_info/main.html:19
+#: templates/object_detection/deploy/main.html:18
+#: templates/object_detection/inference/main.html:19
+#: templates/object_detection/model/main.html:18
+#: templates/object_detection/model_info/main.html:18
+#: templates/pretrained_model/deploy/main.html:18
+#: templates/pretrained_model/inference/main.html:19
+#: templates/pretrained_model/model/main.html:18
+#: templates/pretrained_model/model_info/main.html:18
+#: templates/time_series/model/main.html:18
+#: templates/time_series/model_info/main.html:19
+msgid "Model List"
+msgstr "模型列表"
+
+#: templates/generic_classifier/deploy/main.html:19
+#: templates/object_detection/deploy/main.html:19
+#: templates/pretrained_model/deploy/main.html:19
+msgid "Deploy"
+msgstr "服務部署"
+
+#: templates/generic_classifier/inference/main.html:45
+#: templates/generic_classifier/inference/main.html:79
+msgid "CSV Name"
+msgstr "檔案名稱"
+
+#: templates/generic_classifier/inference/main.html:46
+#: templates/generic_classifier/inference/main.html:80
+#: templates/object_detection/inference/main.html:46
+#: templates/object_detection/inference/main.html:89
+#: templates/pretrained_model/inference/main.html:46
+#: templates/pretrained_model/inference/main.html:89
+msgid "Date"
+msgstr "更新日期"
+
+#: templates/generic_classifier/inference/main.html:111
+#: templates/generic_classifier/inference/main.html:128
+#: templates/generic_classifier/training_dataset/main.html:213
+msgid "Category ID"
+msgstr "類別編號"
+
+#: templates/generic_classifier/inference/main.html:112
+#: templates/generic_classifier/inference/main.html:129
+#: templates/pretrained_model/inference/main.html:122
+#: templates/pretrained_model/inference/main.html:143
+msgid "Result"
+msgstr "預測結果"
+
+#: templates/generic_classifier/member/main.html:42
+#: templates/generic_classifier/member/main.html:79
+#: templates/image/member/main.html:42 templates/image/member/main.html:79
+#: templates/management_ca/employee/main.html:43
+#: templates/management_ca/employee/main.html:98
+#: templates/management_ca/employee/main.html:135
+#: templates/management_ca/employee/main.html:171
+#: templates/management_sa/company/main.html:224
+#: templates/management_sa/company/main.html:306
+#: templates/management_sa/employee/main.html:48
+#: templates/management_sa/employee/main.html:70
+#: templates/object_detection/member/main.html:42
+#: templates/object_detection/member/main.html:79
+#: templates/pretrained_model/member/main.html:42
+#: templates/pretrained_model/member/main.html:79
+#: templates/time_series/member/main.html:42
+#: templates/time_series/member/main.html:79
+msgid "Name"
+msgstr "名稱"
+
+#: templates/generic_classifier/member/main.html:64
+#: templates/image/member/main.html:64
+#: templates/object_detection/member/main.html:64
+#: templates/pretrained_model/member/main.html:64
+#: templates/time_series/member/main.html:64
+msgid "Remove"
+msgstr "移除"
+
+#: templates/generic_classifier/member/main.html:108
+#: templates/image/member/main.html:108
+#: templates/object_detection/member/main.html:108
+#: templates/pretrained_model/member/main.html:108
+#: templates/time_series/member/main.html:108
+msgid "Account"
+msgstr "帳號"
+
+#: templates/generic_classifier/member/main.html:113
+#: templates/image/member/main.html:113
+#: templates/management_ca/project/main.html:244
+#: templates/management_ca/project/main.html:397
+#: templates/object_detection/member/main.html:113
+#: templates/pretrained_model/member/main.html:113
+#: templates/time_series/member/main.html:113
+msgid "Select an employee as a project member."
+msgstr "從員工中挑選專案成員"
+
+#: templates/generic_classifier/model/main.html:41
+#: templates/generic_classifier/model/main.html:126
+#: templates/generic_classifier/model/main.html:196
+#: templates/image/model/main.html:41 templates/image/model/main.html:116
+#: templates/image/model/main.html:174
+#: templates/object_detection/model/main.html:41
+#: templates/object_detection/model/main.html:125
+#: templates/object_detection/model/main.html:184
+#: templates/pretrained_model/model/main.html:41
+#: templates/pretrained_model/model/main.html:125
+#: templates/pretrained_model/model/main.html:185
+#: templates/time_series/model/main.html:41
+#: templates/time_series/model/main.html:117
+#: templates/time_series/model/main.html:185
+msgid "Model Name"
+msgstr "模型名稱"
+
+#: templates/generic_classifier/model/main.html:42
+#: templates/generic_classifier/model/main.html:127
+#: templates/generic_classifier/training_dataset/main.html:43
+#: templates/generic_classifier/training_dataset/main.html:134
+#: templates/image/model/main.html:42 templates/image/model/main.html:117
+#: templates/image/training_dataset/main.html:43
+#: templates/image/training_dataset/main.html:136
+#: templates/object_detection/model/main.html:42
+#: templates/object_detection/model/main.html:126
+#: templates/object_detection/training_dataset/main.html:43
+#: templates/object_detection/training_dataset/main.html:134
+#: templates/pretrained_model/model/main.html:42
+#: templates/pretrained_model/model/main.html:126
+#: templates/pretrained_model/training_dataset/main.html:43
+#: templates/pretrained_model/training_dataset/main.html:134
+#: templates/time_series/feature/main.html:43
+#: templates/time_series/feature/main.html:116
+#: templates/time_series/model/main.html:42
+#: templates/time_series/model/main.html:118
+#: templates/time_series/training_dataset/main.html:43
+#: templates/time_series/training_dataset/main.html:136
+msgid "Data Source"
+msgstr "資料來源"
+
+#: templates/generic_classifier/model/main.html:45
+#: templates/generic_classifier/model/main.html:130
+#: templates/image/model/main.html:45 templates/image/model/main.html:120
+#: templates/object_detection/model/main.html:45
+#: templates/object_detection/model/main.html:129
+#: templates/pretrained_model/model/main.html:45
+#: templates/pretrained_model/model/main.html:129
+#: templates/time_series/model/main.html:45
+#: templates/time_series/model/main.html:121
+msgid "Predict Type"
+msgstr "預測類型"
+
+#: templates/generic_classifier/model/main.html:46
+#: templates/generic_classifier/model/main.html:131
+#: templates/generic_classifier/model/main.html:301
+#: templates/image/model/main.html:46 templates/image/model/main.html:121
+#: templates/object_detection/model/main.html:46
+#: templates/object_detection/model/main.html:130
+#: templates/pretrained_model/model/main.html:46
+#: templates/pretrained_model/model/main.html:130
+#: templates/time_series/model/main.html:46
+#: templates/time_series/model/main.html:122
+#: templates/time_series/model/main.html:290
+msgid "Metric"
+msgstr "評估函式"
+
+#: templates/generic_classifier/model/main.html:47
+#: templates/generic_classifier/model/main.html:132
+#: templates/image/model/main.html:47 templates/image/model/main.html:122
+#: templates/object_detection/model/main.html:47
+#: templates/object_detection/model/main.html:131
+#: templates/pretrained_model/model/main.html:47
+#: templates/pretrained_model/model/main.html:131
+#: templates/time_series/model/main.html:47
+#: templates/time_series/model/main.html:123
+msgid "Score"
+msgstr "分數"
+
+#: templates/generic_classifier/model/main.html:50
+#: templates/generic_classifier/model/main.html:135
+#: templates/object_detection/model/main.html:50
+#: templates/object_detection/model/main.html:134
+#: templates/pretrained_model/model/main.html:50
+#: templates/pretrained_model/model/main.html:134
+msgid "Inference"
+msgstr "模型預測"
+
+#: templates/generic_classifier/model/main.html:90
+#: templates/image/model/main.html:81
+#: templates/object_detection/model/main.html:90
+#: templates/pretrained_model/model/main.html:90
+#: templates/time_series/model/main.html:81
+msgid "Abort Training"
+msgstr "中止訓練"
+
+#: templates/generic_classifier/model/main.html:176
+#: templates/image/model/main.html:164
+#: templates/object_detection/model/main.html:174
+#: templates/pretrained_model/model/main.html:174
+#: templates/time_series/model/main.html:166
+msgid "New Model"
+msgstr "新增模型"
+
+#: templates/generic_classifier/model/main.html:180
+#: templates/time_series/model/main.html:170
+msgid "We can use default parameters to create the model."
+msgstr "可使用系統預設值來建立模型。"
+
+#: templates/generic_classifier/model/main.html:190
+msgid "Training DataSet"
+msgstr "訓練資料集"
+
+#: templates/generic_classifier/model/main.html:204
+#: templates/time_series/model/main.html:193
+msgid "Mode"
+msgstr "模式"
+
+#: templates/generic_classifier/model/main.html:208
+#: templates/time_series/model/main.html:197
+msgid ""
+"We provide three sets of parameters (Quick, Normal, Long). Generally, "
+"Quick will take half day, Normal will take 1 day, and Long will take 2 to"
+" 3 days. You can also set parameters yourself according to your needs."
+msgstr ""
+"我們提供了三組參數(Quick, Normal, "
+"Long)，一般來說Quick會花費半天，Normal會花費一天，Long會花費二到三天。你也可以自行設定參數以符合你的需求。"
+
+#: templates/generic_classifier/model/main.html:217
+#: templates/time_series/model/main.html:206
+msgid "Quick"
+msgstr "快速"
+
+#: templates/generic_classifier/model/main.html:224
+#: templates/time_series/model/main.html:213
+msgid "Normal"
+msgstr "普通"
+
+#: templates/generic_classifier/model/main.html:231
+#: templates/time_series/model/main.html:220
+msgid "Long"
+msgstr "長"
+
+#: templates/generic_classifier/model/main.html:238
+#: templates/time_series/model/main.html:227
+msgid "Customized"
+msgstr "自訂"
+
+#: templates/generic_classifier/model/main.html:252
+#: templates/time_series/model/main.html:241
+msgid "time left for this task"
+msgstr "綜合模型訓練總時間"
+
+#: templates/generic_classifier/model/main.html:258
+#: templates/time_series/model/main.html:247
+msgid "per run time limit"
+msgstr "單一模型訓練時間"
+
+#: templates/generic_classifier/model/main.html:263
+#: templates/time_series/model/main.html:252
+msgid "ensemble size"
+msgstr "集成最大數量"
+
+#: templates/generic_classifier/model/main.html:268
+#: templates/time_series/model/main.html:257
+msgid "ensemble nbest"
+msgstr "集成最大數量"
+
+#: templates/generic_classifier/model/main.html:277
+#: templates/time_series/model/main.html:266
+msgid "AutoDL"
+msgstr "自動深度學習"
+
+#: templates/generic_classifier/model/main.html:283
+#: templates/time_series/model/main.html:272
+msgid "batch size"
+msgstr "批次大小"
+
+#: templates/generic_classifier/model/main.html:288
+#: templates/time_series/model/main.html:277
+msgid "max trials"
+msgstr "模型架構搜尋次數"
+
+#: templates/generic_classifier/model/main.html:293
+#: templates/time_series/model/main.html:282
+msgid "epochs"
+msgstr "迭代次數"
+
+#: templates/generic_classifier/model/main.html:305
+#: templates/time_series/model/main.html:294
+msgid ""
+"During model training, the best model will be selected based on the "
+"metric function score of the validation data."
+msgstr "模型訓練時，會依據驗證資料的 metric 公式分數，來選擇最好的模型。"
+
+#: templates/generic_classifier/model/main.html:327
+#: templates/object_detection/model/main.html:208
+#: templates/pretrained_model/model/main.html:241
+#: templates/time_series/model/main.html:350
+msgid "Default"
+msgstr "回復預設值"
+
+#: templates/generic_classifier/model_info/main.html:31
+#: templates/object_detection/model_info/main.html:31
+#: templates/pretrained_model/model_info/main.html:31
+msgid "General Mode"
+msgstr "一般模式"
+
+#: templates/generic_classifier/model_info/main.html:35
+#: templates/object_detection/model_info/main.html:35
+#: templates/pretrained_model/model_info/main.html:35
+msgid "Professional Mode"
+msgstr "專業模式"
+
+#: templates/generic_classifier/model_info/main.html:127
+#: templates/image/model_info/main.html:155
+#: templates/object_detection/model_info/main.html:116
+#: templates/pretrained_model/model_info/main.html:126
+#: templates/time_series/model_info/main.html:237
+msgid "Information"
+msgstr "詳細資訊"
+
+#: templates/generic_classifier/model_info/main.html:131
+#: templates/image/model_info/main.html:159
+#: templates/object_detection/model_info/main.html:120
+#: templates/pretrained_model/model_info/main.html:130
+#: templates/time_series/model_info/main.html:241
+msgid "First Build"
+msgstr "第一次建立時間"
+
+#: templates/generic_classifier/model_info/main.html:140
+#: templates/image/model_info/main.html:168
+#: templates/image/training_dataset/main.html:46
+#: templates/image/training_dataset/main.html:139
+#: templates/object_detection/model_info/main.html:129
+#: templates/object_detection/training_dataset/main.html:45
+#: templates/object_detection/training_dataset/main.html:136
+#: templates/pretrained_model/model_info/main.html:139
+#: templates/pretrained_model/training_dataset/main.html:45
+#: templates/pretrained_model/training_dataset/main.html:136
+#: templates/time_series/model_info/main.html:250
+msgid "Last Update"
+msgstr "最後更新時間"
+
+#: templates/generic_classifier/model_info/main.html:149
+#: templates/image/model_info/main.html:177
+#: templates/object_detection/model_info/main.html:138
+#: templates/pretrained_model/model_info/main.html:148
+#: templates/time_series/model_info/main.html:259
+msgid "Training Time"
+msgstr "訓練時間"
+
+#: templates/generic_classifier/model_info/main.html:157
+#: templates/image/model_info/main.html:185
+#: templates/object_detection/model_info/main.html:146
+#: templates/pretrained_model/model_info/main.html:156
+#: templates/time_series/model_info/main.html:267
+msgid "Built by"
+msgstr "建立者"
+
+#: templates/generic_classifier/model_info/main.html:169
+#: templates/image/model_info/main.html:197
+#: templates/object_detection/model_info/main.html:158
+#: templates/time_series/model_info/main.html:279
+msgid "Summary"
+msgstr "模型資訊"
+
+#: templates/generic_classifier/model_info/main.html:178
+#: templates/image/model_info/main.html:206
+#: templates/object_detection/model_info/main.html:167
+#: templates/pretrained_model/model_info/main.html:168
+#: templates/time_series/model_info/main.html:288
+msgid "Log"
+msgstr "系統紀錄"
+
+#: templates/generic_classifier/training_dataset/main.html:46
+#: templates/generic_classifier/training_dataset/main.html:137
+#: templates/generic_classifier/training_dataset/main.html:259
+#: templates/image/training_dataset/main.html:47
+#: templates/image/training_dataset/main.html:140
+#: templates/object_detection/training_dataset/main.html:46
+#: templates/object_detection/training_dataset/main.html:137
+#: templates/pretrained_model/training_dataset/main.html:46
+#: templates/pretrained_model/training_dataset/main.html:137
+#: templates/time_series/training_dataset/main.html:47
+#: templates/time_series/training_dataset/main.html:140
+#: templates/time_series/training_dataset/main.html:373
+msgid "Proportion"
+msgstr "比例"
+
+#: templates/generic_classifier/training_dataset/main.html:97
+#: templates/image/training_dataset/main.html:99
+#: templates/object_detection/training_dataset/main.html:97
+#: templates/pretrained_model/training_dataset/main.html:97
+#: templates/time_series/training_dataset/main.html:99
+msgid "Jupyter"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:179
+#: templates/image/training_dataset/main.html:182
+#: templates/object_detection/training_dataset/main.html:179
+#: templates/pretrained_model/training_dataset/main.html:179
+#: templates/time_series/training_dataset/main.html:182
+msgid "New Dataset"
+msgstr "新增資料集"
+
+#: templates/generic_classifier/training_dataset/main.html:186
+#: templates/time_series/training_dataset/main.html:192
+msgid "Step 1."
+msgstr "第一步"
+
+#: templates/generic_classifier/training_dataset/main.html:187
+#: templates/image/training_dataset/main.html:191
+#: templates/object_detection/training_dataset/main.html:188
+#: templates/pretrained_model/training_dataset/main.html:188
+#: templates/time_series/training_dataset/main.html:193
+msgid "Select a Dataset"
+msgstr "選擇資料集"
+
+#: templates/generic_classifier/training_dataset/main.html:201
+#: templates/image/training_dataset/main.html:200
+#: templates/object_detection/training_dataset/main.html:197
+#: templates/pretrained_model/training_dataset/main.html:197
+#: templates/time_series/training_dataset/main.html:206
+#: templates/time_series/training_dataset/main.html:211
+msgid "Select Version"
+msgstr "選擇版本"
+
+#: templates/generic_classifier/training_dataset/main.html:209
+#: templates/time_series/training_dataset/main.html:219
+#: templates/time_series/training_dataset/main.html:225
+#: templates/time_series/training_dataset/main.html:233
+#: templates/time_series/training_dataset/main.html:241
+#: templates/time_series/training_dataset/main.html:307
+#: templates/time_series/training_dataset/main.html:344
+msgid "Select a Column"
+msgstr "選擇預測列"
+
+#: templates/generic_classifier/training_dataset/main.html:217
+#: templates/time_series/training_dataset/main.html:230
+msgid "Target"
+msgstr "目標"
+
+#: templates/generic_classifier/training_dataset/main.html:221
+msgid "Feature"
+msgstr "特徵"
+
+#: templates/generic_classifier/training_dataset/main.html:229
+#: templates/time_series/training_dataset/main.html:250
+msgid "Step 2."
+msgstr "第二步"
+
+#: templates/generic_classifier/training_dataset/main.html:230
+#: templates/time_series/training_dataset/main.html:251
+msgid "Setting Predict Column"
+msgstr "設定預測目標"
+
+#: templates/generic_classifier/training_dataset/main.html:237
+msgid "Binary Classification"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:238
+msgid "Multiclass Classification"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:246
+#: templates/time_series/training_dataset/main.html:359
+msgid "Step 3."
+msgstr "第三步"
+
+#: templates/generic_classifier/training_dataset/main.html:247
+#: templates/time_series/training_dataset/main.html:360
+msgid "Split"
+msgstr "切割資料"
+
+#: templates/generic_classifier/training_dataset/main.html:252
+msgid "Name of the Dataset"
+msgstr "命名"
+
+#: templates/generic_classifier/training_dataset/main.html:253
+#: templates/time_series/training_dataset/main.html:366
+msgid "Consists of a ~ z, A ~ Z, 0 ~ 9 and _ ."
+msgstr "名稱須由 a ~ z、A ~ Z、0 ~ 9 和 _ 組成"
+
+#: templates/generic_classifier/training_dataset/main.html:257
+#: templates/time_series/feature/main.html:196
+#: templates/time_series/training_dataset/main.html:370
+msgid "Method"
+msgstr "切割方法"
+
+#: templates/generic_classifier/training_dataset/main.html:265
+#: templates/image/training_dataset/main.html:216
+#: templates/object_detection/training_dataset/main.html:213
+#: templates/pretrained_model/training_dataset/main.html:213
+msgid "Training Set"
+msgstr "訓練集"
+
+#: templates/generic_classifier/training_dataset/main.html:276
+#: templates/image/training_dataset/main.html:224
+#: templates/object_detection/training_dataset/main.html:221
+#: templates/pretrained_model/training_dataset/main.html:221
+msgid "Validation Set"
+msgstr "驗證集"
+
+#: templates/generic_classifier/training_dataset/main.html:288
+#: templates/image/training_dataset/main.html:232
+#: templates/object_detection/training_dataset/main.html:229
+#: templates/pretrained_model/training_dataset/main.html:229
+msgid "Testing Set"
+msgstr "測試集"
+
+#: templates/image/dataset/main.html:42 templates/image/dataset/main.html:128
+#: templates/object_detection/dataset/main.html:42
+#: templates/object_detection/dataset/main.html:130
+#: templates/pretrained_model/dataset/main.html:42
+#: templates/pretrained_model/dataset/main.html:128
+msgid "Image File"
+msgstr "檔案名稱"
+
+#: templates/image/dataset/main.html:44 templates/image/dataset/main.html:130
+#: templates/object_detection/dataset/main.html:44
+#: templates/object_detection/dataset/main.html:132
+#: templates/pretrained_model/dataset/main.html:44
+#: templates/pretrained_model/dataset/main.html:130
+msgid "Total Images"
+msgstr "圖片總數量"
+
+#: templates/image/dataset/main.html:45 templates/image/dataset/main.html:131
+#: templates/object_detection/dataset/main.html:45
+#: templates/object_detection/dataset/main.html:133
+#: templates/pretrained_model/dataset/main.html:45
+#: templates/pretrained_model/dataset/main.html:131
+msgid "Labeled Images"
+msgstr "標記圖片"
+
+#: templates/image/dataset/main.html:48 templates/image/dataset/main.html:134
+msgid "Last Labeled"
+msgstr "最後標記"
+
+#: templates/image/dataset/main.html:79
+#: templates/object_detection/dataset/main.html:81
+#: templates/pretrained_model/dataset/main.html:79
+msgid "Label"
+msgstr "標記圖片"
+
+#: templates/image/dataset/main.html:92 templates/image/dataset/main.html:225
+#: templates/object_detection/dataset/main.html:94
+#: templates/object_detection/dataset/main.html:228
+#: templates/pretrained_model/dataset/main.html:92
+msgid "Update JSON"
+msgstr "更新JSON檔"
+
+#: templates/image/dataset/main.html:99
+#: templates/object_detection/dataset/main.html:101
+#: templates/pretrained_model/dataset/main.html:99
+msgid "Download ZIP"
+msgstr "下載壓縮檔"
+
+#: templates/image/dataset/main.html:106
+#: templates/object_detection/dataset/main.html:108
+#: templates/pretrained_model/dataset/main.html:106
+msgid "Download JSON"
+msgstr "下載JSON檔"
+
+#: templates/image/dataset/main.html:165
+#: templates/object_detection/dataset/main.html:168
+#: templates/pretrained_model/dataset/main.html:165
+msgid "Upload image ZIP"
+msgstr "上傳ZIP檔"
+
+#: templates/image/dataset/main.html:171
+#: templates/object_detection/dataset/main.html:174
+#: templates/pretrained_model/dataset/main.html:171
+msgid "Upload a ZIP File"
+msgstr "上傳一份CSV檔案"
+
+#: templates/image/dataset/main.html:174
+#: templates/object_detection/dataset/main.html:177
+#: templates/pretrained_model/dataset/main.html:174
+msgid "Select a ZIP File"
+msgstr "選擇CSV檔案"
+
+#: templates/image/dataset/main.html:182
+#: templates/object_detection/dataset/main.html:185
+#: templates/pretrained_model/dataset/main.html:182
+msgid "Upload JSON"
+msgstr "上傳JSON檔"
+
+#: templates/image/dataset/main.html:188 templates/image/dataset/main.html:238
+#: templates/object_detection/dataset/main.html:191
+#: templates/object_detection/dataset/main.html:241
+#: templates/pretrained_model/dataset/main.html:188
+msgid "Upload a JSON File"
+msgstr "上傳一份CSV檔案"
+
+#: templates/image/dataset/main.html:191 templates/image/dataset/main.html:241
+#: templates/object_detection/dataset/main.html:194
+#: templates/object_detection/dataset/main.html:244
+#: templates/pretrained_model/dataset/main.html:191
+msgid "Select a JSON File"
+msgstr "選擇CSV檔案"
+
+#: templates/image/dataset/main.html:232
+#: templates/object_detection/dataset/main.html:235
+msgid "Upload JSON File"
+msgstr "上傳CSV檔案"
+
+#: templates/image/model/main.html:170
+#: templates/object_detection/model/main.html:180
+#: templates/pretrained_model/model/main.html:181
+msgid "Select a Training Dataset"
+msgstr "選擇訓練資料集"
+
+#: templates/image/model/main.html:179
+msgid "Max Trials"
+msgstr "最大試驗次數"
+
+#: templates/image/model/main.html:183
+#: templates/object_detection/model/main.html:189
+msgid "Epochs"
+msgstr "迭代次數"
+
+#: templates/image/model/main.html:189
+#: templates/object_detection/model/main.html:193
+msgid "Batch Size"
+msgstr "批次大小"
+
+#: templates/image/model/main.html:193
+msgid "Image Size"
+msgstr "圖片檔案大小"
+
+#: templates/image/training_dataset/main.html:196
+#: templates/object_detection/dataset/main.html:47
+#: templates/object_detection/dataset/main.html:135
+#: templates/object_detection/training_dataset/main.html:193
+#: templates/pretrained_model/training_dataset/main.html:193
+msgid "JSON Version"
+msgstr "JSON 版本"
+
+#: templates/image/training_dataset/main.html:205
+#: templates/object_detection/training_dataset/main.html:202
+#: templates/pretrained_model/training_dataset/main.html:202
+msgid "Name the Split File"
+msgstr "命名"
+
+#: templates/management_ca/base/main.html:96
+#: templates/management_ca/employee/main.html:19
+#: templates/management_sa/base/main.html:96
+#: templates/management_sa/employee/main.html:19
+msgid "Employee List"
+msgstr "員工列表"
+
+#: templates/management_ca/base/main.html:98
+#: templates/management_ca/overview/main.html:19
+#: templates/management_sa/base/main.html:98
+#: templates/management_sa/overview/main.html:19
+msgid "Overview"
+msgstr "資源總覽"
+
+#: templates/management_ca/base/main.html:111
+#: templates/management_ca/project/main.html:19
+#: templates/management_sa/base/main.html:111
+#: templates/management_sa/project/main.html:19
+msgid "Project List"
+msgstr "專案列表"
+
+#: templates/management_ca/employee/main.html:42
+#: templates/management_ca/employee/main.html:97
+#: templates/management_sa/company/main.html:68
+#: templates/management_sa/company/main.html:181
+#: templates/management_sa/company/main.html:221
+#: templates/management_sa/company/main.html:303
+msgid "Company Admin"
+msgstr "公司 Admin"
+
+#: templates/management_ca/employee/main.html:45
+#: templates/management_ca/employee/main.html:100
+#: templates/management_ca/employee/main.html:131
+#: templates/management_ca/employee/main.html:167
+#: templates/management_sa/employee/main.html:50
+#: templates/management_sa/employee/main.html:72
+msgid "Department"
+msgstr "部門"
+
+#: templates/management_ca/employee/main.html:70
+#: templates/management_ca/employee/main.html:158
+#: templates/management_ca/project/main.html:153
+msgid "Edit"
+msgstr "編輯"
+
+#: templates/management_ca/employee/main.html:77
+#: templates/management_ca/project/main.html:160
+#: templates/management_sa/company/main.html:164
+msgid "Permission"
+msgstr "權限"
+
+#: templates/management_ca/employee/main.html:194
+#: templates/management_ca/project/main.html:489
+#: templates/management_sa/company/main.html:373
+msgid "Edit Permission"
+msgstr "編輯權限"
+
+#: templates/management_ca/employee/main.html:209
+msgid "Employee Name"
+msgstr "員工名稱"
+
+#: templates/management_ca/employee/main.html:213
+#: templates/management_ca/employee/main.html:240
+#: templates/management_ca/project/main.html:508
+#: templates/management_sa/company/main.html:400
+msgid "Password"
+msgstr "密碼"
+
+#: templates/management_ca/employee/main.html:235
+msgid "Delete Employee"
+msgstr "刪除員工"
+
+#: templates/management_ca/overview/main.html:27
+#: templates/management_ca/project/main.html:67
+#: templates/management_ca/project/main.html:177
+#: templates/management_ca/project/main.html:275
+#: templates/management_ca/project/main.html:428
+#: templates/management_sa/company/main.html:72
+#: templates/management_sa/company/main.html:185
+#: templates/management_sa/company/main.html:236
+#: templates/management_sa/company/main.html:318
+#: templates/management_sa/overview/main.html:27
+#: templates/management_sa/project/main.html:52
+#: templates/management_sa/project/main.html:137
+msgid "Resource"
+msgstr "資源"
+
+#: templates/management_ca/overview/main.html:64
+#: templates/management_ca/overview/main.html:106
+msgid "Project name"
+msgstr "專案名稱"
+
+#: templates/management_ca/overview/main.html:67
+#: templates/management_ca/overview/main.html:109
+#: templates/management_sa/overview/main.html:67
+#: templates/management_sa/overview/main.html:97
+msgid "CPU"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:68
+msgid "(Core)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:71
+#: templates/management_ca/overview/main.html:113
+#: templates/management_sa/overview/main.html:71
+#: templates/management_sa/overview/main.html:101
+msgid "GPU"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:72
+#: templates/management_ca/overview/main.html:114
+#: templates/management_sa/overview/main.html:72
+#: templates/management_sa/overview/main.html:102
+msgid "(PC)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:75
+#: templates/management_ca/overview/main.html:117
+#: templates/management_sa/overview/main.html:75
+#: templates/management_sa/overview/main.html:105
+msgid "Memory"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:76
+#: templates/management_ca/overview/main.html:80
+#: templates/management_ca/overview/main.html:118
+#: templates/management_ca/overview/main.html:122
+#: templates/management_sa/overview/main.html:76
+#: templates/management_sa/overview/main.html:80
+#: templates/management_sa/overview/main.html:106
+#: templates/management_sa/overview/main.html:110
+msgid "(GB)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:79
+#: templates/management_ca/overview/main.html:121
+#: templates/management_sa/overview/main.html:79
+#: templates/management_sa/overview/main.html:109
+msgid "Storage"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:83
+#: templates/management_ca/overview/main.html:125
+#: templates/management_ca/project/main.html:231
+#: templates/management_ca/project/main.html:384
+#: templates/management_sa/overview/main.html:83
+#: templates/management_sa/overview/main.html:113
+msgid "Note"
+msgstr "備註"
+
+#: templates/management_ca/overview/main.html:110
+#: templates/management_sa/overview/main.html:68
+#: templates/management_sa/overview/main.html:98
+msgid "(core)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:145
+msgid "Resource by Project"
+msgstr "專案資源"
+
+#: templates/management_ca/project/main.html:64
+#: templates/management_ca/project/main.html:174
+#: templates/management_ca/project/main.html:208
+#: templates/management_ca/project/main.html:343
+#: templates/management_ca/project/main.html:504
+#: templates/management_sa/project/main.html:49
+#: templates/management_sa/project/main.html:134
+msgid "Project Name"
+msgstr "專案名稱"
+
+#: templates/management_ca/project/main.html:65
+#: templates/management_ca/project/main.html:175
+#: templates/management_sa/project/main.html:50
+#: templates/management_sa/project/main.html:135
+msgid "Project Admin"
+msgstr "專案 Admin"
+
+#: templates/management_ca/project/main.html:200
+msgid "Create Project"
+msgstr "創建專案"
+
+#: templates/management_ca/project/main.html:214
+#: templates/management_ca/project/main.html:366
+msgid "Training Type"
+msgstr "專案類型"
+
+#: templates/management_ca/project/main.html:226
+#: templates/management_ca/project/main.html:378
+msgid "Project Description"
+msgstr "專案描述"
+
+#: templates/management_ca/project/main.html:237
+#: templates/management_ca/project/main.html:390
+msgid "Add Project Member"
+msgstr "新增專案成員"
+
+#: templates/management_ca/project/main.html:321
+#: templates/time_series/training_dataset/main.html:468
+msgid "Back"
+msgstr "上一步"
+
+#: templates/management_ca/project/main.html:322
+#: templates/time_series/training_dataset/main.html:469
+msgid "Next"
+msgstr "下一步"
+
+#: templates/management_ca/project/main.html:335
+msgid "Update Project"
+msgstr "編輯專案"
+
+#: templates/management_ca/project/main.html:348
+msgid "Project ID"
+msgstr "專案編號"
+
+#: templates/management_ca/project/main.html:351
+msgid "Project ID is auto-generated. You can modify the project id later."
+msgstr ""
+
+#: templates/management_sa/base/main.html:94
+#: templates/management_sa/company/main.html:19
+msgid "Company List"
+msgstr "公司列表"
+
+#: templates/management_sa/company/main.html:69
+#: templates/management_sa/company/main.html:182
+msgid "ID"
+msgstr "編號"
+
+#: templates/management_sa/company/main.html:70
+#: templates/management_sa/company/main.html:183
+msgid "Tax ID"
+msgstr "統編"
+
+#: templates/management_sa/company/main.html:71
+#: templates/management_sa/company/main.html:184
+msgid "Members"
+msgstr "成員"
+
+#: templates/management_sa/company/main.html:208
+msgid "New Company"
+msgstr "新增公司"
+
+#: templates/management_sa/company/main.html:213
+#: templates/management_sa/company/main.html:295
+#: templates/management_sa/company/main.html:378
+#: templates/management_sa/overview/main.html:64
+#: templates/management_sa/overview/main.html:94
+msgid "Company Name"
+msgstr "公司名稱"
+
+#: templates/management_sa/company/main.html:217
+#: templates/management_sa/company/main.html:299
+msgid "Company Tax ID"
+msgstr "公司統編"
+
+#: templates/management_sa/company/main.html:290
+msgid "Edit Company"
+msgstr "編輯公司"
+
+#: templates/management_sa/company/main.html:382
+msgid "Register Date"
+msgstr "註冊日期"
+
+#: templates/management_sa/company/main.html:386
+msgid "Total Time"
+msgstr "圖片總數量"
+
+#: templates/management_sa/company/main.html:387
+msgid "Days"
+msgstr "天數"
+
+#: templates/management_sa/overview/main.html:65
+#: templates/management_sa/overview/main.html:95
+msgid "Project Number"
+msgstr "專案數量"
+
+#: templates/management_sa/overview/main.html:146
+msgid "Resource by Company"
+msgstr "公司資源"
+
+#: templates/object_detection/dataset/main.html:46
+#: templates/object_detection/dataset/main.html:134
+#: templates/object_detection/inference/main.html:123
+#: templates/object_detection/inference/main.html:144
+msgid "Bounding Box"
+msgstr "邊界框"
+
+#: templates/object_detection/dataset/main.html:49
+#: templates/object_detection/dataset/main.html:137
+#: templates/pretrained_model/dataset/main.html:48
+#: templates/pretrained_model/dataset/main.html:134
+msgid "Label Labeled"
+msgstr "最後標記時間"
+
+#: templates/object_detection/inference/main.html:45
+#: templates/object_detection/inference/main.html:88
+#: templates/pretrained_model/inference/main.html:45
+#: templates/pretrained_model/inference/main.html:88
+msgid "Image"
+msgstr "檔案名稱"
+
+#: templates/object_detection/inference/main.html:122
+#: templates/object_detection/inference/main.html:143
+#: templates/pretrained_model/inference/main.html:121
+#: templates/pretrained_model/inference/main.html:142
+msgid "Image Name"
+msgstr "檔案名稱"
+
+#: templates/object_detection/inference/main.html:186
+#: templates/pretrained_model/inference/main.html:165
+msgid "New Inference"
+msgstr "新增模型預測"
+
+#: templates/object_detection/inference/main.html:196
+#: templates/object_detection/inference/main.html:210
+#: templates/pretrained_model/inference/main.html:175
+#: templates/pretrained_model/inference/main.html:189
+msgid "Upload"
+msgstr "上傳檔案"
+
+#: templates/pretrained_model/model/main.html:190
+msgid "Number of Classes"
+msgstr "類別數量"
+
+#: templates/pretrained_model/model/main.html:194
+msgid "Maximum Epochs"
+msgstr "迭代次數"
+
+#: templates/pretrained_model/model/main.html:200
+msgid "Batch Size for Training"
+msgstr "訓練資料集批次大小"
+
+#: templates/pretrained_model/model/main.html:204
+msgid "Batch Size for Validation"
+msgstr "驗證資料集批次大小"
+
+#: templates/pretrained_model/model/main.html:209
+msgid "Pretrained Model"
+msgstr "是否使用預訓練模型"
+
+#: templates/pretrained_model/model/main.html:216
+msgid "Natural Image Pretrained Model"
+msgstr "自然影像預訓練模型"
+
+#: templates/pretrained_model/model/main.html:223
+msgid "Small Data Pretrained Model"
+msgstr "少量資料預訓練模型"
+
+#: templates/time_series/base/main.html:149
+#: templates/time_series/feature/main.html:18
+msgid "Feature Extraction"
+msgstr "特徵生成"
+
+#: templates/time_series/dataset/main.html:44
+#: templates/time_series/dataset/main.html:118
+msgid "Last Modified by"
+msgstr "最後修改者"
+
+#: templates/time_series/feature/main.html:79
+msgid "Abort Feature Extraction"
+msgstr "中止特徵生成"
+
+#: templates/time_series/feature/main.html:161
+msgid "New Feature"
+msgstr "新增特徵"
+
+#: templates/time_series/feature/main.html:169
+msgid "Split Dataset"
+msgstr "選擇已經切割好的資料集"
+
+#: templates/time_series/feature/main.html:173
+msgid "select Dataset"
+msgstr "選擇資料集"
+
+#: templates/time_series/feature/main.html:178
+msgid "Time Column Unit"
+msgstr "時間單位"
+
+#: templates/time_series/feature/main.html:180
+msgid "Day"
+msgstr "天"
+
+#: templates/time_series/feature/main.html:181
+msgid "Month"
+msgstr "月"
+
+#: templates/time_series/feature/main.html:182
+msgid "Year"
+msgstr "年"
+
+#: templates/time_series/feature/main.html:187
+msgid "Name the Feature File"
+msgstr "命名"
+
+#: templates/time_series/feature/main.html:201
+#: templates/time_series/model_info/main.html:187
+msgid "Complexity"
+msgstr "資料複雜度特徵群"
+
+#: templates/time_series/feature/main.html:207
+#: templates/time_series/model_info/main.html:210
+msgid "Momentum Indicators"
+msgstr "動量指標特徵群"
+
+#: templates/time_series/feature/main.html:215
+#: templates/time_series/model_info/main.html:192
+msgid "Cycle Indicators"
+msgstr "週期性指標特徵群"
+
+#: templates/time_series/feature/main.html:221
+#: templates/time_series/model_info/main.html:215
+msgid "Moving Average"
+msgstr "移動平均特徵群"
+
+#: templates/time_series/feature/main.html:229
+#: templates/time_series/model_info/main.html:197
+msgid "Logical Condition"
+msgstr "條件判斷特徵群"
+
+#: templates/time_series/feature/main.html:235
+#: templates/time_series/model_info/main.html:220
+msgid "Statistic Features"
+msgstr "統計指標特徵群"
+
+#: templates/time_series/feature/main.html:243
+#: templates/time_series/model_info/main.html:202
+msgid "Math Function"
+msgstr "數學公式特徵群"
+
+#: templates/time_series/feature/main.html:249
+#: templates/time_series/model_info/main.html:225
+msgid "Statistic Models"
+msgstr "統計模型參數特徵群"
+
+#: templates/time_series/model/main.html:179
+msgid "Feature Set"
+msgstr "特徵資料集"
+
+#: templates/time_series/model/main.html:317
+msgid "Dimentionality Reduction"
+msgstr "資料降維"
+
+#: templates/time_series/model/main.html:321
+msgid ""
+"After extracting the feature data, we will use different dimension "
+"reduction algorithms to reduce the amount of feature data in order to "
+"lower the consumption of computing resources."
+msgstr "在萃取完特徵資料後，我們會使用不同降維演算法來減少特徵資料量，以降低運算資源的耗費。"
+
+#: templates/time_series/model/main.html:328
+msgid "Principal Component Analysis (PCA)"
+msgstr "PCA降維演算法"
+
+#: templates/time_series/model/main.html:334
+msgid "T-distributed Stochastic Neighbor Embedding (TSNE)"
+msgstr "TSNE降維演算法"
+
+#: templates/time_series/model_info/main.html:176
+msgid "Feature Gen"
+msgstr "特徵資料集"
+
+#: templates/time_series/training_dataset/main.html:222
+#: templates/time_series/training_dataset/main.html:372
+msgid "Time"
+msgstr "時間"
+
+#: templates/time_series/training_dataset/main.html:238
+msgid "Category"
+msgstr "類別"
+
+#: templates/time_series/training_dataset/main.html:258
+msgid "Regression"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:259
+msgid "Classification"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:263
+msgid "Case"
+msgstr "預測方法"
+
+#: templates/time_series/training_dataset/main.html:271
+#: templates/time_series/training_dataset/main.html:320
+msgid "Forecast for a Single Time Step"
+msgstr "特定天預測"
+
+#: templates/time_series/training_dataset/main.html:274
+#: templates/time_series/training_dataset/main.html:285
+#: templates/time_series/training_dataset/main.html:296
+#: templates/time_series/training_dataset/main.html:324
+msgid "Steps"
+msgstr "天"
+
+#: templates/time_series/training_dataset/main.html:280
+msgid "Forecast for the sum of multiple time step"
+msgstr "總量預測"
+
+#: templates/time_series/training_dataset/main.html:291
+msgid "Forecast for the average of multiple time step"
+msgstr "平均預測"
+
+#: templates/time_series/training_dataset/main.html:302
+#: templates/time_series/training_dataset/main.html:339
+msgid "Choose predict column"
+msgstr "選擇預測欄位"
+
+#: templates/time_series/training_dataset/main.html:328
+msgid "Threshold"
+msgstr "門檻值"
+
+#: templates/time_series/training_dataset/main.html:365
+msgid "Name of the Spilt File"
+msgstr "命名"
+
+#: templates/time_series/training_dataset/main.html:378
+#: templates/time_series/training_dataset/main.html:422
+msgid "Training set"
+msgstr "訓練集"
+
+#: templates/time_series/training_dataset/main.html:391
+#: templates/time_series/training_dataset/main.html:433
+msgid "Validation set"
+msgstr "驗證集"
+
+#: templates/time_series/training_dataset/main.html:404
+#: templates/time_series/training_dataset/main.html:445
+msgid "Testing set"
+msgstr "測試集"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Proption"
+#~ msgstr "比例"
+
+#~ msgid "Predict Type"
+#~ msgstr "預測類型"
+
+#~ msgid "Score"
+#~ msgstr "分數"
+
+#~ msgid "Abort Training"
+#~ msgstr ""
+
+#~ msgid "Select a Column"
+#~ msgstr "選擇"
+
+#~ msgid "顯示資料欄位"
+#~ msgstr ""
+
+#~ msgid "time_left_for_this_task"
+#~ msgstr "綜合模型訓練總時間"
+
+#~ msgid "per_run_time_limit"
+#~ msgstr "單一模型訓練時間"
+
+#~ msgid "ensemble_size"
+#~ msgstr "集成最大數量"
+
+#~ msgid "ensemble_nbest"
+#~ msgstr "集成最佳數量"
+
+#~ msgid "batch_size"
+#~ msgstr "批次大小"
+
+#~ msgid "max_trials"
+#~ msgstr "最大試驗次數"
+
+#~ msgid "TOOLS"
+#~ msgstr "工具"
+
+#~ msgid "Mean Absolute Error"
+#~ msgstr "平均絕對誤差"
+
+#~ msgid "Version001"
+#~ msgstr "版本"
+
+#~ msgid "Choose predict column"
+#~ msgstr "選擇預測列"
+
+#~ msgid "Propotion"
+#~ msgstr "切割比例"
+
+#~ msgid "Dataset1"
+#~ msgstr "資料列表"
+
+#~ msgid "Dataset2"
+#~ msgstr "資料列表"
+
+#~ msgid "Ground Truth File"
+#~ msgstr "基準真相檔案"
+
+#~ msgid "Warning content"
+#~ msgstr "警告內容"
+
+#~ msgid "From"
+#~ msgstr "資料來源"
+
+#~ msgid "Language Switch"
+#~ msgstr "語言切換"
+
+#~ msgid "Please select language"
+#~ msgstr "請選擇語言"
+
+#~ msgid "Dataset Type"
+#~ msgstr "資料集類型"
+
+#~ msgid "For dataset normalization purpose."
+#~ msgstr "用於資料集標準化"
+
+#~ msgid "Stationary (eg. Sales figures)"
+#~ msgstr "穩定"
+
+#~ msgid "Non-stationary (eg. Stock data)"
+#~ msgstr "非穩定"
+
+#~ msgid "Second"
+#~ msgstr "秒"
+
+#~ msgid "Minute"
+#~ msgstr "分鐘"
+
+#~ msgid "Hour"
+#~ msgstr "小時"
+
+#~ msgid "Company name"
+#~ msgstr "公司名稱"
+
+#~ msgid "預測結果"
+#~ msgstr ""
+

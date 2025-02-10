@@ -1,0 +1,1963 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-06-09 01:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: templates/generic_classifier/base/main.html:83 templates/home.html:96
+#: templates/home.html:124 templates/home.html:152 templates/home.html:182
+#: templates/home.html:210 templates/home.html:238
+#: templates/image/base/main.html:60
+#: templates/management_ca/project/main.html:66
+#: templates/management_ca/project/main.html:176
+#: templates/management_sa/project/main.html:51
+#: templates/management_sa/project/main.html:136
+#: templates/object_detection/base/main.html:60
+#: templates/pretrained_model/base/main.html:60
+#: templates/time_series/base/main.html:83
+msgid "Project Type"
+msgstr ""
+
+#: templates/home.html:102 templates/home.html:130 templates/home.html:158
+#: templates/home.html:188 templates/home.html:216 templates/home.html:244
+msgid "My Role"
+msgstr ""
+
+#: templates/generic_classifier/base/footer.html:4
+#: templates/generic_classifier/dataset/main.html:46
+#: templates/generic_classifier/dataset/main.html:119
+#: templates/generic_classifier/training_dataset/main.html:197
+#: templates/image/base/footer.html:4 templates/image/dataset/main.html:46
+#: templates/image/dataset/main.html:132
+#: templates/management_ca/base/footer.html:4
+#: templates/management_sa/base/footer.html:4
+#: templates/object_detection/base/footer.html:4
+#: templates/pretrained_model/base/footer.html:4
+#: templates/pretrained_model/dataset/main.html:46
+#: templates/pretrained_model/dataset/main.html:132
+#: templates/time_series/base/footer.html:4
+#: templates/time_series/dataset/main.html:46
+#: templates/time_series/dataset/main.html:120
+#: templates/time_series/training_dataset/main.html:203
+msgid "Version"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:47
+#: templates/generic_classifier/dataset/main.html:79
+#: templates/time_series/base/main.html:47
+#: templates/time_series/dataset/main.html:79
+msgid "DataRefine"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:75
+#: templates/image/base/main.html:52 templates/management_ca/base/main.html:51
+#: templates/management_ca/base/main.html:90
+#: templates/management_ca/employee/main.html:127
+#: templates/management_ca/employee/main.html:163
+#: templates/management_sa/base/main.html:88
+#: templates/management_sa/company/main.html:67
+#: templates/management_sa/company/main.html:180
+#: templates/object_detection/base/main.html:52
+#: templates/pretrained_model/base/main.html:52
+#: templates/time_series/base/main.html:75
+msgid "Company"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:77
+#: templates/image/base/main.html:54 templates/management_ca/base/main.html:53
+#: templates/management_sa/base/main.html:51
+#: templates/object_detection/base/main.html:54
+#: templates/pretrained_model/base/main.html:54
+#: templates/time_series/base/main.html:77
+msgid "User"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:79
+#: templates/generic_classifier/member/main.html:43
+#: templates/generic_classifier/member/main.html:80
+#: templates/image/base/main.html:56 templates/image/member/main.html:43
+#: templates/image/member/main.html:80
+#: templates/management_ca/base/main.html:55
+#: templates/management_ca/employee/main.html:44
+#: templates/management_ca/employee/main.html:99
+#: templates/management_ca/employee/main.html:139
+#: templates/management_ca/employee/main.html:175
+#: templates/management_sa/base/main.html:53
+#: templates/management_sa/company/main.html:230
+#: templates/management_sa/company/main.html:312
+#: templates/management_sa/employee/main.html:49
+#: templates/management_sa/employee/main.html:71
+#: templates/object_detection/base/main.html:56
+#: templates/object_detection/member/main.html:43
+#: templates/object_detection/member/main.html:80
+#: templates/pretrained_model/base/main.html:56
+#: templates/pretrained_model/member/main.html:43
+#: templates/pretrained_model/member/main.html:80
+#: templates/time_series/base/main.html:79
+#: templates/time_series/member/main.html:43
+#: templates/time_series/member/main.html:80
+msgid "Email"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:81
+#: templates/image/base/main.html:58 templates/management_ca/base/main.html:105
+#: templates/management_sa/base/main.html:105
+#: templates/object_detection/base/main.html:58
+#: templates/pretrained_model/base/main.html:58
+#: templates/time_series/base/main.html:81
+msgid "Project"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:86
+#: templates/generic_classifier/member/main.html:44
+#: templates/generic_classifier/member/main.html:81
+#: templates/generic_classifier/member/main.html:119
+#: templates/image/base/main.html:63 templates/image/member/main.html:44
+#: templates/image/member/main.html:81 templates/image/member/main.html:119
+#: templates/management_ca/base/main.html:57
+#: templates/management_sa/base/main.html:55
+#: templates/object_detection/base/main.html:63
+#: templates/object_detection/member/main.html:44
+#: templates/object_detection/member/main.html:81
+#: templates/object_detection/member/main.html:119
+#: templates/pretrained_model/base/main.html:63
+#: templates/pretrained_model/member/main.html:44
+#: templates/pretrained_model/member/main.html:81
+#: templates/pretrained_model/member/main.html:119
+#: templates/time_series/base/main.html:86
+#: templates/time_series/member/main.html:44
+#: templates/time_series/member/main.html:81
+#: templates/time_series/member/main.html:119
+msgid "Role"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:119
+#: templates/generic_classifier/training_dataset/main.html:235
+#: templates/image/base/main.html:96
+#: templates/management_ca/overview/main.html:65
+#: templates/management_ca/overview/main.html:107
+#: templates/object_detection/base/main.html:96
+#: templates/pretrained_model/base/main.html:96
+#: templates/time_series/base/main.html:119
+#: templates/time_series/training_dataset/main.html:256
+msgid "Type"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:126
+#: templates/generic_classifier/model_info/main.html:103
+#: templates/generic_classifier/training_dataset/main.html:193
+#: templates/image/base/main.html:103 templates/image/model_info/main.html:131
+#: templates/image/training_dataset/main.html:187
+#: templates/object_detection/base/main.html:103
+#: templates/object_detection/model_info/main.html:92
+#: templates/object_detection/training_dataset/main.html:184
+#: templates/pretrained_model/base/main.html:103
+#: templates/pretrained_model/model_info/main.html:102
+#: templates/pretrained_model/training_dataset/main.html:184
+#: templates/time_series/base/main.html:126
+#: templates/time_series/model_info/main.html:152
+#: templates/time_series/training_dataset/main.html:199
+msgid "Dataset"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:132
+#: templates/generic_classifier/dataset/main.html:18
+#: templates/image/base/main.html:109 templates/image/dataset/main.html:18
+#: templates/object_detection/base/main.html:109
+#: templates/object_detection/dataset/main.html:18
+#: templates/pretrained_model/base/main.html:109
+#: templates/pretrained_model/dataset/main.html:18
+#: templates/time_series/base/main.html:132
+#: templates/time_series/dataset/main.html:18
+msgid "Data List"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:134
+#: templates/generic_classifier/training_dataset/main.html:18
+#: templates/image/base/main.html:111 templates/image/model/main.html:168
+#: templates/image/training_dataset/main.html:18
+#: templates/object_detection/base/main.html:111
+#: templates/object_detection/model/main.html:178
+#: templates/object_detection/training_dataset/main.html:18
+#: templates/pretrained_model/base/main.html:111
+#: templates/pretrained_model/model/main.html:179
+#: templates/pretrained_model/training_dataset/main.html:18
+#: templates/time_series/base/main.html:134
+#: templates/time_series/training_dataset/main.html:18
+msgid "Training Dataset"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:143
+#: templates/generic_classifier/model/main.html:245
+#: templates/image/base/main.html:120
+#: templates/object_detection/base/main.html:120
+#: templates/pretrained_model/base/main.html:120
+#: templates/time_series/base/main.html:143
+#: templates/time_series/model/main.html:234
+msgid "AutoML"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:149
+#: templates/object_detection/base/main.html:126
+#: templates/pretrained_model/base/main.html:126
+#: templates/time_series/base/main.html:153
+msgid "Models List"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:158
+#: templates/image/base/main.html:136
+#: templates/management_sa/company/main.html:157
+#: templates/object_detection/base/main.html:135
+#: templates/pretrained_model/base/main.html:135
+#: templates/time_series/base/main.html:162
+msgid "Setting"
+msgstr ""
+
+#: templates/generic_classifier/base/main.html:165
+#: templates/generic_classifier/member/main.html:19
+#: templates/image/base/main.html:143 templates/image/member/main.html:19
+#: templates/management_ca/project/main.html:252
+#: templates/management_ca/project/main.html:405
+#: templates/object_detection/base/main.html:142
+#: templates/object_detection/member/main.html:19
+#: templates/pretrained_model/base/main.html:142
+#: templates/pretrained_model/member/main.html:19
+#: templates/time_series/base/main.html:169
+#: templates/time_series/member/main.html:19
+msgid "Member List"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:27
+#: templates/generic_classifier/inference/main.html:30
+#: templates/generic_classifier/member/main.html:28
+#: templates/generic_classifier/member/main.html:103
+#: templates/generic_classifier/model/main.html:27
+#: templates/generic_classifier/training_dataset/main.html:27
+#: templates/image/dataset/main.html:27 templates/image/member/main.html:28
+#: templates/image/member/main.html:103 templates/image/model/main.html:27
+#: templates/image/training_dataset/main.html:27
+#: templates/management_ca/employee/main.html:28
+#: templates/management_ca/employee/main.html:122
+#: templates/management_ca/project/main.html:28
+#: templates/management_sa/company/main.html:28
+#: templates/object_detection/dataset/main.html:27
+#: templates/object_detection/inference/main.html:30
+#: templates/object_detection/member/main.html:28
+#: templates/object_detection/member/main.html:103
+#: templates/object_detection/model/main.html:27
+#: templates/object_detection/training_dataset/main.html:27
+#: templates/pretrained_model/dataset/main.html:27
+#: templates/pretrained_model/inference/main.html:30
+#: templates/pretrained_model/member/main.html:28
+#: templates/pretrained_model/member/main.html:103
+#: templates/pretrained_model/model/main.html:27
+#: templates/pretrained_model/training_dataset/main.html:27
+#: templates/time_series/dataset/main.html:27
+#: templates/time_series/feature/main.html:27
+#: templates/time_series/member/main.html:28
+#: templates/time_series/member/main.html:103
+#: templates/time_series/model/main.html:27
+#: templates/time_series/training_dataset/main.html:27
+msgid "New"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:42
+#: templates/generic_classifier/dataset/main.html:115
+#: templates/generic_classifier/training_dataset/main.html:42
+#: templates/generic_classifier/training_dataset/main.html:133
+#: templates/image/training_dataset/main.html:42
+#: templates/image/training_dataset/main.html:135
+#: templates/object_detection/training_dataset/main.html:42
+#: templates/object_detection/training_dataset/main.html:133
+#: templates/pretrained_model/training_dataset/main.html:42
+#: templates/pretrained_model/training_dataset/main.html:133
+#: templates/time_series/dataset/main.html:42
+#: templates/time_series/dataset/main.html:116
+#: templates/time_series/feature/main.html:42
+#: templates/time_series/feature/main.html:115
+#: templates/time_series/training_dataset/main.html:42
+#: templates/time_series/training_dataset/main.html:135
+msgid "File Name"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:43
+#: templates/generic_classifier/dataset/main.html:116
+#: templates/image/dataset/main.html:43 templates/image/dataset/main.html:129
+#: templates/image/training_dataset/main.html:44
+#: templates/image/training_dataset/main.html:137
+#: templates/object_detection/dataset/main.html:43
+#: templates/object_detection/dataset/main.html:131
+#: templates/pretrained_model/dataset/main.html:43
+#: templates/pretrained_model/dataset/main.html:129
+#: templates/time_series/dataset/main.html:43
+#: templates/time_series/dataset/main.html:117
+#: templates/time_series/feature/main.html:44
+#: templates/time_series/feature/main.html:117
+#: templates/time_series/training_dataset/main.html:44
+#: templates/time_series/training_dataset/main.html:137
+msgid "Size"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:44
+#: templates/generic_classifier/dataset/main.html:117
+#: templates/generic_classifier/model/main.html:43
+#: templates/generic_classifier/model/main.html:128
+#: templates/generic_classifier/training_dataset/main.html:44
+#: templates/generic_classifier/training_dataset/main.html:135
+#: templates/image/dataset/main.html:47 templates/image/dataset/main.html:133
+#: templates/image/model/main.html:43 templates/image/model/main.html:118
+#: templates/image/training_dataset/main.html:45
+#: templates/image/training_dataset/main.html:138
+#: templates/object_detection/dataset/main.html:48
+#: templates/object_detection/dataset/main.html:136
+#: templates/object_detection/model/main.html:43
+#: templates/object_detection/model/main.html:127
+#: templates/object_detection/training_dataset/main.html:44
+#: templates/object_detection/training_dataset/main.html:135
+#: templates/pretrained_model/dataset/main.html:47
+#: templates/pretrained_model/dataset/main.html:133
+#: templates/pretrained_model/model/main.html:43
+#: templates/pretrained_model/model/main.html:127
+#: templates/pretrained_model/training_dataset/main.html:44
+#: templates/pretrained_model/training_dataset/main.html:135
+#: templates/time_series/feature/main.html:45
+#: templates/time_series/feature/main.html:118
+#: templates/time_series/model/main.html:43
+#: templates/time_series/model/main.html:119
+#: templates/time_series/training_dataset/main.html:45
+#: templates/time_series/training_dataset/main.html:138
+msgid "Last Modified By"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:45
+#: templates/generic_classifier/dataset/main.html:118
+#: templates/generic_classifier/model/main.html:44
+#: templates/generic_classifier/model/main.html:129
+#: templates/generic_classifier/training_dataset/main.html:45
+#: templates/generic_classifier/training_dataset/main.html:136
+#: templates/image/model/main.html:44 templates/image/model/main.html:119
+#: templates/object_detection/model/main.html:44
+#: templates/object_detection/model/main.html:128
+#: templates/pretrained_model/model/main.html:44
+#: templates/pretrained_model/model/main.html:128
+#: templates/time_series/dataset/main.html:45
+#: templates/time_series/dataset/main.html:119
+#: templates/time_series/feature/main.html:46
+#: templates/time_series/feature/main.html:119
+#: templates/time_series/model/main.html:44
+#: templates/time_series/model/main.html:120
+#: templates/time_series/training_dataset/main.html:46
+#: templates/time_series/training_dataset/main.html:139
+msgid "Last Update Time"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:47
+#: templates/generic_classifier/dataset/main.html:86
+#: templates/generic_classifier/dataset/main.html:120
+#: templates/generic_classifier/dataset/main.html:190
+#: templates/generic_classifier/dataset/main.html:211
+#: templates/generic_classifier/dataset/main.html:217
+#: templates/generic_classifier/model/main.html:49
+#: templates/generic_classifier/model/main.html:97
+#: templates/generic_classifier/model/main.html:134
+#: templates/generic_classifier/model/main.html:316
+#: templates/generic_classifier/model/main.html:342
+#: templates/generic_classifier/model/main.html:348
+#: templates/generic_classifier/training_dataset/main.html:48
+#: templates/generic_classifier/training_dataset/main.html:104
+#: templates/generic_classifier/training_dataset/main.html:139
+#: templates/generic_classifier/training_dataset/main.html:301
+#: templates/generic_classifier/training_dataset/main.html:323
+#: templates/generic_classifier/training_dataset/main.html:329
+#: templates/image/dataset/main.html:49 templates/image/dataset/main.html:86
+#: templates/image/dataset/main.html:135 templates/image/dataset/main.html:204
+#: templates/image/dataset/main.html:249 templates/image/dataset/main.html:269
+#: templates/image/dataset/main.html:275 templates/image/model/main.html:49
+#: templates/image/model/main.html:88 templates/image/model/main.html:124
+#: templates/image/model/main.html:198 templates/image/model/main.html:216
+#: templates/image/model/main.html:222
+#: templates/image/training_dataset/main.html:49
+#: templates/image/training_dataset/main.html:106
+#: templates/image/training_dataset/main.html:142
+#: templates/image/training_dataset/main.html:210
+#: templates/image/training_dataset/main.html:255
+#: templates/image/training_dataset/main.html:261
+#: templates/object_detection/dataset/main.html:50
+#: templates/object_detection/dataset/main.html:88
+#: templates/object_detection/dataset/main.html:138
+#: templates/object_detection/dataset/main.html:207
+#: templates/object_detection/dataset/main.html:252
+#: templates/object_detection/dataset/main.html:272
+#: templates/object_detection/dataset/main.html:278
+#: templates/object_detection/model/main.html:49
+#: templates/object_detection/model/main.html:97
+#: templates/object_detection/model/main.html:133
+#: templates/object_detection/model/main.html:198
+#: templates/object_detection/model/main.html:223
+#: templates/object_detection/model/main.html:229
+#: templates/object_detection/training_dataset/main.html:48
+#: templates/object_detection/training_dataset/main.html:104
+#: templates/object_detection/training_dataset/main.html:139
+#: templates/object_detection/training_dataset/main.html:207
+#: templates/object_detection/training_dataset/main.html:252
+#: templates/object_detection/training_dataset/main.html:258
+#: templates/pretrained_model/dataset/main.html:49
+#: templates/pretrained_model/dataset/main.html:86
+#: templates/pretrained_model/dataset/main.html:135
+#: templates/pretrained_model/dataset/main.html:204
+#: templates/pretrained_model/dataset/main.html:269
+#: templates/pretrained_model/dataset/main.html:275
+#: templates/pretrained_model/model/main.html:49
+#: templates/pretrained_model/model/main.html:97
+#: templates/pretrained_model/model/main.html:133
+#: templates/pretrained_model/model/main.html:230
+#: templates/pretrained_model/model/main.html:256
+#: templates/pretrained_model/model/main.html:262
+#: templates/pretrained_model/training_dataset/main.html:48
+#: templates/pretrained_model/training_dataset/main.html:104
+#: templates/pretrained_model/training_dataset/main.html:139
+#: templates/pretrained_model/training_dataset/main.html:207
+#: templates/pretrained_model/training_dataset/main.html:252
+#: templates/pretrained_model/training_dataset/main.html:258
+#: templates/time_series/dataset/main.html:47
+#: templates/time_series/dataset/main.html:86
+#: templates/time_series/dataset/main.html:121
+#: templates/time_series/dataset/main.html:191
+#: templates/time_series/dataset/main.html:212
+#: templates/time_series/dataset/main.html:218
+#: templates/time_series/feature/main.html:48
+#: templates/time_series/feature/main.html:86
+#: templates/time_series/feature/main.html:121
+#: templates/time_series/feature/main.html:191
+#: templates/time_series/feature/main.html:272
+#: templates/time_series/feature/main.html:278
+#: templates/time_series/model/main.html:49
+#: templates/time_series/model/main.html:88
+#: templates/time_series/model/main.html:125
+#: templates/time_series/model/main.html:340
+#: templates/time_series/model/main.html:365
+#: templates/time_series/model/main.html:371
+#: templates/time_series/training_dataset/main.html:49
+#: templates/time_series/training_dataset/main.html:106
+#: templates/time_series/training_dataset/main.html:142
+#: templates/time_series/training_dataset/main.html:458
+#: templates/time_series/training_dataset/main.html:482
+#: templates/time_series/training_dataset/main.html:488
+msgid "Description"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:48
+#: templates/generic_classifier/dataset/main.html:121
+#: templates/generic_classifier/inference/main.html:47
+#: templates/generic_classifier/inference/main.html:81
+#: templates/generic_classifier/model/main.html:48
+#: templates/generic_classifier/model/main.html:133
+#: templates/generic_classifier/training_dataset/main.html:47
+#: templates/generic_classifier/training_dataset/main.html:138
+#: templates/image/dataset/main.html:50 templates/image/dataset/main.html:136
+#: templates/image/model/main.html:48 templates/image/model/main.html:123
+#: templates/image/training_dataset/main.html:48
+#: templates/image/training_dataset/main.html:141
+#: templates/management_ca/employee/main.html:46
+#: templates/management_ca/employee/main.html:101
+#: templates/management_ca/employee/main.html:199
+#: templates/management_ca/project/main.html:68
+#: templates/management_ca/project/main.html:178
+#: templates/management_ca/project/main.html:494
+#: templates/management_sa/company/main.html:73
+#: templates/management_sa/company/main.html:186
+#: templates/management_sa/company/main.html:390
+#: templates/management_sa/employee/main.html:51
+#: templates/management_sa/employee/main.html:73
+#: templates/management_sa/project/main.html:53
+#: templates/management_sa/project/main.html:138
+#: templates/object_detection/dataset/main.html:51
+#: templates/object_detection/dataset/main.html:139
+#: templates/object_detection/inference/main.html:47
+#: templates/object_detection/inference/main.html:90
+#: templates/object_detection/model/main.html:48
+#: templates/object_detection/model/main.html:132
+#: templates/object_detection/training_dataset/main.html:47
+#: templates/object_detection/training_dataset/main.html:138
+#: templates/pretrained_model/dataset/main.html:50
+#: templates/pretrained_model/dataset/main.html:136
+#: templates/pretrained_model/inference/main.html:47
+#: templates/pretrained_model/inference/main.html:90
+#: templates/pretrained_model/model/main.html:48
+#: templates/pretrained_model/model/main.html:132
+#: templates/pretrained_model/training_dataset/main.html:47
+#: templates/pretrained_model/training_dataset/main.html:138
+#: templates/time_series/dataset/main.html:48
+#: templates/time_series/dataset/main.html:122
+#: templates/time_series/feature/main.html:47
+#: templates/time_series/feature/main.html:120
+#: templates/time_series/model/main.html:48
+#: templates/time_series/model/main.html:124
+#: templates/time_series/training_dataset/main.html:48
+#: templates/time_series/training_dataset/main.html:141
+msgid "Status"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:49
+#: templates/generic_classifier/dataset/main.html:122
+#: templates/generic_classifier/inference/main.html:48
+#: templates/generic_classifier/inference/main.html:82
+#: templates/generic_classifier/member/main.html:45
+#: templates/generic_classifier/member/main.html:82
+#: templates/generic_classifier/model/main.html:51
+#: templates/generic_classifier/model/main.html:136
+#: templates/generic_classifier/training_dataset/main.html:49
+#: templates/generic_classifier/training_dataset/main.html:140
+#: templates/image/dataset/main.html:51 templates/image/dataset/main.html:137
+#: templates/image/member/main.html:45 templates/image/member/main.html:82
+#: templates/image/model/main.html:50 templates/image/model/main.html:125
+#: templates/image/training_dataset/main.html:50
+#: templates/image/training_dataset/main.html:143
+#: templates/management_ca/employee/main.html:47
+#: templates/management_ca/employee/main.html:102
+#: templates/management_ca/project/main.html:69
+#: templates/management_ca/project/main.html:179
+#: templates/management_sa/company/main.html:74
+#: templates/management_sa/company/main.html:187
+#: templates/object_detection/dataset/main.html:52
+#: templates/object_detection/dataset/main.html:140
+#: templates/object_detection/inference/main.html:48
+#: templates/object_detection/inference/main.html:91
+#: templates/object_detection/member/main.html:45
+#: templates/object_detection/member/main.html:82
+#: templates/object_detection/model/main.html:51
+#: templates/object_detection/model/main.html:135
+#: templates/object_detection/training_dataset/main.html:49
+#: templates/object_detection/training_dataset/main.html:140
+#: templates/pretrained_model/dataset/main.html:51
+#: templates/pretrained_model/dataset/main.html:137
+#: templates/pretrained_model/inference/main.html:48
+#: templates/pretrained_model/inference/main.html:91
+#: templates/pretrained_model/member/main.html:45
+#: templates/pretrained_model/member/main.html:82
+#: templates/pretrained_model/model/main.html:51
+#: templates/pretrained_model/model/main.html:135
+#: templates/pretrained_model/training_dataset/main.html:49
+#: templates/pretrained_model/training_dataset/main.html:140
+#: templates/time_series/dataset/main.html:49
+#: templates/time_series/dataset/main.html:123
+#: templates/time_series/feature/main.html:49
+#: templates/time_series/feature/main.html:122
+#: templates/time_series/member/main.html:45
+#: templates/time_series/member/main.html:82
+#: templates/time_series/model/main.html:50
+#: templates/time_series/model/main.html:126
+#: templates/time_series/training_dataset/main.html:50
+#: templates/time_series/training_dataset/main.html:143
+msgid "Action"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:93
+#: templates/generic_classifier/model/main.html:104
+#: templates/generic_classifier/training_dataset/main.html:111
+#: templates/image/model/main.html:95
+#: templates/image/training_dataset/main.html:113
+#: templates/object_detection/model/main.html:104
+#: templates/object_detection/training_dataset/main.html:111
+#: templates/pretrained_model/model/main.html:104
+#: templates/pretrained_model/training_dataset/main.html:111
+#: templates/time_series/dataset/main.html:93
+#: templates/time_series/feature/main.html:93
+#: templates/time_series/model/main.html:95
+#: templates/time_series/training_dataset/main.html:113
+msgid "Download"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:99
+#: templates/generic_classifier/model/main.html:111
+#: templates/generic_classifier/training_dataset/main.html:117
+#: templates/image/dataset/main.html:112 templates/image/model/main.html:101
+#: templates/image/training_dataset/main.html:119
+#: templates/management_ca/employee/main.html:84
+#: templates/object_detection/dataset/main.html:114
+#: templates/object_detection/model/main.html:110
+#: templates/object_detection/training_dataset/main.html:117
+#: templates/pretrained_model/dataset/main.html:112
+#: templates/pretrained_model/model/main.html:110
+#: templates/pretrained_model/training_dataset/main.html:117
+#: templates/time_series/dataset/main.html:100
+#: templates/time_series/feature/main.html:99
+#: templates/time_series/model/main.html:102
+#: templates/time_series/training_dataset/main.html:119
+msgid "Delete"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:143
+#: templates/generic_classifier/inference/main.html:191
+#: templates/generic_classifier/model/main.html:157
+#: templates/generic_classifier/training_dataset/main.html:161
+#: templates/image/model/main.html:146
+#: templates/image/training_dataset/main.html:164
+#: templates/management_ca/overview/main.html:171
+#: templates/management_sa/overview/main.html:172
+#: templates/object_detection/inference/main.html:232
+#: templates/object_detection/model/main.html:156
+#: templates/object_detection/training_dataset/main.html:161
+#: templates/pretrained_model/inference/main.html:211
+#: templates/pretrained_model/model/main.html:156
+#: templates/pretrained_model/training_dataset/main.html:161
+#: templates/time_series/dataset/main.html:144
+#: templates/time_series/feature/main.html:143
+#: templates/time_series/model/main.html:147
+#: templates/time_series/training_dataset/main.html:164
+msgid "Warning"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:149
+#: templates/generic_classifier/inference/main.html:197
+#: templates/generic_classifier/model/main.html:163
+#: templates/generic_classifier/training_dataset/main.html:167
+#: templates/image/model/main.html:152
+#: templates/image/training_dataset/main.html:170
+#: templates/management_ca/overview/main.html:177
+#: templates/management_sa/overview/main.html:178
+#: templates/object_detection/inference/main.html:238
+#: templates/object_detection/model/main.html:162
+#: templates/object_detection/training_dataset/main.html:167
+#: templates/pretrained_model/inference/main.html:217
+#: templates/pretrained_model/model/main.html:162
+#: templates/pretrained_model/training_dataset/main.html:167
+#: templates/time_series/dataset/main.html:150
+#: templates/time_series/feature/main.html:149
+#: templates/time_series/model/main.html:153
+#: templates/time_series/training_dataset/main.html:170
+msgid "OK"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:161
+#: templates/generic_classifier/inference/main.html:151
+#: templates/image/dataset/main.html:158
+#: templates/object_detection/dataset/main.html:161
+#: templates/pretrained_model/dataset/main.html:158
+#: templates/time_series/dataset/main.html:162
+msgid "New Data"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:168
+#: templates/generic_classifier/inference/main.html:158
+#: templates/time_series/dataset/main.html:169
+msgid "Upload CSV File"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:174
+#: templates/generic_classifier/inference/main.html:164
+#: templates/time_series/dataset/main.html:175
+msgid "Upload a CSV File"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:177
+#: templates/generic_classifier/inference/main.html:167
+#: templates/time_series/dataset/main.html:178
+msgid "Select a CSV File"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:186
+#: templates/image/dataset/main.html:200
+#: templates/object_detection/dataset/main.html:203
+#: templates/pretrained_model/dataset/main.html:200
+#: templates/time_series/dataset/main.html:187
+msgid "Name the File"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:186
+#: templates/generic_classifier/model/main.html:198
+#: templates/image/dataset/main.html:200 templates/image/model/main.html:174
+#: templates/image/training_dataset/main.html:206
+#: templates/object_detection/dataset/main.html:203
+#: templates/object_detection/model/main.html:184
+#: templates/object_detection/training_dataset/main.html:203
+#: templates/pretrained_model/dataset/main.html:200
+#: templates/pretrained_model/model/main.html:185
+#: templates/pretrained_model/training_dataset/main.html:203
+#: templates/time_series/dataset/main.html:187
+#: templates/time_series/feature/main.html:187
+#: templates/time_series/model/main.html:187
+msgid "Consists of a ~ z, A ~ Z, 0 ~ 9 and _"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:198
+#: templates/generic_classifier/dataset/main.html:224
+#: templates/generic_classifier/inference/main.html:178
+#: templates/generic_classifier/member/main.html:129
+#: templates/generic_classifier/model/main.html:324
+#: templates/generic_classifier/model/main.html:355
+#: templates/generic_classifier/training_dataset/main.html:309
+#: templates/generic_classifier/training_dataset/main.html:336
+#: templates/image/dataset/main.html:212 templates/image/dataset/main.html:256
+#: templates/image/dataset/main.html:282 templates/image/member/main.html:129
+#: templates/image/model/main.html:203 templates/image/model/main.html:229
+#: templates/image/training_dataset/main.html:242
+#: templates/image/training_dataset/main.html:268
+#: templates/management_ca/employee/main.html:145
+#: templates/management_ca/employee/main.html:181
+#: templates/management_ca/employee/main.html:222
+#: templates/management_ca/employee/main.html:246
+#: templates/management_ca/overview/main.html:161
+#: templates/management_ca/project/main.html:319
+#: templates/management_ca/project/main.html:472
+#: templates/management_ca/project/main.html:517
+#: templates/management_sa/company/main.html:277
+#: templates/management_sa/company/main.html:360
+#: templates/management_sa/company/main.html:406
+#: templates/management_sa/overview/main.html:162
+#: templates/object_detection/dataset/main.html:215
+#: templates/object_detection/dataset/main.html:259
+#: templates/object_detection/dataset/main.html:285
+#: templates/object_detection/inference/main.html:219
+#: templates/object_detection/member/main.html:129
+#: templates/object_detection/model/main.html:205
+#: templates/object_detection/model/main.html:236
+#: templates/object_detection/training_dataset/main.html:239
+#: templates/object_detection/training_dataset/main.html:265
+#: templates/pretrained_model/dataset/main.html:212
+#: templates/pretrained_model/dataset/main.html:256
+#: templates/pretrained_model/dataset/main.html:282
+#: templates/pretrained_model/inference/main.html:198
+#: templates/pretrained_model/member/main.html:129
+#: templates/pretrained_model/model/main.html:238
+#: templates/pretrained_model/model/main.html:269
+#: templates/pretrained_model/training_dataset/main.html:239
+#: templates/pretrained_model/training_dataset/main.html:265
+#: templates/time_series/dataset/main.html:199
+#: templates/time_series/dataset/main.html:225
+#: templates/time_series/feature/main.html:258
+#: templates/time_series/feature/main.html:285
+#: templates/time_series/member/main.html:129
+#: templates/time_series/model/main.html:347
+#: templates/time_series/model/main.html:378
+#: templates/time_series/training_dataset/main.html:466
+#: templates/time_series/training_dataset/main.html:495
+msgid "Close"
+msgstr ""
+
+#: templates/generic_classifier/dataset/main.html:199
+#: templates/generic_classifier/dataset/main.html:225
+#: templates/generic_classifier/inference/main.html:179
+#: templates/generic_classifier/member/main.html:130
+#: templates/generic_classifier/model/main.html:328
+#: templates/generic_classifier/model/main.html:356
+#: templates/generic_classifier/training_dataset/main.html:311
+#: templates/generic_classifier/training_dataset/main.html:337
+#: templates/image/dataset/main.html:213 templates/image/dataset/main.html:257
+#: templates/image/dataset/main.html:283 templates/image/member/main.html:130
+#: templates/image/model/main.html:204 templates/image/model/main.html:230
+#: templates/image/training_dataset/main.html:243
+#: templates/image/training_dataset/main.html:269
+#: templates/management_ca/employee/main.html:146
+#: templates/management_ca/employee/main.html:182
+#: templates/management_ca/employee/main.html:223
+#: templates/management_ca/employee/main.html:247
+#: templates/management_ca/project/main.html:323
+#: templates/management_ca/project/main.html:473
+#: templates/management_ca/project/main.html:518
+#: templates/management_sa/company/main.html:278
+#: templates/management_sa/company/main.html:361
+#: templates/management_sa/company/main.html:407
+#: templates/object_detection/dataset/main.html:216
+#: templates/object_detection/dataset/main.html:260
+#: templates/object_detection/dataset/main.html:286
+#: templates/object_detection/inference/main.html:220
+#: templates/object_detection/member/main.html:130
+#: templates/object_detection/model/main.html:209
+#: templates/object_detection/model/main.html:237
+#: templates/object_detection/training_dataset/main.html:240
+#: templates/object_detection/training_dataset/main.html:266
+#: templates/pretrained_model/dataset/main.html:213
+#: templates/pretrained_model/dataset/main.html:257
+#: templates/pretrained_model/dataset/main.html:283
+#: templates/pretrained_model/inference/main.html:199
+#: templates/pretrained_model/member/main.html:130
+#: templates/pretrained_model/model/main.html:242
+#: templates/pretrained_model/model/main.html:270
+#: templates/pretrained_model/training_dataset/main.html:240
+#: templates/pretrained_model/training_dataset/main.html:266
+#: templates/time_series/dataset/main.html:200
+#: templates/time_series/dataset/main.html:226
+#: templates/time_series/feature/main.html:260
+#: templates/time_series/feature/main.html:286
+#: templates/time_series/member/main.html:130
+#: templates/time_series/model/main.html:351
+#: templates/time_series/model/main.html:379
+#: templates/time_series/training_dataset/main.html:470
+#: templates/time_series/training_dataset/main.html:496
+msgid "Save"
+msgstr ""
+
+#: templates/generic_classifier/deploy/main.html:18
+#: templates/generic_classifier/inference/main.html:19
+#: templates/generic_classifier/model/main.html:18
+#: templates/generic_classifier/model_info/main.html:18
+#: templates/image/base/main.html:127 templates/image/model/main.html:18
+#: templates/image/model_info/main.html:19
+#: templates/object_detection/deploy/main.html:18
+#: templates/object_detection/inference/main.html:19
+#: templates/object_detection/model/main.html:18
+#: templates/object_detection/model_info/main.html:18
+#: templates/pretrained_model/deploy/main.html:18
+#: templates/pretrained_model/inference/main.html:19
+#: templates/pretrained_model/model/main.html:18
+#: templates/pretrained_model/model_info/main.html:18
+#: templates/time_series/model/main.html:18
+#: templates/time_series/model_info/main.html:19
+msgid "Model List"
+msgstr ""
+
+#: templates/generic_classifier/deploy/main.html:19
+#: templates/object_detection/deploy/main.html:19
+#: templates/pretrained_model/deploy/main.html:19
+msgid "Deploy"
+msgstr ""
+
+#: templates/generic_classifier/inference/main.html:45
+#: templates/generic_classifier/inference/main.html:79
+msgid "CSV Name"
+msgstr ""
+
+#: templates/generic_classifier/inference/main.html:46
+#: templates/generic_classifier/inference/main.html:80
+#: templates/object_detection/inference/main.html:46
+#: templates/object_detection/inference/main.html:89
+#: templates/pretrained_model/inference/main.html:46
+#: templates/pretrained_model/inference/main.html:89
+msgid "Date"
+msgstr ""
+
+#: templates/generic_classifier/inference/main.html:111
+#: templates/generic_classifier/inference/main.html:128
+#: templates/generic_classifier/training_dataset/main.html:213
+msgid "Category ID"
+msgstr ""
+
+#: templates/generic_classifier/inference/main.html:112
+#: templates/generic_classifier/inference/main.html:129
+#: templates/pretrained_model/inference/main.html:122
+#: templates/pretrained_model/inference/main.html:143
+msgid "Result"
+msgstr ""
+
+#: templates/generic_classifier/member/main.html:42
+#: templates/generic_classifier/member/main.html:79
+#: templates/image/member/main.html:42 templates/image/member/main.html:79
+#: templates/management_ca/employee/main.html:43
+#: templates/management_ca/employee/main.html:98
+#: templates/management_ca/employee/main.html:135
+#: templates/management_ca/employee/main.html:171
+#: templates/management_sa/company/main.html:224
+#: templates/management_sa/company/main.html:306
+#: templates/management_sa/employee/main.html:48
+#: templates/management_sa/employee/main.html:70
+#: templates/object_detection/member/main.html:42
+#: templates/object_detection/member/main.html:79
+#: templates/pretrained_model/member/main.html:42
+#: templates/pretrained_model/member/main.html:79
+#: templates/time_series/member/main.html:42
+#: templates/time_series/member/main.html:79
+msgid "Name"
+msgstr ""
+
+#: templates/generic_classifier/member/main.html:64
+#: templates/image/member/main.html:64
+#: templates/object_detection/member/main.html:64
+#: templates/pretrained_model/member/main.html:64
+#: templates/time_series/member/main.html:64
+msgid "Remove"
+msgstr ""
+
+#: templates/generic_classifier/member/main.html:108
+#: templates/image/member/main.html:108
+#: templates/object_detection/member/main.html:108
+#: templates/pretrained_model/member/main.html:108
+#: templates/time_series/member/main.html:108
+msgid "Account"
+msgstr ""
+
+#: templates/generic_classifier/member/main.html:113
+#: templates/image/member/main.html:113
+#: templates/management_ca/project/main.html:244
+#: templates/management_ca/project/main.html:397
+#: templates/object_detection/member/main.html:113
+#: templates/pretrained_model/member/main.html:113
+#: templates/time_series/member/main.html:113
+msgid "Select an employee as a project member."
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:41
+#: templates/generic_classifier/model/main.html:126
+#: templates/generic_classifier/model/main.html:196
+#: templates/image/model/main.html:41 templates/image/model/main.html:116
+#: templates/image/model/main.html:174
+#: templates/object_detection/model/main.html:41
+#: templates/object_detection/model/main.html:125
+#: templates/object_detection/model/main.html:184
+#: templates/pretrained_model/model/main.html:41
+#: templates/pretrained_model/model/main.html:125
+#: templates/pretrained_model/model/main.html:185
+#: templates/time_series/model/main.html:41
+#: templates/time_series/model/main.html:117
+#: templates/time_series/model/main.html:185
+msgid "Model Name"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:42
+#: templates/generic_classifier/model/main.html:127
+#: templates/generic_classifier/training_dataset/main.html:43
+#: templates/generic_classifier/training_dataset/main.html:134
+#: templates/image/model/main.html:42 templates/image/model/main.html:117
+#: templates/image/training_dataset/main.html:43
+#: templates/image/training_dataset/main.html:136
+#: templates/object_detection/model/main.html:42
+#: templates/object_detection/model/main.html:126
+#: templates/object_detection/training_dataset/main.html:43
+#: templates/object_detection/training_dataset/main.html:134
+#: templates/pretrained_model/model/main.html:42
+#: templates/pretrained_model/model/main.html:126
+#: templates/pretrained_model/training_dataset/main.html:43
+#: templates/pretrained_model/training_dataset/main.html:134
+#: templates/time_series/feature/main.html:43
+#: templates/time_series/feature/main.html:116
+#: templates/time_series/model/main.html:42
+#: templates/time_series/model/main.html:118
+#: templates/time_series/training_dataset/main.html:43
+#: templates/time_series/training_dataset/main.html:136
+msgid "Data Source"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:45
+#: templates/generic_classifier/model/main.html:130
+#: templates/image/model/main.html:45 templates/image/model/main.html:120
+#: templates/object_detection/model/main.html:45
+#: templates/object_detection/model/main.html:129
+#: templates/pretrained_model/model/main.html:45
+#: templates/pretrained_model/model/main.html:129
+#: templates/time_series/model/main.html:45
+#: templates/time_series/model/main.html:121
+msgid "Predict Type"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:46
+#: templates/generic_classifier/model/main.html:131
+#: templates/generic_classifier/model/main.html:301
+#: templates/image/model/main.html:46 templates/image/model/main.html:121
+#: templates/object_detection/model/main.html:46
+#: templates/object_detection/model/main.html:130
+#: templates/pretrained_model/model/main.html:46
+#: templates/pretrained_model/model/main.html:130
+#: templates/time_series/model/main.html:46
+#: templates/time_series/model/main.html:122
+#: templates/time_series/model/main.html:290
+msgid "Metric"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:47
+#: templates/generic_classifier/model/main.html:132
+#: templates/image/model/main.html:47 templates/image/model/main.html:122
+#: templates/object_detection/model/main.html:47
+#: templates/object_detection/model/main.html:131
+#: templates/pretrained_model/model/main.html:47
+#: templates/pretrained_model/model/main.html:131
+#: templates/time_series/model/main.html:47
+#: templates/time_series/model/main.html:123
+msgid "Score"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:50
+#: templates/generic_classifier/model/main.html:135
+#: templates/object_detection/model/main.html:50
+#: templates/object_detection/model/main.html:134
+#: templates/pretrained_model/model/main.html:50
+#: templates/pretrained_model/model/main.html:134
+msgid "Inference"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:90
+#: templates/image/model/main.html:81
+#: templates/object_detection/model/main.html:90
+#: templates/pretrained_model/model/main.html:90
+#: templates/time_series/model/main.html:81
+msgid "Abort Training"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:176
+#: templates/image/model/main.html:164
+#: templates/object_detection/model/main.html:174
+#: templates/pretrained_model/model/main.html:174
+#: templates/time_series/model/main.html:166
+msgid "New Model"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:180
+#: templates/time_series/model/main.html:170
+msgid "We can use default parameters to create the model."
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:190
+msgid "Training DataSet"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:204
+#: templates/time_series/model/main.html:193
+msgid "Mode"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:208
+#: templates/time_series/model/main.html:197
+msgid ""
+"We provide three sets of parameters (Quick, Normal, Long). Generally, "
+"Quick will take half day, Normal will take 1 day, and Long will take 2 to"
+" 3 days. You can also set parameters yourself according to your needs."
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:217
+#: templates/time_series/model/main.html:206
+msgid "Quick"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:224
+#: templates/time_series/model/main.html:213
+msgid "Normal"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:231
+#: templates/time_series/model/main.html:220
+msgid "Long"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:238
+#: templates/time_series/model/main.html:227
+msgid "Customized"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:252
+#: templates/time_series/model/main.html:241
+msgid "time left for this task"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:258
+#: templates/time_series/model/main.html:247
+msgid "per run time limit"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:263
+#: templates/time_series/model/main.html:252
+msgid "ensemble size"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:268
+#: templates/time_series/model/main.html:257
+msgid "ensemble nbest"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:277
+#: templates/time_series/model/main.html:266
+msgid "AutoDL"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:283
+#: templates/time_series/model/main.html:272
+msgid "batch size"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:288
+#: templates/time_series/model/main.html:277
+msgid "max trials"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:293
+#: templates/time_series/model/main.html:282
+msgid "epochs"
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:305
+#: templates/time_series/model/main.html:294
+msgid ""
+"During model training, the best model will be selected based on the "
+"metric function score of the validation data."
+msgstr ""
+
+#: templates/generic_classifier/model/main.html:327
+#: templates/object_detection/model/main.html:208
+#: templates/pretrained_model/model/main.html:241
+#: templates/time_series/model/main.html:350
+msgid "Default"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:127
+#: templates/image/model_info/main.html:155
+#: templates/object_detection/model_info/main.html:116
+#: templates/pretrained_model/model_info/main.html:126
+#: templates/time_series/model_info/main.html:237
+msgid "Information"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:131
+#: templates/image/model_info/main.html:159
+#: templates/object_detection/model_info/main.html:120
+#: templates/pretrained_model/model_info/main.html:130
+#: templates/time_series/model_info/main.html:241
+msgid "First Build"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:140
+#: templates/image/model_info/main.html:168
+#: templates/image/training_dataset/main.html:46
+#: templates/image/training_dataset/main.html:139
+#: templates/object_detection/model_info/main.html:129
+#: templates/object_detection/training_dataset/main.html:45
+#: templates/object_detection/training_dataset/main.html:136
+#: templates/pretrained_model/model_info/main.html:139
+#: templates/pretrained_model/training_dataset/main.html:45
+#: templates/pretrained_model/training_dataset/main.html:136
+#: templates/time_series/model_info/main.html:250
+msgid "Last Update"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:149
+#: templates/image/model_info/main.html:177
+#: templates/object_detection/model_info/main.html:138
+#: templates/pretrained_model/model_info/main.html:148
+#: templates/time_series/model_info/main.html:259
+msgid "Training Time"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:157
+#: templates/image/model_info/main.html:185
+#: templates/object_detection/model_info/main.html:146
+#: templates/pretrained_model/model_info/main.html:156
+#: templates/time_series/model_info/main.html:267
+msgid "Built by"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:169
+#: templates/image/model_info/main.html:197
+#: templates/object_detection/model_info/main.html:158
+#: templates/time_series/model_info/main.html:279
+msgid "Summary"
+msgstr ""
+
+#: templates/generic_classifier/model_info/main.html:178
+#: templates/image/model_info/main.html:206
+#: templates/object_detection/model_info/main.html:167
+#: templates/pretrained_model/model_info/main.html:168
+#: templates/time_series/model_info/main.html:288
+msgid "Log"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:46
+#: templates/generic_classifier/training_dataset/main.html:137
+#: templates/generic_classifier/training_dataset/main.html:259
+#: templates/image/training_dataset/main.html:47
+#: templates/image/training_dataset/main.html:140
+#: templates/object_detection/training_dataset/main.html:46
+#: templates/object_detection/training_dataset/main.html:137
+#: templates/pretrained_model/training_dataset/main.html:46
+#: templates/pretrained_model/training_dataset/main.html:137
+#: templates/time_series/training_dataset/main.html:47
+#: templates/time_series/training_dataset/main.html:140
+#: templates/time_series/training_dataset/main.html:373
+msgid "Proportion"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:97
+#: templates/image/training_dataset/main.html:99
+#: templates/object_detection/training_dataset/main.html:97
+#: templates/pretrained_model/training_dataset/main.html:97
+#: templates/time_series/training_dataset/main.html:99
+msgid "Jupyter"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:179
+#: templates/image/training_dataset/main.html:182
+#: templates/object_detection/training_dataset/main.html:179
+#: templates/pretrained_model/training_dataset/main.html:179
+#: templates/time_series/training_dataset/main.html:182
+msgid "New Dataset"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:186
+#: templates/time_series/training_dataset/main.html:192
+msgid "Step 1."
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:187
+#: templates/image/training_dataset/main.html:191
+#: templates/object_detection/training_dataset/main.html:188
+#: templates/pretrained_model/training_dataset/main.html:188
+#: templates/time_series/training_dataset/main.html:193
+msgid "Select a Dataset"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:201
+#: templates/image/training_dataset/main.html:200
+#: templates/object_detection/training_dataset/main.html:197
+#: templates/pretrained_model/training_dataset/main.html:197
+#: templates/time_series/training_dataset/main.html:206
+#: templates/time_series/training_dataset/main.html:211
+msgid "Select Version"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:209
+#: templates/time_series/training_dataset/main.html:219
+#: templates/time_series/training_dataset/main.html:225
+#: templates/time_series/training_dataset/main.html:233
+#: templates/time_series/training_dataset/main.html:241
+#: templates/time_series/training_dataset/main.html:307
+#: templates/time_series/training_dataset/main.html:344
+msgid "Select a Column"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:217
+#: templates/time_series/training_dataset/main.html:230
+msgid "Target"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:221
+msgid "Feature"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:229
+#: templates/time_series/training_dataset/main.html:250
+msgid "Step 2."
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:230
+#: templates/time_series/training_dataset/main.html:251
+msgid "Setting Predict Column"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:237
+msgid "Binary Classification"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:238
+msgid "Multiclass Classification"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:246
+#: templates/time_series/training_dataset/main.html:359
+msgid "Step 3."
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:247
+#: templates/time_series/training_dataset/main.html:360
+msgid "Split"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:252
+msgid "Name of the Dataset"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:253
+#: templates/time_series/training_dataset/main.html:366
+msgid "Consists of a ~ z, A ~ Z, 0 ~ 9 and _ ."
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:257
+#: templates/time_series/feature/main.html:196
+#: templates/time_series/training_dataset/main.html:370
+msgid "Method"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:265
+#: templates/image/training_dataset/main.html:216
+#: templates/object_detection/training_dataset/main.html:213
+#: templates/pretrained_model/training_dataset/main.html:213
+msgid "Training Set"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:276
+#: templates/image/training_dataset/main.html:224
+#: templates/object_detection/training_dataset/main.html:221
+#: templates/pretrained_model/training_dataset/main.html:221
+msgid "Validation Set"
+msgstr ""
+
+#: templates/generic_classifier/training_dataset/main.html:288
+#: templates/image/training_dataset/main.html:232
+#: templates/object_detection/training_dataset/main.html:229
+#: templates/pretrained_model/training_dataset/main.html:229
+msgid "Testing Set"
+msgstr ""
+
+#: templates/image/dataset/main.html:42 templates/image/dataset/main.html:128
+#: templates/object_detection/dataset/main.html:42
+#: templates/object_detection/dataset/main.html:130
+#: templates/pretrained_model/dataset/main.html:42
+#: templates/pretrained_model/dataset/main.html:128
+msgid "Image File"
+msgstr ""
+
+#: templates/image/dataset/main.html:44 templates/image/dataset/main.html:130
+#: templates/object_detection/dataset/main.html:44
+#: templates/object_detection/dataset/main.html:132
+#: templates/pretrained_model/dataset/main.html:44
+#: templates/pretrained_model/dataset/main.html:130
+msgid "Total Images"
+msgstr ""
+
+#: templates/image/dataset/main.html:45 templates/image/dataset/main.html:131
+#: templates/object_detection/dataset/main.html:45
+#: templates/object_detection/dataset/main.html:133
+#: templates/pretrained_model/dataset/main.html:45
+#: templates/pretrained_model/dataset/main.html:131
+msgid "Labeled Images"
+msgstr ""
+
+#: templates/image/dataset/main.html:48 templates/image/dataset/main.html:134
+msgid "Last Labeled"
+msgstr ""
+
+#: templates/image/dataset/main.html:79
+#: templates/object_detection/dataset/main.html:81
+#: templates/pretrained_model/dataset/main.html:79
+msgid "Label"
+msgstr ""
+
+#: templates/image/dataset/main.html:92 templates/image/dataset/main.html:225
+#: templates/object_detection/dataset/main.html:94
+#: templates/object_detection/dataset/main.html:228
+#: templates/pretrained_model/dataset/main.html:92
+msgid "Update JSON"
+msgstr ""
+
+#: templates/image/dataset/main.html:99
+#: templates/object_detection/dataset/main.html:101
+#: templates/pretrained_model/dataset/main.html:99
+msgid "Download ZIP"
+msgstr ""
+
+#: templates/image/dataset/main.html:106
+#: templates/object_detection/dataset/main.html:108
+#: templates/pretrained_model/dataset/main.html:106
+msgid "Download JSON"
+msgstr ""
+
+#: templates/image/dataset/main.html:165
+#: templates/object_detection/dataset/main.html:168
+#: templates/pretrained_model/dataset/main.html:165
+msgid "Upload image ZIP"
+msgstr ""
+
+#: templates/image/dataset/main.html:171
+#: templates/object_detection/dataset/main.html:174
+#: templates/pretrained_model/dataset/main.html:171
+msgid "Upload a ZIP File"
+msgstr ""
+
+#: templates/image/dataset/main.html:174
+#: templates/object_detection/dataset/main.html:177
+#: templates/pretrained_model/dataset/main.html:174
+msgid "Select a ZIP File"
+msgstr ""
+
+#: templates/image/dataset/main.html:182
+#: templates/object_detection/dataset/main.html:185
+#: templates/pretrained_model/dataset/main.html:182
+msgid "Upload JSON"
+msgstr ""
+
+#: templates/image/dataset/main.html:188 templates/image/dataset/main.html:238
+#: templates/object_detection/dataset/main.html:191
+#: templates/object_detection/dataset/main.html:241
+#: templates/pretrained_model/dataset/main.html:188
+msgid "Upload a JSON File"
+msgstr ""
+
+#: templates/image/dataset/main.html:191 templates/image/dataset/main.html:241
+#: templates/object_detection/dataset/main.html:194
+#: templates/object_detection/dataset/main.html:244
+#: templates/pretrained_model/dataset/main.html:191
+msgid "Select a JSON File"
+msgstr ""
+
+#: templates/image/dataset/main.html:232
+#: templates/object_detection/dataset/main.html:235
+msgid "Upload JSON File"
+msgstr ""
+
+#: templates/image/model/main.html:170
+#: templates/object_detection/model/main.html:180
+#: templates/pretrained_model/model/main.html:181
+msgid "Select a Training Dataset"
+msgstr ""
+
+#: templates/image/model/main.html:179
+msgid "Max Trials"
+msgstr ""
+
+#: templates/image/model/main.html:183
+#: templates/object_detection/model/main.html:189
+msgid "Epochs"
+msgstr ""
+
+#: templates/image/model/main.html:189
+#: templates/object_detection/model/main.html:193
+msgid "Batch Size"
+msgstr ""
+
+#: templates/image/model/main.html:193
+msgid "Image Size"
+msgstr ""
+
+#: templates/image/training_dataset/main.html:196
+#: templates/object_detection/dataset/main.html:47
+#: templates/object_detection/dataset/main.html:135
+#: templates/object_detection/training_dataset/main.html:193
+#: templates/pretrained_model/training_dataset/main.html:193
+msgid "JSON Version"
+msgstr ""
+
+#: templates/image/training_dataset/main.html:205
+#: templates/object_detection/training_dataset/main.html:202
+#: templates/pretrained_model/training_dataset/main.html:202
+msgid "Name the Split File"
+msgstr ""
+
+#: templates/management_ca/base/main.html:96
+#: templates/management_ca/employee/main.html:19
+#: templates/management_sa/base/main.html:96
+#: templates/management_sa/employee/main.html:19
+msgid "Employee List"
+msgstr ""
+
+#: templates/management_ca/base/main.html:98
+#: templates/management_ca/overview/main.html:19
+#: templates/management_sa/base/main.html:98
+#: templates/management_sa/overview/main.html:19
+msgid "Overview"
+msgstr ""
+
+#: templates/management_ca/base/main.html:111
+#: templates/management_ca/project/main.html:19
+#: templates/management_sa/base/main.html:111
+#: templates/management_sa/project/main.html:19
+msgid "Project List"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:42
+#: templates/management_ca/employee/main.html:97
+#: templates/management_sa/company/main.html:68
+#: templates/management_sa/company/main.html:181
+#: templates/management_sa/company/main.html:221
+#: templates/management_sa/company/main.html:303
+msgid "Company Admin"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:45
+#: templates/management_ca/employee/main.html:100
+#: templates/management_ca/employee/main.html:131
+#: templates/management_ca/employee/main.html:167
+#: templates/management_sa/employee/main.html:50
+#: templates/management_sa/employee/main.html:72
+msgid "Department"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:70
+#: templates/management_ca/employee/main.html:158
+#: templates/management_ca/project/main.html:153
+msgid "Edit"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:77
+#: templates/management_ca/project/main.html:160
+#: templates/management_sa/company/main.html:164
+msgid "Permission"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:194
+#: templates/management_ca/project/main.html:489
+#: templates/management_sa/company/main.html:373
+msgid "Edit Permission"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:209
+msgid "Employee Name"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:213
+#: templates/management_ca/employee/main.html:240
+#: templates/management_ca/project/main.html:508
+#: templates/management_sa/company/main.html:400
+msgid "Password"
+msgstr ""
+
+#: templates/management_ca/employee/main.html:235
+msgid "Delete Employee"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:27
+#: templates/management_ca/project/main.html:67
+#: templates/management_ca/project/main.html:177
+#: templates/management_ca/project/main.html:275
+#: templates/management_ca/project/main.html:428
+#: templates/management_sa/company/main.html:72
+#: templates/management_sa/company/main.html:185
+#: templates/management_sa/company/main.html:236
+#: templates/management_sa/company/main.html:318
+#: templates/management_sa/overview/main.html:27
+#: templates/management_sa/project/main.html:52
+#: templates/management_sa/project/main.html:137
+msgid "Resource"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:64
+#: templates/management_ca/overview/main.html:106
+msgid "Project name"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:67
+#: templates/management_ca/overview/main.html:109
+#: templates/management_sa/overview/main.html:67
+#: templates/management_sa/overview/main.html:97
+msgid "CPU"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:68
+msgid "(Core)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:71
+#: templates/management_ca/overview/main.html:113
+#: templates/management_sa/overview/main.html:71
+#: templates/management_sa/overview/main.html:101
+msgid "GPU"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:72
+#: templates/management_ca/overview/main.html:114
+#: templates/management_sa/overview/main.html:72
+#: templates/management_sa/overview/main.html:102
+msgid "(PC)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:75
+#: templates/management_ca/overview/main.html:117
+#: templates/management_sa/overview/main.html:75
+#: templates/management_sa/overview/main.html:105
+msgid "Memory"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:76
+#: templates/management_ca/overview/main.html:80
+#: templates/management_ca/overview/main.html:118
+#: templates/management_ca/overview/main.html:122
+#: templates/management_sa/overview/main.html:76
+#: templates/management_sa/overview/main.html:80
+#: templates/management_sa/overview/main.html:106
+#: templates/management_sa/overview/main.html:110
+msgid "(GB)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:79
+#: templates/management_ca/overview/main.html:121
+#: templates/management_sa/overview/main.html:79
+#: templates/management_sa/overview/main.html:109
+msgid "Storage"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:83
+#: templates/management_ca/overview/main.html:125
+#: templates/management_ca/project/main.html:231
+#: templates/management_ca/project/main.html:384
+#: templates/management_sa/overview/main.html:83
+#: templates/management_sa/overview/main.html:113
+msgid "Note"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:110
+#: templates/management_sa/overview/main.html:68
+#: templates/management_sa/overview/main.html:98
+msgid "(core)"
+msgstr ""
+
+#: templates/management_ca/overview/main.html:145
+msgid "Resource by Project"
+msgstr ""
+
+#: templates/management_ca/project/main.html:64
+#: templates/management_ca/project/main.html:174
+#: templates/management_ca/project/main.html:208
+#: templates/management_ca/project/main.html:343
+#: templates/management_ca/project/main.html:504
+#: templates/management_sa/project/main.html:49
+#: templates/management_sa/project/main.html:134
+msgid "Project Name"
+msgstr ""
+
+#: templates/management_ca/project/main.html:65
+#: templates/management_ca/project/main.html:175
+#: templates/management_sa/project/main.html:50
+#: templates/management_sa/project/main.html:135
+msgid "Project Admin"
+msgstr ""
+
+#: templates/management_ca/project/main.html:200
+msgid "Create Project"
+msgstr ""
+
+#: templates/management_ca/project/main.html:214
+#: templates/management_ca/project/main.html:366
+msgid "Training Type"
+msgstr ""
+
+#: templates/management_ca/project/main.html:226
+#: templates/management_ca/project/main.html:378
+msgid "Project Description"
+msgstr ""
+
+#: templates/management_ca/project/main.html:237
+#: templates/management_ca/project/main.html:390
+msgid "Add Project Member"
+msgstr ""
+
+#: templates/management_ca/project/main.html:321
+#: templates/time_series/training_dataset/main.html:468
+msgid "Back"
+msgstr ""
+
+#: templates/management_ca/project/main.html:322
+#: templates/time_series/training_dataset/main.html:469
+msgid "Next"
+msgstr ""
+
+#: templates/management_ca/project/main.html:335
+msgid "Update Project"
+msgstr ""
+
+#: templates/management_ca/project/main.html:348
+msgid "Project ID"
+msgstr ""
+
+#: templates/management_ca/project/main.html:351
+msgid "Project ID is auto-generated. You can modify the project id later."
+msgstr ""
+
+#: templates/management_sa/base/main.html:94
+#: templates/management_sa/company/main.html:19
+msgid "Company List"
+msgstr ""
+
+#: templates/management_sa/company/main.html:69
+#: templates/management_sa/company/main.html:182
+msgid "ID"
+msgstr ""
+
+#: templates/management_sa/company/main.html:70
+#: templates/management_sa/company/main.html:183
+msgid "Tax ID"
+msgstr ""
+
+#: templates/management_sa/company/main.html:71
+#: templates/management_sa/company/main.html:184
+msgid "Members"
+msgstr ""
+
+#: templates/management_sa/company/main.html:208
+msgid "New Company"
+msgstr ""
+
+#: templates/management_sa/company/main.html:213
+#: templates/management_sa/company/main.html:295
+#: templates/management_sa/company/main.html:378
+#: templates/management_sa/overview/main.html:64
+#: templates/management_sa/overview/main.html:94
+msgid "Company Name"
+msgstr ""
+
+#: templates/management_sa/company/main.html:217
+#: templates/management_sa/company/main.html:299
+msgid "Company Tax ID"
+msgstr ""
+
+#: templates/management_sa/company/main.html:290
+msgid "Edit Company"
+msgstr ""
+
+#: templates/management_sa/company/main.html:382
+msgid "Register Date"
+msgstr ""
+
+#: templates/management_sa/company/main.html:386
+msgid "Total Time"
+msgstr ""
+
+#: templates/management_sa/company/main.html:387
+msgid "Days"
+msgstr ""
+
+#: templates/management_sa/overview/main.html:65
+#: templates/management_sa/overview/main.html:95
+msgid "Project Number"
+msgstr ""
+
+#: templates/management_sa/overview/main.html:146
+msgid "Resource by Company"
+msgstr ""
+
+#: templates/object_detection/dataset/main.html:46
+#: templates/object_detection/dataset/main.html:134
+#: templates/object_detection/inference/main.html:123
+#: templates/object_detection/inference/main.html:144
+msgid "Bounding Box"
+msgstr ""
+
+#: templates/object_detection/dataset/main.html:49
+#: templates/object_detection/dataset/main.html:137
+#: templates/pretrained_model/dataset/main.html:48
+#: templates/pretrained_model/dataset/main.html:134
+msgid "Label Labeled"
+msgstr ""
+
+#: templates/object_detection/inference/main.html:45
+#: templates/object_detection/inference/main.html:88
+#: templates/pretrained_model/inference/main.html:45
+#: templates/pretrained_model/inference/main.html:88
+msgid "Image"
+msgstr ""
+
+#: templates/object_detection/inference/main.html:122
+#: templates/object_detection/inference/main.html:143
+#: templates/pretrained_model/inference/main.html:121
+#: templates/pretrained_model/inference/main.html:142
+msgid "Image Name"
+msgstr ""
+
+#: templates/object_detection/inference/main.html:186
+#: templates/pretrained_model/inference/main.html:165
+msgid "New Inference"
+msgstr ""
+
+#: templates/object_detection/inference/main.html:196
+#: templates/object_detection/inference/main.html:210
+#: templates/pretrained_model/inference/main.html:175
+#: templates/pretrained_model/inference/main.html:189
+msgid "Upload"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:190
+msgid "Number of Classes"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:194
+msgid "Maximum Epochs"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:200
+msgid "Batch Size for Training"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:204
+msgid "Batch Size for Validation"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:209
+msgid "Pretrained Model"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:216
+msgid "Natural Image Pretrained Model"
+msgstr ""
+
+#: templates/pretrained_model/model/main.html:223
+msgid "Small Data Pretrained Model"
+msgstr ""
+
+#: templates/time_series/base/main.html:149
+#: templates/time_series/feature/main.html:18
+msgid "Feature Extraction"
+msgstr ""
+
+#: templates/time_series/dataset/main.html:44
+#: templates/time_series/dataset/main.html:118
+msgid "Last Modified by"
+msgstr ""
+
+#: templates/time_series/feature/main.html:79
+msgid "Abort Feature Extraction"
+msgstr ""
+
+#: templates/time_series/feature/main.html:161
+msgid "New Feature"
+msgstr ""
+
+#: templates/time_series/feature/main.html:169
+msgid "Split Dataset"
+msgstr ""
+
+#: templates/time_series/feature/main.html:173
+msgid "select Dataset"
+msgstr ""
+
+#: templates/time_series/feature/main.html:178
+msgid "Time Column Unit"
+msgstr ""
+
+#: templates/time_series/feature/main.html:180
+msgid "Day"
+msgstr ""
+
+#: templates/time_series/feature/main.html:181
+msgid "Month"
+msgstr ""
+
+#: templates/time_series/feature/main.html:182
+msgid "Year"
+msgstr ""
+
+#: templates/time_series/feature/main.html:187
+msgid "Name the Feature File"
+msgstr ""
+
+#: templates/time_series/feature/main.html:201
+#: templates/time_series/model_info/main.html:187
+msgid "Complexity"
+msgstr ""
+
+#: templates/time_series/feature/main.html:207
+#: templates/time_series/model_info/main.html:210
+msgid "Momentum Indicators"
+msgstr ""
+
+#: templates/time_series/feature/main.html:215
+#: templates/time_series/model_info/main.html:192
+msgid "Cycle Indicators"
+msgstr ""
+
+#: templates/time_series/feature/main.html:221
+#: templates/time_series/model_info/main.html:215
+msgid "Moving Average"
+msgstr ""
+
+#: templates/time_series/feature/main.html:229
+#: templates/time_series/model_info/main.html:197
+msgid "Logical Condition"
+msgstr ""
+
+#: templates/time_series/feature/main.html:235
+#: templates/time_series/model_info/main.html:220
+msgid "Statistic Features"
+msgstr ""
+
+#: templates/time_series/feature/main.html:243
+#: templates/time_series/model_info/main.html:202
+msgid "Math Function"
+msgstr ""
+
+#: templates/time_series/feature/main.html:249
+#: templates/time_series/model_info/main.html:225
+msgid "Statistic Models"
+msgstr ""
+
+#: templates/time_series/model/main.html:179
+msgid "Feature Set"
+msgstr ""
+
+#: templates/time_series/model/main.html:317
+msgid "Dimentionality Reduction"
+msgstr ""
+
+#: templates/time_series/model/main.html:321
+msgid ""
+"After extracting the feature data, we will use different dimension "
+"reduction algorithms to reduce the amount of feature data in order to "
+"lower the consumption of computing resources."
+msgstr ""
+
+#: templates/time_series/model/main.html:328
+msgid "Principal Component Analysis (PCA)"
+msgstr ""
+
+#: templates/time_series/model/main.html:334
+msgid "T-distributed Stochastic Neighbor Embedding (TSNE)"
+msgstr ""
+
+#: templates/time_series/model_info/main.html:176
+msgid "Feature Gen"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:222
+#: templates/time_series/training_dataset/main.html:372
+msgid "Time"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:238
+msgid "Category"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:258
+msgid "Regression"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:259
+msgid "Classification"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:263
+msgid "Case"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:271
+#: templates/time_series/training_dataset/main.html:320
+msgid "Forecast for a Single Time Step"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:274
+#: templates/time_series/training_dataset/main.html:285
+#: templates/time_series/training_dataset/main.html:296
+#: templates/time_series/training_dataset/main.html:324
+msgid "Steps"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:280
+msgid "Forecast for the sum of multiple time step"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:291
+msgid "Forecast for the average of multiple time step"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:302
+#: templates/time_series/training_dataset/main.html:339
+msgid "Choose predict column"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:328
+msgid "Threshold"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:365
+msgid "Name of the Spilt File"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:378
+#: templates/time_series/training_dataset/main.html:422
+msgid "Training set"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:391
+#: templates/time_series/training_dataset/main.html:433
+msgid "Validation set"
+msgstr ""
+
+#: templates/time_series/training_dataset/main.html:404
+#: templates/time_series/training_dataset/main.html:445
+msgid "Testing set"
+msgstr ""
+

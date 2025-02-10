@@ -1,0 +1,59 @@
+{
+    "message": "",
+    "data": {
+        "records": {
+            "Normalization": [
+                {
+                    "name": "Title0",
+                    "type": "Discreate",
+                    "count": 0,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title1",
+                    "type": "Discreate",
+                    "count": 1,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title2",
+                    "type": "Discreate",
+                    "count": 2,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title3",
+                    "type": "Discreate",
+                    "count": 3,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title4",
+                    "type": "Discreate",
+                    "count": 4,
+                    "actions": "select options"
+                }
+            ],
+            "Missing_Values": [
+                {
+                    "name": "Title0",
+                    "type": "Discreate",
+                    "count": 0,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title1",
+                    "type": "Discreate",
+                    "count": 1,
+                    "actions": "select options"
+                },
+                {
+                    "name": "Title2",
+                    "type": "Discreate",
+                    "count": 2,
+                    "actions": "select options"
+                }
+            ]
+        }
+    }
+}
