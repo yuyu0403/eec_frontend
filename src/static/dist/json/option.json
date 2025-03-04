@@ -1,0 +1,43 @@
+{
+  "message": "",
+  "data": {
+    "dataset": [
+      {
+        "name": "Mimic-IV",
+        "value": "Mimic-IV"
+      }
+    ],
+    "modality": [
+      {
+        "name": "ECG",
+        "value": "ECG"
+      },
+      {
+        "name": "XRAY",
+        "value": "XRAY"
+      },
+      {
+        "name": "CT",
+        "value": "CT"
+      },
+      {
+        "name": "MRI",
+        "value": "MRI"
+      }
+    ],
+    "analysis_env": [
+      {
+        "name": "No Code Mode",
+        "value": "no_code"
+      },
+      {
+        "name": "Coding Mode",
+        "value": "coding"
+      },
+      {
+        "name": "GAN Mode",
+        "value": "gan"
+      }
+    ]
+  }
+}

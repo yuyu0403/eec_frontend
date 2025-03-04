@@ -1,0 +1,6011 @@
+{
+  "message": "",
+  "data": {
+    "total": 111521,
+    "page": 1,
+    "page_size": 1000,
+    "has_next": true,
+    "augmentation": [
+      {
+        "id": "1",
+        "name": "CT scan",
+        "code": "221214",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "2",
+        "name": "X-ray",
+        "code": "221216",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "3",
+        "name": "Ultrasound",
+        "code": "221217",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "4",
+        "name": "Venogram",
+        "code": "221219",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "5",
+        "name": "EEG",
+        "code": "221223",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "6",
+        "name": "Trans Esophageal Echo",
+        "code": "221255",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "7",
+        "name": "Magnetic Resonance Imaging",
+        "code": "223253",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "8",
+        "name": "Multi Lumen",
+        "code": "224263",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "9",
+        "name": "PICC Line",
+        "code": "224264",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "10",
+        "name": "Cordis/Introducer",
+        "code": "224267",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "11",
+        "name": "Trauma line",
+        "code": "224268",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "12",
+        "name": "CCO PAC",
+        "code": "224269",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "13",
+        "name": "Dialysis Catheter",
+        "code": "224270",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "14",
+        "name": "IABP line",
+        "code": "224272",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "15",
+        "name": "Presep Catheter",
+        "code": "224273",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "16",
+        "name": "22 Gauge",
+        "code": "224274",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "17",
+        "name": "20 Gauge",
+        "code": "224275",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "18",
+        "name": "16 Gauge",
+        "code": "224276",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "19",
+        "name": "18 Gauge",
+        "code": "224277",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "20",
+        "name": "Intubation",
+        "code": "224385",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "21",
+        "name": "PA Catheter",
+        "code": "224560",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "22",
+        "name": "14 Gauge",
+        "code": "224566",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "23",
+        "name": "Triple Introducer",
+        "code": "225199",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "24",
+        "name": "Indwelling Port (PortaCath)",
+        "code": "225202",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "25",
+        "name": "Pheresis Catheter",
+        "code": "225203",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "26",
+        "name": "Midline",
+        "code": "225204",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "27",
+        "name": "RIC",
+        "code": "225205",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "28",
+        "name": "Tunneled (Hickman) Line",
+        "code": "225315",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "29",
+        "name": "Lumbar Puncture",
+        "code": "225399",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "30",
+        "name": "Bronchoscopy",
+        "code": "225400",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "31",
+        "name": "Blood Cultured",
+        "code": "225401",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "32",
+        "name": "EKG",
+        "code": "225402",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "33",
+        "name": "Transferred to Floor",
+        "code": "225406",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "34",
+        "name": "Angiography",
+        "code": "225427",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "35",
+        "name": "Blakemore / Minnesota Tube D/C",
+        "code": "225428",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "36",
+        "name": "Blakemore / MinnesotaTube Inserted",
+        "code": "225429",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "37",
+        "name": "Cardiac Cath",
+        "code": "225430",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "38",
+        "name": "Transthoracic Echo",
+        "code": "225432",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "39",
+        "name": "Chest Tube Placed",
+        "code": "225433",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "40",
+        "name": "Colonoscopy",
+        "code": "225434",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "41",
+        "name": "CRRT Filter Change",
+        "code": "225436",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "42",
+        "name": "CSF Culture",
+        "code": "225437",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "43",
+        "name": "Endoscopy",
+        "code": "225439",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "44",
+        "name": "Fluoroscopy",
+        "code": "225440",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "45",
+        "name": "Hemodialysis",
+        "code": "225441",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "46",
+        "name": "Liver Biopsy",
+        "code": "225442",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "47",
+        "name": "Nuclear Medicine",
+        "code": "225443",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "48",
+        "name": "Pan Culture",
+        "code": "225444",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "49",
+        "name": "Paracentesis",
+        "code": "225445",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "50",
+        "name": "PEG Insertion",
+        "code": "225446",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "51",
+        "name": "Percutaneous Drain Insertion",
+        "code": "225447",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "52",
+        "name": "Percutaneous Tracheostomy",
+        "code": "225448",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "53",
+        "name": "Pericardiocentesis",
+        "code": "225449",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "54",
+        "name": "Radiation Therapy",
+        "code": "225450",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "55",
+        "name": "Sputum Culture",
+        "code": "225451",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "56",
+        "name": "Urine Culture",
+        "code": "225454",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "57",
+        "name": "Ventricular Drain",
+        "code": "225456",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "58",
+        "name": "Abdominal X-Ray",
+        "code": "225457",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "59",
+        "name": "Chest X-Ray",
+        "code": "225459",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "60",
+        "name": "Cervical Spine",
+        "code": "225460",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "61",
+        "name": "Pelvis",
+        "code": "225461",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "62",
+        "name": "Interventional Radiology",
+        "code": "225462",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "63",
+        "name": "TLS Spine",
+        "code": "225463",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "64",
+        "name": "Cardioversion/Defibrillation",
+        "code": "225464",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "65",
+        "name": "Chest Pain",
+        "code": "225465",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "66",
+        "name": "Cardiac Arrest",
+        "code": "225466",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "67",
+        "name": "Chest Opened",
+        "code": "225467",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "68",
+        "name": "Unplanned Extubation (patient-initiated)",
+        "code": "225468",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "69",
+        "name": "OR Received",
+        "code": "225469",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "70",
+        "name": "OR Sent",
+        "code": "225470",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "71",
+        "name": "Pneumothorax",
+        "code": "225472",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "72",
+        "name": "Fall",
+        "code": "225474",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "73",
+        "name": "Respiratory Arrest",
+        "code": "225475",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "74",
+        "name": "Unplanned Line/Catheter Removal (Non-Patient initated)",
+        "code": "225476",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "75",
+        "name": "Unplanned Extubation (non-patient initiated)",
+        "code": "225477",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "76",
+        "name": "Operation",
+        "code": "225478",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "77",
+        "name": "Thoracentesis",
+        "code": "225479",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "78",
+        "name": "Arterial Line",
+        "code": "225752",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "79",
+        "name": "Sheath Insertion",
+        "code": "225761",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "80",
+        "name": "Sheath (Venous)",
+        "code": "225789",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "81",
+        "name": "Invasive Ventilation",
+        "code": "225792",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "82",
+        "name": "Non-invasive Ventilation",
+        "code": "225794",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "83",
+        "name": "Dialysis - CRRT",
+        "code": "225802",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "84",
+        "name": "Dialysis - CVVHD",
+        "code": "225803",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "85",
+        "name": "Peritoneal Dialysis",
+        "code": "225805",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "86",
+        "name": "Dialysis - CVVHDF",
+        "code": "225809",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "87",
+        "name": "Stool Culture",
+        "code": "225814",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "88",
+        "name": "Peritoneal Fluid",
+        "code": "225815",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "89",
+        "name": "Wound Culture",
+        "code": "225816",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "90",
+        "name": "BAL Fluid Culture",
+        "code": "225817",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "91",
+        "name": "Pleural Fluid Culture",
+        "code": "225818",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "92",
+        "name": "Brain Death",
+        "code": "225819",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "93",
+        "name": "C-Spine Clearance",
+        "code": "225820",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "94",
+        "name": "Unplanned Line/Catheter Removal (Patient Initiated)",
+        "code": "225821",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "95",
+        "name": "Dialysis - SCUF",
+        "code": "225955",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "96",
+        "name": "Nasal Swab",
+        "code": "225966",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "97",
+        "name": "Rectal Swab",
+        "code": "225967",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "98",
+        "name": "ICP Catheter",
+        "code": "226124",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "99",
+        "name": "Temporary Pacemaker Wires Discontinued",
+        "code": "226236",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "100",
+        "name": "Open Tracheostomy",
+        "code": "226237",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "101",
+        "name": "ICP Bolt Inserted",
+        "code": "226474",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "102",
+        "name": "Intraventricular Drain Inserted",
+        "code": "226475",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "103",
+        "name": "Esophogeal Balloon",
+        "code": "226476",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "104",
+        "name": "Temporary Pacemaker Wires Inserted",
+        "code": "226477",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "105",
+        "name": "Extubation",
+        "code": "227194",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "106",
+        "name": "ERCP (Travel to)",
+        "code": "227550",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "107",
+        "name": "Plasma Pheresis.",
+        "code": "227551",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "108",
+        "name": "Drain Removed",
+        "code": "227711",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "109",
+        "name": "Chest Tube Removed",
+        "code": "227712",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "110",
+        "name": "Epidural Placement",
+        "code": "227713",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "111",
+        "name": "Pericardial Drain Removed",
+        "code": "227714",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "112",
+        "name": "TLS Clearance",
+        "code": "227715",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "113",
+        "name": "AVA",
+        "code": "227719",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "114",
+        "name": "Family meeting held",
+        "code": "228125",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "115",
+        "name": "Family met with Case Manager",
+        "code": "228126",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "116",
+        "name": "Family met with Social Worker",
+        "code": "228127",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "117",
+        "name": "Family updated by MD",
+        "code": "228128",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "118",
+        "name": "Family updated by RN",
+        "code": "228129",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "119",
+        "name": "NEOB notified",
+        "code": "228130",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "120",
+        "name": "Family notified of transfer",
+        "code": "228136",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "121",
+        "name": "Impella Line",
+        "code": "228169",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "122",
+        "name": "Tandem Heart Inflow Line",
+        "code": "228201",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "123",
+        "name": "Tandem Heart Outflow Line",
+        "code": "228202",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "124",
+        "name": "Family meeting attempted, unable",
+        "code": "228228",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "125",
+        "name": "Intraosseous Device",
+        "code": "228286",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "126",
+        "name": "Transcranial Doppler",
+        "code": "228715",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "127",
+        "name": "Speech and Swallow Evaluation",
+        "code": "229298",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "128",
+        "name": "Foley Catheter",
+        "code": "229351",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "129",
+        "name": "Epoprostenol (Inhaled)",
+        "code": "229366",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "130",
+        "name": "Nursing Water Swallow Screening",
+        "code": "229380",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "131",
+        "name": "24 Gauge",
+        "code": "229468",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "132",
+        "name": "Small Bore Nasal Enteral Tube Placement",
+        "code": "229501",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "133",
+        "name": "EKOS",
+        "code": "229514",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "134",
+        "name": "Avalon/Protek Duo",
+        "code": "229515",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "135",
+        "name": "Single Lumen",
+        "code": "229516",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "136",
+        "name": "Multi Lumen Cooling Catheter",
+        "code": "229517",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "137",
+        "name": "ICP - Camino",
+        "code": "229518",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "138",
+        "name": "EVD #1",
+        "code": "229519",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "139",
+        "name": "EVD #2",
+        "code": "229520",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "140",
+        "name": "ICP - PbtO2",
+        "code": "229521",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "141",
+        "name": "SEPS (Subdural Evacuating Port System)",
+        "code": "229522",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "142",
+        "name": "Subdural Drain",
+        "code": "229523",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "143",
+        "name": "Lumbar Drain",
+        "code": "229524",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "144",
+        "name": "Sheath (Arterial)",
+        "code": "229525",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "145",
+        "name": "MAC",
+        "code": "229526",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "146",
+        "name": "Centrimag Inflow Line",
+        "code": "229527",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "147",
+        "name": "Centrimag Outflow Line",
+        "code": "229528",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "148",
+        "name": "ECMO Inflow Line",
+        "code": "229529",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "149",
+        "name": "ECMO Outflow Line",
+        "code": "229530",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "150",
+        "name": "Tunneled Access Line",
+        "code": "229531",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "151",
+        "name": "Indwelling Port",
+        "code": "229532",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "152",
+        "name": "Camino",
+        "code": "229533",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "153",
+        "name": "Travel to Radiology",
+        "code": "229575",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "154",
+        "name": "ERCP (Done in unit)",
+        "code": "229576",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "155",
+        "name": "Cath Lab (Received)",
+        "code": "229577",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "156",
+        "name": "Cath Lab (Sent)",
+        "code": "229578",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "157",
+        "name": "Transfer Intercampus by Ambulance",
+        "code": "229579",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "158",
+        "name": "Line Placement at Bedside",
+        "code": "229580",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "159",
+        "name": "Portable Chest X-Ray",
+        "code": "229581",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "160",
+        "name": "Portable CT scan",
+        "code": "229582",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "161",
+        "name": "EMG",
+        "code": "229584",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "162",
+        "name": "Surgical Procedure at Bedside",
+        "code": "229585",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "163",
+        "name": "VAC Change",
+        "code": "229586",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "164",
+        "name": "EEG (Continuous)",
+        "code": "229614",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "165",
+        "name": "Massive Transfusion",
+        "code": "229620",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "166",
+        "name": "Trigger Initiated",
+        "code": "229755",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "167",
+        "name": "Isoflurane (Inhaled)",
+        "code": "229983",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "168",
+        "name": "Sevoflurane (Inhaled)",
+        "code": "229984",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "169",
+        "name": "Nitrous Oxide (Inhaled)",
+        "code": "229996",
+        "code_system": "MIMIC-IV-ICU"
+      },
+      {
+        "id": "170",
+        "name": "*** CONSIDER ACUTE ST ELEVATION MI ***",
+        "code": "MM170",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "171",
+        "name": "*** PEDIATRIC CRITERIA USED ***",
+        "code": "MM171",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "172",
+        "name": "*** Pediatric criteria used ***",
+        "code": "MM172",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "173",
+        "name": "*** technically unsatisfactory tracing ***",
+        "code": "MM173",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "174",
+        "name": "--- Pediatric criteria used ---",
+        "code": "MM174",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "175",
+        "name": "--- Recording unsuitable for analysis - please repeat ---",
+        "code": "MM175",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "176",
+        "name": "--- Technically unsatisfactory tracing ---",
+        "code": "MM176",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "177",
+        "name": "--- Technically unsatisfactory tracing ---*",
+        "code": "MM177",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "178",
+        "name": "--- Warning: Data quality may affect interpretation ---",
+        "code": "MM178",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "179",
+        "name": "-------------------- Pediatric ECG interpretation --------------------",
+        "code": "MM179",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "180",
+        "name": "A-V DISSOCIATION",
+        "code": "MM180",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "181",
+        "name": "A-V SEQUENTIAL AND VENTRICULAR PACING",
+        "code": "MM181",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "182",
+        "name": "A-V SEQUENTIAL PACEMAKER",
+        "code": "MM182",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "183",
+        "name": "A-V dissociation",
+        "code": "MM183",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "184",
+        "name": "A-V dissociation with unclassified aberrant complexes",
+        "code": "MM184",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "185",
+        "name": "A-V dissociation with unclassified aberrant complexes.",
+        "code": "MM185",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "186",
+        "name": "A-V dissociation.",
+        "code": "MM186",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "187",
+        "name": "A-V dual-paced complexes w/ some inhibition",
+        "code": "MM187",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "188",
+        "name": "A-V dual-paced complexes, A-noncapt due to AF",
+        "code": "MM188",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "189",
+        "name": "A-V dual-paced rhythm with some inhibition",
+        "code": "MM189",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "190",
+        "name": "A-V sequential and ventricular pacing",
+        "code": "MM190",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "191",
+        "name": "A-V sequential pacemaker",
+        "code": "MM191",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "192",
+        "name": "A-V sequential pacemaker.",
+        "code": "MM192",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "193",
+        "name": "A-flutter/fibrillation w/ complete AV block",
+        "code": "MM193",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "194",
+        "name": "ACCELERATED IDIOVENTRICULAR RHYTHM",
+        "code": "MM194",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "195",
+        "name": "ATRIAL FIBRILLATION",
+        "code": "MM195",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "196",
+        "name": "ATRIAL FIBRILLATION WITH RAPID VENTRICULAR RESPONSE",
+        "code": "MM196",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "197",
+        "name": "ATRIAL FIBRILLATION WITH SLOW VENTRICULAR RESPONSE",
+        "code": "MM197",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "198",
+        "name": "ATRIAL FIBRILLATION WITH UNCONTROLLED VENTRICULAR RESPONSE",
+        "code": "MM198",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "199",
+        "name": "ATRIAL FLUTTER",
+        "code": "MM199",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "200",
+        "name": "ATRIAL FLUTTER WITH RAPID VENTRICULAR RESPONSE",
+        "code": "MM200",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "201",
+        "name": "ATRIAL FLUTTER WITH SLOW VENTRICULAR RESPONSE",
+        "code": "MM201",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "202",
+        "name": "AV block, complete (third degree)",
+        "code": "MM202",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "203",
+        "name": "AV block, varying conduction",
+        "code": "MM203",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "204",
+        "name": "AV dissociation",
+        "code": "MM204",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "205",
+        "name": "AV sequential pacing",
+        "code": "MM205",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "206",
+        "name": "AV sequential pacing.",
+        "code": "MM206",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "207",
+        "name": "Accelerated idioventricular rhythm",
+        "code": "MM207",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "208",
+        "name": "Accelerated idioventricular rhythm.",
+        "code": "MM208",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "209",
+        "name": "Accelerated junctional rhythm",
+        "code": "MM209",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "210",
+        "name": "Accerated idioventricular rhythm",
+        "code": "MM210",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "211",
+        "name": "Afib/flut and V-paced complexes",
+        "code": "MM211",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "212",
+        "name": "Afib/flutter and ventricular-paced rhythm",
+        "code": "MM212",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "213",
+        "name": "Age not entered, assumed to be  50 years old for purpose of ECG interpretation",
+        "code": "MM213",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "214",
+        "name": "All 12 leads are missing",
+        "code": "MM214",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "215",
+        "name": "Atrial fibrillation",
+        "code": "MM215",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "216",
+        "name": "Atrial fibrillation with PVC(s)",
+        "code": "MM216",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "217",
+        "name": "Atrial fibrillation with PVC(s) or aberrant ventricular conduction",
+        "code": "MM217",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "218",
+        "name": "Atrial fibrillation with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM218",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "219",
+        "name": "Atrial fibrillation with PVC(s).",
+        "code": "MM219",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "220",
+        "name": "Atrial fibrillation with PVCs",
+        "code": "MM220",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "221",
+        "name": "Atrial fibrillation with PVCs or aberrant ventricular conduction",
+        "code": "MM221",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "222",
+        "name": "Atrial fibrillation with PVCs or aberrant ventricular conduction.",
+        "code": "MM222",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "223",
+        "name": "Atrial fibrillation with PVCs.",
+        "code": "MM223",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "224",
+        "name": "Atrial fibrillation with frequent PVCs",
+        "code": "MM224",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "225",
+        "name": "Atrial fibrillation with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM225",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "226",
+        "name": "Atrial fibrillation with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM226",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "227",
+        "name": "Atrial fibrillation with frequent PVCs.",
+        "code": "MM227",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "228",
+        "name": "Atrial fibrillation with frequent multifocal PVCs",
+        "code": "MM228",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "229",
+        "name": "Atrial fibrillation with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM229",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "230",
+        "name": "Atrial fibrillation with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM230",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "231",
+        "name": "Atrial fibrillation with frequent multifocal PVCs.",
+        "code": "MM231",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "232",
+        "name": "Atrial fibrillation with fusion complexes",
+        "code": "MM232",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "233",
+        "name": "Atrial fibrillation with fusion complexes or aberrant ventricular conduction",
+        "code": "MM233",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "234",
+        "name": "Atrial fibrillation with intermittent conduction defect",
+        "code": "MM234",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "235",
+        "name": "Atrial fibrillation with intermittent conduction defect.",
+        "code": "MM235",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "236",
+        "name": "Atrial fibrillation with interpolated PVC(s)",
+        "code": "MM236",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "237",
+        "name": "Atrial fibrillation with interpolated PVC(s).",
+        "code": "MM237",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "238",
+        "name": "Atrial fibrillation with interpolated PVCs",
+        "code": "MM238",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "239",
+        "name": "Atrial fibrillation with multifocal PVCs",
+        "code": "MM239",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "240",
+        "name": "Atrial fibrillation with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM240",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "241",
+        "name": "Atrial fibrillation with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM241",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "242",
+        "name": "Atrial fibrillation with multifocal PVCs.",
+        "code": "MM242",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "243",
+        "name": "Atrial fibrillation with non-sustained ventricular tachycardia",
+        "code": "MM243",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "244",
+        "name": "Atrial fibrillation with non-sustained ventricular tachycardia.",
+        "code": "MM244",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "245",
+        "name": "Atrial fibrillation with paroxysmal idioventricular rhythm",
+        "code": "MM245",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "246",
+        "name": "Atrial fibrillation with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM246",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "247",
+        "name": "Atrial fibrillation with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM247",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "248",
+        "name": "Atrial fibrillation with paroxysmal idioventricular rhythm.",
+        "code": "MM248",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "249",
+        "name": "Atrial fibrillation with rapid V-rate",
+        "code": "MM249",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "250",
+        "name": "Atrial fibrillation with rapid ventricular response",
+        "code": "MM250",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "251",
+        "name": "Atrial fibrillation with rapid ventricular response with PVC(s)",
+        "code": "MM251",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "252",
+        "name": "Atrial fibrillation with rapid ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM252",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "253",
+        "name": "Atrial fibrillation with rapid ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM253",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "254",
+        "name": "Atrial fibrillation with rapid ventricular response with PVC(s).",
+        "code": "MM254",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "255",
+        "name": "Atrial fibrillation with rapid ventricular response with PVCs",
+        "code": "MM255",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "256",
+        "name": "Atrial fibrillation with rapid ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM256",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "257",
+        "name": "Atrial fibrillation with rapid ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM257",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "258",
+        "name": "Atrial fibrillation with rapid ventricular response with PVCs.",
+        "code": "MM258",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "259",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent PVCs",
+        "code": "MM259",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "260",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM260",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "261",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM261",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "262",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent PVCs.",
+        "code": "MM262",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "263",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent multifocal PVCs",
+        "code": "MM263",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "264",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM264",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "265",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM265",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "266",
+        "name": "Atrial fibrillation with rapid ventricular response with frequent multifocal PVCs.",
+        "code": "MM266",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "267",
+        "name": "Atrial fibrillation with rapid ventricular response with fusion complexes",
+        "code": "MM267",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "268",
+        "name": "Atrial fibrillation with rapid ventricular response with intermittent conduction defect",
+        "code": "MM268",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "269",
+        "name": "Atrial fibrillation with rapid ventricular response with intermittent conduction defect.",
+        "code": "MM269",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "270",
+        "name": "Atrial fibrillation with rapid ventricular response with multifocal PVCs",
+        "code": "MM270",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "271",
+        "name": "Atrial fibrillation with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM271",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "272",
+        "name": "Atrial fibrillation with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM272",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "273",
+        "name": "Atrial fibrillation with rapid ventricular response with multifocal PVCs.",
+        "code": "MM273",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "274",
+        "name": "Atrial fibrillation with rapid ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM274",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "275",
+        "name": "Atrial fibrillation with rapid ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM275",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "276",
+        "name": "Atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm",
+        "code": "MM276",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "277",
+        "name": "Atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM277",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "278",
+        "name": "Atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM278",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "279",
+        "name": "Atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm.",
+        "code": "MM279",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "280",
+        "name": "Atrial fibrillation with rapid ventricular response.",
+        "code": "MM280",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "281",
+        "name": "Atrial fibrillation with slow ventricular response",
+        "code": "MM281",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "282",
+        "name": "Atrial fibrillation with slow ventricular response with PVC(s)",
+        "code": "MM282",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "283",
+        "name": "Atrial fibrillation with slow ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM283",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "284",
+        "name": "Atrial fibrillation with slow ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM284",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "285",
+        "name": "Atrial fibrillation with slow ventricular response with PVC(s).",
+        "code": "MM285",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "286",
+        "name": "Atrial fibrillation with slow ventricular response with PVCs",
+        "code": "MM286",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "287",
+        "name": "Atrial fibrillation with slow ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM287",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "288",
+        "name": "Atrial fibrillation with slow ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM288",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "289",
+        "name": "Atrial fibrillation with slow ventricular response with PVCs.",
+        "code": "MM289",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "290",
+        "name": "Atrial fibrillation with slow ventricular response with frequent PVCs",
+        "code": "MM290",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "291",
+        "name": "Atrial fibrillation with slow ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM291",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "292",
+        "name": "Atrial fibrillation with slow ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM292",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "293",
+        "name": "Atrial fibrillation with slow ventricular response with frequent PVCs.",
+        "code": "MM293",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "294",
+        "name": "Atrial fibrillation with slow ventricular response with frequent multifocal PVCs",
+        "code": "MM294",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "295",
+        "name": "Atrial fibrillation with slow ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM295",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "296",
+        "name": "Atrial fibrillation with slow ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM296",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "297",
+        "name": "Atrial fibrillation with slow ventricular response with frequent multifocal PVCs.",
+        "code": "MM297",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "298",
+        "name": "Atrial fibrillation with slow ventricular response with fusion complexes",
+        "code": "MM298",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "299",
+        "name": "Atrial fibrillation with slow ventricular response with intermittent conduction defect",
+        "code": "MM299",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "300",
+        "name": "Atrial fibrillation with slow ventricular response with intermittent conduction defect.",
+        "code": "MM300",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "301",
+        "name": "Atrial fibrillation with slow ventricular response with multifocal PVCs",
+        "code": "MM301",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "302",
+        "name": "Atrial fibrillation with slow ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM302",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "303",
+        "name": "Atrial fibrillation with slow ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM303",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "304",
+        "name": "Atrial fibrillation with slow ventricular response with multifocal PVCs.",
+        "code": "MM304",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "305",
+        "name": "Atrial fibrillation with slow ventricular response with paroxysmal idioventricular rhythm",
+        "code": "MM305",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "306",
+        "name": "Atrial fibrillation with slow ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM306",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "307",
+        "name": "Atrial fibrillation with slow ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM307",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "308",
+        "name": "Atrial fibrillation with slow ventricular response with paroxysmal idioventricular rhythm.",
+        "code": "MM308",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "309",
+        "name": "Atrial fibrillation with slow ventricular response.",
+        "code": "MM309",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "310",
+        "name": "Atrial fibrillation with uncontrolled ventricular response",
+        "code": "MM310",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "311",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVC(s)",
+        "code": "MM311",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "312",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM312",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "313",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM313",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "314",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVC(s).",
+        "code": "MM314",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "315",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVCs",
+        "code": "MM315",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "316",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM316",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "317",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM317",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "318",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with PVCs.",
+        "code": "MM318",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "319",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent PVCs",
+        "code": "MM319",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "320",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM320",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "321",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM321",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "322",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent PVCs.",
+        "code": "MM322",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "323",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent multifocal PVCs",
+        "code": "MM323",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "324",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM324",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "325",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM325",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "326",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with frequent multifocal PVCs.",
+        "code": "MM326",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "327",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with fusion complexes",
+        "code": "MM327",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "328",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with multifocal PVCs",
+        "code": "MM328",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "329",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM329",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "330",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM330",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "331",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with multifocal PVCs.",
+        "code": "MM331",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "332",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM332",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "333",
+        "name": "Atrial fibrillation with uncontrolled ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM333",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "334",
+        "name": "Atrial fibrillation with uncontrolled ventricular response.",
+        "code": "MM334",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "335",
+        "name": "Atrial fibrillation.",
+        "code": "MM335",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "336",
+        "name": "Atrial flutter",
+        "code": "MM336",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "337",
+        "name": "Atrial flutter with 2:1 A-V block",
+        "code": "MM337",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "338",
+        "name": "Atrial flutter with 2:1 A-V block with PVC(s) or aberrant ventricular conduction",
+        "code": "MM338",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "339",
+        "name": "Atrial flutter with 2:1 A-V block with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM339",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "340",
+        "name": "Atrial flutter with 2:1 A-V block.",
+        "code": "MM340",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "341",
+        "name": "Atrial flutter with 2:1 AV block",
+        "code": "MM341",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "342",
+        "name": "Atrial flutter with 3:1 A-V block",
+        "code": "MM342",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "343",
+        "name": "Atrial flutter with 3:1 A-V block with PVC(s).",
+        "code": "MM343",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "344",
+        "name": "Atrial flutter with 3:1 A-V block.",
+        "code": "MM344",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "345",
+        "name": "Atrial flutter with 4:1 A-V block",
+        "code": "MM345",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "346",
+        "name": "Atrial flutter with 4:1 A-V block.",
+        "code": "MM346",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "347",
+        "name": "Atrial flutter with PVC(s)",
+        "code": "MM347",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "348",
+        "name": "Atrial flutter with PVC(s) or aberrant ventricular conduction",
+        "code": "MM348",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "349",
+        "name": "Atrial flutter with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM349",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "350",
+        "name": "Atrial flutter with PVC(s).",
+        "code": "MM350",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "351",
+        "name": "Atrial flutter with PVCs",
+        "code": "MM351",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "352",
+        "name": "Atrial flutter with PVCs or aberrant ventricular conduction",
+        "code": "MM352",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "353",
+        "name": "Atrial flutter with PVCs or aberrant ventricular conduction.",
+        "code": "MM353",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "354",
+        "name": "Atrial flutter with PVCs.",
+        "code": "MM354",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "355",
+        "name": "Atrial flutter with bigeminal PVCs or aberrant ventricular conduction",
+        "code": "MM355",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "356",
+        "name": "Atrial flutter with bigeminal PVCs or aberrant ventricular conduction.",
+        "code": "MM356",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "357",
+        "name": "Atrial flutter with frequent PVCs",
+        "code": "MM357",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "358",
+        "name": "Atrial flutter with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM358",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "359",
+        "name": "Atrial flutter with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM359",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "360",
+        "name": "Atrial flutter with frequent multifocal PVCs",
+        "code": "MM360",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "361",
+        "name": "Atrial flutter with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM361",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "362",
+        "name": "Atrial flutter with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM362",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "363",
+        "name": "Atrial flutter with fusion complexes",
+        "code": "MM363",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "364",
+        "name": "Atrial flutter with high degree A-V block",
+        "code": "MM364",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "365",
+        "name": "Atrial flutter with high degree A-V block with PVC(s)",
+        "code": "MM365",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "366",
+        "name": "Atrial flutter with high degree A-V block.",
+        "code": "MM366",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "367",
+        "name": "Atrial flutter with intermittent conduction defect",
+        "code": "MM367",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "368",
+        "name": "Atrial flutter with interpolated PVC(s)",
+        "code": "MM368",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "369",
+        "name": "Atrial flutter with interpolated PVC(s).",
+        "code": "MM369",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "370",
+        "name": "Atrial flutter with interpolated PVCs",
+        "code": "MM370",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "371",
+        "name": "Atrial flutter with interpolated PVCs or aberrant ventricular conduction.",
+        "code": "MM371",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "372",
+        "name": "Atrial flutter with interpolated PVCs.",
+        "code": "MM372",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "373",
+        "name": "Atrial flutter with multifocal PVCs",
+        "code": "MM373",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "374",
+        "name": "Atrial flutter with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM374",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "375",
+        "name": "Atrial flutter with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM375",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "376",
+        "name": "Atrial flutter with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM376",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "377",
+        "name": "Atrial flutter with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM377",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "378",
+        "name": "Atrial flutter with paroxysmal idioventricular rhythm.",
+        "code": "MM378",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "379",
+        "name": "Atrial flutter with predominant 2:1 AV block",
+        "code": "MM379",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "380",
+        "name": "Atrial flutter with predominant 3:1 AV block",
+        "code": "MM380",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "381",
+        "name": "Atrial flutter with predominant 4:1 AV block",
+        "code": "MM381",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "382",
+        "name": "Atrial flutter with rapid ventricular response",
+        "code": "MM382",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "383",
+        "name": "Atrial flutter with rapid ventricular response with 2:1 A-V block",
+        "code": "MM383",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "384",
+        "name": "Atrial flutter with rapid ventricular response with 2:1 A-V block with non-sustained ventricular tachycardia.",
+        "code": "MM384",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "385",
+        "name": "Atrial flutter with rapid ventricular response with 2:1 A-V block.",
+        "code": "MM385",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "386",
+        "name": "Atrial flutter with rapid ventricular response with 3:1 A-V block",
+        "code": "MM386",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "387",
+        "name": "Atrial flutter with rapid ventricular response with 3:1 A-V block.",
+        "code": "MM387",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "388",
+        "name": "Atrial flutter with rapid ventricular response with 4:1 A-V block",
+        "code": "MM388",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "389",
+        "name": "Atrial flutter with rapid ventricular response with 4:1 A-V block.",
+        "code": "MM389",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "390",
+        "name": "Atrial flutter with rapid ventricular response with PVC(s)",
+        "code": "MM390",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "391",
+        "name": "Atrial flutter with rapid ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM391",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "392",
+        "name": "Atrial flutter with rapid ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM392",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "393",
+        "name": "Atrial flutter with rapid ventricular response with PVC(s).",
+        "code": "MM393",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "394",
+        "name": "Atrial flutter with rapid ventricular response with PVCs",
+        "code": "MM394",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "395",
+        "name": "Atrial flutter with rapid ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM395",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "396",
+        "name": "Atrial flutter with rapid ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM396",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "397",
+        "name": "Atrial flutter with rapid ventricular response with PVCs.",
+        "code": "MM397",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "398",
+        "name": "Atrial flutter with rapid ventricular response with bigeminal PVCs or aberrant ventricular conduction.",
+        "code": "MM398",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "399",
+        "name": "Atrial flutter with rapid ventricular response with frequent PVCs",
+        "code": "MM399",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "400",
+        "name": "Atrial flutter with rapid ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM400",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "401",
+        "name": "Atrial flutter with rapid ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM401",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "402",
+        "name": "Atrial flutter with rapid ventricular response with frequent PVCs.",
+        "code": "MM402",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "403",
+        "name": "Atrial flutter with rapid ventricular response with frequent multifocal PVCs",
+        "code": "MM403",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "404",
+        "name": "Atrial flutter with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM404",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "405",
+        "name": "Atrial flutter with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM405",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "406",
+        "name": "Atrial flutter with rapid ventricular response with frequent multifocal PVCs.",
+        "code": "MM406",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "407",
+        "name": "Atrial flutter with rapid ventricular response with intermittent conduction defect.",
+        "code": "MM407",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "408",
+        "name": "Atrial flutter with rapid ventricular response with interpolated PVC(s) or aberrant ventricular conduction",
+        "code": "MM408",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "409",
+        "name": "Atrial flutter with rapid ventricular response with interpolated PVC(s).",
+        "code": "MM409",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "410",
+        "name": "Atrial flutter with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM410",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "411",
+        "name": "Atrial flutter with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM411",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "412",
+        "name": "Atrial flutter with rapid ventricular response with multifocal PVCs.",
+        "code": "MM412",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "413",
+        "name": "Atrial flutter with rapid ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM413",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "414",
+        "name": "Atrial flutter with rapid ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM414",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "415",
+        "name": "Atrial flutter with rapid ventricular response.",
+        "code": "MM415",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "416",
+        "name": "Atrial flutter with slow ventricular response",
+        "code": "MM416",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "417",
+        "name": "Atrial flutter with slow ventricular response with 4:1 A-V block",
+        "code": "MM417",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "418",
+        "name": "Atrial flutter with slow ventricular response with 4:1 A-V block.",
+        "code": "MM418",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "419",
+        "name": "Atrial flutter with slow ventricular response with PVC(s)",
+        "code": "MM419",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "420",
+        "name": "Atrial flutter with slow ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM420",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "421",
+        "name": "Atrial flutter with slow ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM421",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "422",
+        "name": "Atrial flutter with slow ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM422",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "423",
+        "name": "Atrial flutter with slow ventricular response with PVCs.",
+        "code": "MM423",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "424",
+        "name": "Atrial flutter with slow ventricular response with bigeminal PVCs or aberrant ventricular conduction",
+        "code": "MM424",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "425",
+        "name": "Atrial flutter with slow ventricular response with high degree A-V block",
+        "code": "MM425",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "426",
+        "name": "Atrial flutter with slow ventricular response with high degree A-V block.",
+        "code": "MM426",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "427",
+        "name": "Atrial flutter with slow ventricular response with interpolated PVC(s)",
+        "code": "MM427",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "428",
+        "name": "Atrial flutter with slow ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM428",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "429",
+        "name": "Atrial flutter with slow ventricular response with variable A-V block",
+        "code": "MM429",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "430",
+        "name": "Atrial flutter with slow ventricular response with variable A-V block.",
+        "code": "MM430",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "431",
+        "name": "Atrial flutter with slow ventricular response.",
+        "code": "MM431",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "432",
+        "name": "Atrial flutter with uncontrolled ventricular response",
+        "code": "MM432",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "433",
+        "name": "Atrial flutter with uncontrolled ventricular response with 2:1 A-V block",
+        "code": "MM433",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "434",
+        "name": "Atrial flutter with uncontrolled ventricular response with 2:1 A-V block with non-sustained ventricular tachycardia.",
+        "code": "MM434",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "435",
+        "name": "Atrial flutter with uncontrolled ventricular response with 2:1 A-V block.",
+        "code": "MM435",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "436",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVC(s)",
+        "code": "MM436",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "437",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM437",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "438",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM438",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "439",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM439",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "440",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM440",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "441",
+        "name": "Atrial flutter with uncontrolled ventricular response with PVCs.",
+        "code": "MM441",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "442",
+        "name": "Atrial flutter with uncontrolled ventricular response with bigeminal PVCs or aberrant ventricular conduction",
+        "code": "MM442",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "443",
+        "name": "Atrial flutter with uncontrolled ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM443",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "444",
+        "name": "Atrial flutter with uncontrolled ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM444",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "445",
+        "name": "Atrial flutter with uncontrolled ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM445",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "446",
+        "name": "Atrial flutter with uncontrolled ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM446",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "447",
+        "name": "Atrial flutter with uncontrolled ventricular response.",
+        "code": "MM447",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "448",
+        "name": "Atrial flutter with variable A-V block",
+        "code": "MM448",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "449",
+        "name": "Atrial flutter with variable A-V block with PVCs",
+        "code": "MM449",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "450",
+        "name": "Atrial flutter with variable A-V block with PVCs.",
+        "code": "MM450",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "451",
+        "name": "Atrial flutter with variable A-V block with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM451",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "452",
+        "name": "Atrial flutter with variable A-V block.",
+        "code": "MM452",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "453",
+        "name": "Atrial flutter with varied AV block,",
+        "code": "MM453",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "454",
+        "name": "Atrial flutter.",
+        "code": "MM454",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "455",
+        "name": "Atrial flutter/fibrillation",
+        "code": "MM455",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "456",
+        "name": "Atrial pacing",
+        "code": "MM456",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "457",
+        "name": "Atrial pacing.",
+        "code": "MM457",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "458",
+        "name": "Atrial-paced complexes",
+        "code": "MM458",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "459",
+        "name": "Atrial-paced rhythm",
+        "code": "MM459",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "460",
+        "name": "Atrial-sensed ventricular-paced complexes",
+        "code": "MM460",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "461",
+        "name": "Atrial-sensed ventricular-paced rhythm",
+        "code": "MM461",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "462",
+        "name": "Atrial-ventricular dual-paced complexes",
+        "code": "MM462",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "463",
+        "name": "Atrial-ventricular dual-paced rhythm",
+        "code": "MM463",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "464",
+        "name": "Bradycardia with irregular rate",
+        "code": "MM464",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "465",
+        "name": "Complete AV block with wide QRS complex",
+        "code": "MM465",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "466",
+        "name": "DEMAND ATRIAL PACING",
+        "code": "MM466",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "467",
+        "name": "DEMAND PACING",
+        "code": "MM467",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "468",
+        "name": "Demand atrial pacing",
+        "code": "MM468",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "469",
+        "name": "Demand atrial pacing.",
+        "code": "MM469",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "470",
+        "name": "Demand pacing",
+        "code": "MM470",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "471",
+        "name": "Demand pacing.",
+        "code": "MM471",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "472",
+        "name": "Dual chamber pacemaker",
+        "code": "MM472",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "473",
+        "name": "Dual chamber pacemaker.",
+        "code": "MM473",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "474",
+        "name": "ECG acquired with magnet in place",
+        "code": "MM474",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "475",
+        "name": "ECTOPIC ATRIAL BRADYCARDIA",
+        "code": "MM475",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "476",
+        "name": "ECTOPIC ATRIAL RHYTHM",
+        "code": "MM476",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "477",
+        "name": "Ectopic atrial bradycardia",
+        "code": "MM477",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "478",
+        "name": "Ectopic atrial rhythm",
+        "code": "MM478",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "479",
+        "name": "Ectopic atrial tachycardia",
+        "code": "MM479",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "480",
+        "name": "Ectopic atrial tachycardia, unifocal",
+        "code": "MM480",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "481",
+        "name": "Extreme tachycardia with wide complex, no further rhythm analysis attempted",
+        "code": "MM481",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "482",
+        "name": "Failure to sense and/or capture (?magnet)",
+        "code": "MM482",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "483",
+        "name": "Fast sinus arrhythmia",
+        "code": "MM483",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "484",
+        "name": "IRREGULAR ECTOPIC ATRIAL BRADYCARDIA",
+        "code": "MM484",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "485",
+        "name": "IRREGULAR ECTOPIC ATRIAL RHYTHM",
+        "code": "MM485",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "486",
+        "name": "IRREGULAR ECTOPIC ATRIAL TACHYCARDIA",
+        "code": "MM486",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "487",
+        "name": "IRREGULAR SINUS BRADYCARDIA",
+        "code": "MM487",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "488",
+        "name": "IRREGULAR SINUS TACHYCARDIA",
+        "code": "MM488",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "489",
+        "name": "Incomplete analysis due to missing data in precordial lead(s)",
+        "code": "MM489",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "490",
+        "name": "Irregular ectopic atrial bradycardia",
+        "code": "MM490",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "491",
+        "name": "Irregular ectopic atrial bradycardia with 2nd degree (Mobitz II) SA block",
+        "code": "MM491",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "492",
+        "name": "Irregular ectopic atrial bradycardia with 2nd degree (Mobitz II) SA block.",
+        "code": "MM492",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "493",
+        "name": "Irregular ectopic atrial bradycardia with PAC(s)",
+        "code": "MM493",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "494",
+        "name": "Irregular ectopic atrial bradycardia with PAC(s).",
+        "code": "MM494",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "495",
+        "name": "Irregular ectopic atrial bradycardia with PACs",
+        "code": "MM495",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "496",
+        "name": "Irregular ectopic atrial bradycardia with PVC(s)",
+        "code": "MM496",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "497",
+        "name": "Irregular ectopic atrial bradycardia with PVC(s).",
+        "code": "MM497",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "498",
+        "name": "Irregular ectopic atrial bradycardia with PVCs",
+        "code": "MM498",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "499",
+        "name": "Irregular ectopic atrial bradycardia with PVCs.",
+        "code": "MM499",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "500",
+        "name": "Irregular ectopic atrial bradycardia with frequent PVCs",
+        "code": "MM500",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "501",
+        "name": "Irregular ectopic atrial bradycardia with frequent multifocal PVCs",
+        "code": "MM501",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "502",
+        "name": "Irregular ectopic atrial bradycardia with interpolated PVC(s)",
+        "code": "MM502",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "503",
+        "name": "Irregular ectopic atrial bradycardia with interpolated PVCs.",
+        "code": "MM503",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "504",
+        "name": "Irregular ectopic atrial bradycardia with undetermined irregularity.",
+        "code": "MM504",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "505",
+        "name": "Irregular ectopic atrial bradycardia.",
+        "code": "MM505",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "506",
+        "name": "Irregular ectopic atrial rhythm",
+        "code": "MM506",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "507",
+        "name": "Irregular ectopic atrial rhythm with PVC(s)",
+        "code": "MM507",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "508",
+        "name": "Irregular ectopic atrial rhythm with PVC(s) or aberrant ventricular conduction",
+        "code": "MM508",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "509",
+        "name": "Irregular ectopic atrial rhythm with PVC(s).",
+        "code": "MM509",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "510",
+        "name": "Irregular ectopic atrial rhythm with PVCs",
+        "code": "MM510",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "511",
+        "name": "Irregular ectopic atrial rhythm with PVCs.",
+        "code": "MM511",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "512",
+        "name": "Irregular ectopic atrial rhythm with aberrantly conducted supraventricular complexes",
+        "code": "MM512",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "513",
+        "name": "Irregular ectopic atrial rhythm with aberrantly conducted supraventricular complexes with multifocal PVCs.",
+        "code": "MM513",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "514",
+        "name": "Irregular ectopic atrial rhythm with aberrantly conducted supraventricular complexes.",
+        "code": "MM514",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "515",
+        "name": "Irregular ectopic atrial rhythm with frequent PVCs",
+        "code": "MM515",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "516",
+        "name": "Irregular ectopic atrial rhythm with frequent PVCs.",
+        "code": "MM516",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "517",
+        "name": "Irregular ectopic atrial rhythm with frequent multifocal PVCs",
+        "code": "MM517",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "518",
+        "name": "Irregular ectopic atrial rhythm with frequent multifocal PVCs.",
+        "code": "MM518",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "519",
+        "name": "Irregular ectopic atrial rhythm with fusion complexes",
+        "code": "MM519",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "520",
+        "name": "Irregular ectopic atrial rhythm with interpolated PVC(s)",
+        "code": "MM520",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "521",
+        "name": "Irregular ectopic atrial rhythm with interpolated PVC(s).",
+        "code": "MM521",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "522",
+        "name": "Irregular ectopic atrial rhythm with interpolated PVCs",
+        "code": "MM522",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "523",
+        "name": "Irregular ectopic atrial rhythm with multifocal PVCs",
+        "code": "MM523",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "524",
+        "name": "Irregular ectopic atrial rhythm with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM524",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "525",
+        "name": "Irregular ectopic atrial rhythm with multifocal PVCs.",
+        "code": "MM525",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "526",
+        "name": "Irregular ectopic atrial rhythm with multifocal interpolated PVCs",
+        "code": "MM526",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "527",
+        "name": "Irregular ectopic atrial rhythm with paroxysmal idioventricular rhythm",
+        "code": "MM527",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "528",
+        "name": "Irregular ectopic atrial rhythm with varying 2nd degree A-V block.",
+        "code": "MM528",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "529",
+        "name": "Irregular ectopic atrial rhythm.",
+        "code": "MM529",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "530",
+        "name": "Irregular ectopic atrial tachycardia",
+        "code": "MM530",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "531",
+        "name": "Irregular ectopic atrial tachycardia with 2nd degree (Mobitz II) SA block.",
+        "code": "MM531",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "532",
+        "name": "Irregular ectopic atrial tachycardia with PAC(s)",
+        "code": "MM532",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "533",
+        "name": "Irregular ectopic atrial tachycardia with PAC(s).",
+        "code": "MM533",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "534",
+        "name": "Irregular ectopic atrial tachycardia with PACs",
+        "code": "MM534",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "535",
+        "name": "Irregular ectopic atrial tachycardia with PACs.",
+        "code": "MM535",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "536",
+        "name": "Irregular ectopic atrial tachycardia with PVC(s)",
+        "code": "MM536",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "537",
+        "name": "Irregular ectopic atrial tachycardia with PVC(s).",
+        "code": "MM537",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "538",
+        "name": "Irregular ectopic atrial tachycardia with PVCs",
+        "code": "MM538",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "539",
+        "name": "Irregular ectopic atrial tachycardia with PVCs.",
+        "code": "MM539",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "540",
+        "name": "Irregular ectopic atrial tachycardia with frequent PVCs",
+        "code": "MM540",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "541",
+        "name": "Irregular ectopic atrial tachycardia with frequent multifocal PVCs",
+        "code": "MM541",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "542",
+        "name": "Irregular ectopic atrial tachycardia with frequent multifocal PVCs.",
+        "code": "MM542",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "543",
+        "name": "Irregular ectopic atrial tachycardia with multifocal PVCs.",
+        "code": "MM543",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "544",
+        "name": "Irregular ectopic atrial tachycardia with occasional PACs.",
+        "code": "MM544",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "545",
+        "name": "Irregular ectopic atrial tachycardia.",
+        "code": "MM545",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "546",
+        "name": "Irregular sinus bradycardia",
+        "code": "MM546",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "547",
+        "name": "Irregular sinus tachycardia",
+        "code": "MM547",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "548",
+        "name": "Junctional rhythm",
+        "code": "MM548",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "549",
+        "name": "Junctional tachycardia",
+        "code": "MM549",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "550",
+        "name": "Marked sinus bradycardia",
+        "code": "MM550",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "551",
+        "name": "Marked sinus bradycardia with PVC(s)",
+        "code": "MM551",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "552",
+        "name": "Marked sinus bradycardia.",
+        "code": "MM552",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "553",
+        "name": "No further analysis attempted - not enough leads could be measured",
+        "code": "MM553",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "554",
+        "name": "PACER DETECTION SUSPENDED DUE TO EXTERNAL NOISE-REVIEW ADVISED",
+        "code": "MM554",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "555",
+        "name": "PEDIATRIC CRITERIA USED",
+        "code": "MM555",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "556",
+        "name": "POSSIBLE ACCELERATED JUNCTIONAL RHYTHM",
+        "code": "MM556",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "557",
+        "name": "POSSIBLE ATRIAL FLUTTER",
+        "code": "MM557",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "558",
+        "name": "POSSIBLE ATRIAL FLUTTER WITH RAPID VENTRICULAR RESPONSE",
+        "code": "MM558",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "559",
+        "name": "POSSIBLE ATRIAL FLUTTER WITH SLOW VENTRICULAR RESPONSE",
+        "code": "MM559",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "560",
+        "name": "POSSIBLE ATRIAL FLUTTER WITH UNCONTROLLED VENTRICULAR RESPONSE",
+        "code": "MM560",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "561",
+        "name": "POSSIBLE ECTOPIC ATRIAL BRADYCARDIA",
+        "code": "MM561",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "562",
+        "name": "POSSIBLE ECTOPIC ATRIAL RHYTHM",
+        "code": "MM562",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "563",
+        "name": "POSSIBLE ECTOPIC ATRIAL TACHYCARDIA",
+        "code": "MM563",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "564",
+        "name": "POSSIBLE IDIOVENTRICULAR RHYTHM",
+        "code": "MM564",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "565",
+        "name": "POSSIBLE IDIOVENTRICULAR RHYTHM WITH SLOW VENTRICULAR RESPONSE",
+        "code": "MM565",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "566",
+        "name": "POSSIBLE JUNCTIONAL RHYTHM",
+        "code": "MM566",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "567",
+        "name": "PROBABLE A-V JUNCTIONAL RHYTHM",
+        "code": "MM567",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "568",
+        "name": "PROBABLE ACCELERATED JUNCTIONAL RHYTHM",
+        "code": "MM568",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "569",
+        "name": "PROBABLE ATRIAL FIBRILLATION",
+        "code": "MM569",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "570",
+        "name": "PROBABLE ATRIAL FIBRILLATION WITH RAPID VENTRICULAR RESPONSE",
+        "code": "MM570",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "571",
+        "name": "PROBABLE JUNCTIONAL RHYTHM",
+        "code": "MM571",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "572",
+        "name": "PROBABLE SINUS (? ATRIAL) TACHYCARDIA",
+        "code": "MM572",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "573",
+        "name": "PROBABLE SINUS TACHYCARDIA. ? ATRIAL TACHYCARDIA OR FLUTTER + 2:1 A-V BLOCK",
+        "code": "MM573",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "574",
+        "name": "PROBABLE SINUS TACHYCARDIA.CONSIDER FLUTTER AND/OR 2:1 A-V BLOCK",
+        "code": "MM574",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "575",
+        "name": "PROBABLE SUPRAVENTRICULAR TACHYCARDIA",
+        "code": "MM575",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "576",
+        "name": "PROBABLE SUPRAVENTRICULAR TACHYCARDIA, BUT CONSIDER SINUS OR PAROXYSMAL ATRIAL TACHYCARDIA",
+        "code": "MM576",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "577",
+        "name": "PROBABLE SVT, BUT CONSIDER SINUS OR PAROXYSMAL ATRIAL TACHYCARDIA",
+        "code": "MM577",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "578",
+        "name": "Pacemaker rhythm",
+        "code": "MM578",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "579",
+        "name": "Pacemaker spikes or artifacts",
+        "code": "MM579",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "580",
+        "name": "Pacer detection suspended due to external noise-REVIEW ADVISED",
+        "code": "MM580",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "581",
+        "name": "Poor quality data, interpretation may be affected",
+        "code": "MM581",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "582",
+        "name": "Possible A-V junctional bradycardia",
+        "code": "MM582",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "583",
+        "name": "Possible accelerated junctional rhythm",
+        "code": "MM583",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "584",
+        "name": "Possible accelerated junctional rhythm with PVC(s)",
+        "code": "MM584",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "585",
+        "name": "Possible accelerated junctional rhythm with PVC(s).",
+        "code": "MM585",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "586",
+        "name": "Possible accelerated junctional rhythm with PVCs",
+        "code": "MM586",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "587",
+        "name": "Possible accelerated junctional rhythm with PVCs.",
+        "code": "MM587",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "588",
+        "name": "Possible accelerated junctional rhythm with frequent multifocal PVCs",
+        "code": "MM588",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "589",
+        "name": "Possible accelerated junctional rhythm with intermittent conduction defect",
+        "code": "MM589",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "590",
+        "name": "Possible accelerated junctional rhythm with interpolated PVC(s)",
+        "code": "MM590",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "591",
+        "name": "Possible accelerated junctional rhythm with interpolated PVCs",
+        "code": "MM591",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "592",
+        "name": "Possible accelerated junctional rhythm with multifocal PVCs",
+        "code": "MM592",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "593",
+        "name": "Possible accelerated junctional rhythm with paroxysmal idioventricular rhythm",
+        "code": "MM593",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "594",
+        "name": "Possible accelerated junctional rhythm with paroxysmal idioventricular rhythm.",
+        "code": "MM594",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "595",
+        "name": "Possible accelerated junctional rhythm.",
+        "code": "MM595",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "596",
+        "name": "Possible atrial arrhythmia",
+        "code": "MM596",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "597",
+        "name": "Possible atrial flutter",
+        "code": "MM597",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "598",
+        "name": "Possible atrial flutter with PVC(s)",
+        "code": "MM598",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "599",
+        "name": "Possible atrial flutter with PVC(s) or aberrant ventricular conduction",
+        "code": "MM599",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "600",
+        "name": "Possible atrial flutter with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM600",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "601",
+        "name": "Possible atrial flutter with PVC(s).",
+        "code": "MM601",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "602",
+        "name": "Possible atrial flutter with PVCs",
+        "code": "MM602",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "603",
+        "name": "Possible atrial flutter with PVCs or aberrant ventricular conduction",
+        "code": "MM603",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "604",
+        "name": "Possible atrial flutter with PVCs or aberrant ventricular conduction.",
+        "code": "MM604",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "605",
+        "name": "Possible atrial flutter with PVCs.",
+        "code": "MM605",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "606",
+        "name": "Possible atrial flutter with bigeminal PVCs or aberrant ventricular conduction",
+        "code": "MM606",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "607",
+        "name": "Possible atrial flutter with bigeminal PVCs or aberrant ventricular conduction.",
+        "code": "MM607",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "608",
+        "name": "Possible atrial flutter with frequent PVCs",
+        "code": "MM608",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "609",
+        "name": "Possible atrial flutter with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM609",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "610",
+        "name": "Possible atrial flutter with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM610",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "611",
+        "name": "Possible atrial flutter with frequent multifocal PVCs",
+        "code": "MM611",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "612",
+        "name": "Possible atrial flutter with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM612",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "613",
+        "name": "Possible atrial flutter with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM613",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "614",
+        "name": "Possible atrial flutter with fusion complexes",
+        "code": "MM614",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "615",
+        "name": "Possible atrial flutter with intermittent conduction defect",
+        "code": "MM615",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "616",
+        "name": "Possible atrial flutter with intermittent conduction defect.",
+        "code": "MM616",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "617",
+        "name": "Possible atrial flutter with interpolated PVC(s)",
+        "code": "MM617",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "618",
+        "name": "Possible atrial flutter with interpolated PVC(s) or aberrant ventricular conduction.",
+        "code": "MM618",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "619",
+        "name": "Possible atrial flutter with interpolated PVC(s).",
+        "code": "MM619",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "620",
+        "name": "Possible atrial flutter with interpolated PVCs",
+        "code": "MM620",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "621",
+        "name": "Possible atrial flutter with interpolated PVCs or aberrant ventricular conduction",
+        "code": "MM621",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "622",
+        "name": "Possible atrial flutter with interpolated PVCs.",
+        "code": "MM622",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "623",
+        "name": "Possible atrial flutter with multifocal PVCs",
+        "code": "MM623",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "624",
+        "name": "Possible atrial flutter with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM624",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "625",
+        "name": "Possible atrial flutter with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM625",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "626",
+        "name": "Possible atrial flutter with multifocal PVCs.",
+        "code": "MM626",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "627",
+        "name": "Possible atrial flutter with multifocal interpolated PVCs or aberrant ventricular conduction",
+        "code": "MM627",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "628",
+        "name": "Possible atrial flutter with multifocal interpolated PVCs.",
+        "code": "MM628",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "629",
+        "name": "Possible atrial flutter with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM629",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "630",
+        "name": "Possible atrial flutter with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM630",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "631",
+        "name": "Possible atrial flutter with paroxysmal idioventricular rhythm.",
+        "code": "MM631",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "632",
+        "name": "Possible atrial flutter with rapid ventricular response",
+        "code": "MM632",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "633",
+        "name": "Possible atrial flutter with rapid ventricular response with PVC(s)",
+        "code": "MM633",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "634",
+        "name": "Possible atrial flutter with rapid ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM634",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "635",
+        "name": "Possible atrial flutter with rapid ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM635",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "636",
+        "name": "Possible atrial flutter with rapid ventricular response with PVC(s).",
+        "code": "MM636",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "637",
+        "name": "Possible atrial flutter with rapid ventricular response with PVCs",
+        "code": "MM637",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "638",
+        "name": "Possible atrial flutter with rapid ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM638",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "639",
+        "name": "Possible atrial flutter with rapid ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM639",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "640",
+        "name": "Possible atrial flutter with rapid ventricular response with PVCs.",
+        "code": "MM640",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "641",
+        "name": "Possible atrial flutter with rapid ventricular response with bigeminal PVCs or aberrant ventricular conduction",
+        "code": "MM641",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "642",
+        "name": "Possible atrial flutter with rapid ventricular response with bigeminal PVCs or aberrant ventricular conduction.",
+        "code": "MM642",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "643",
+        "name": "Possible atrial flutter with rapid ventricular response with frequent PVCs",
+        "code": "MM643",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "644",
+        "name": "Possible atrial flutter with rapid ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM644",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "645",
+        "name": "Possible atrial flutter with rapid ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM645",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "646",
+        "name": "Possible atrial flutter with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM646",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "647",
+        "name": "Possible atrial flutter with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM647",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "648",
+        "name": "Possible atrial flutter with rapid ventricular response with intermittent conduction defect.",
+        "code": "MM648",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "649",
+        "name": "Possible atrial flutter with rapid ventricular response with interpolated PVCs",
+        "code": "MM649",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "650",
+        "name": "Possible atrial flutter with rapid ventricular response with multifocal PVCs",
+        "code": "MM650",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "651",
+        "name": "Possible atrial flutter with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM651",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "652",
+        "name": "Possible atrial flutter with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM652",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "653",
+        "name": "Possible atrial flutter with rapid ventricular response with multifocal PVCs.",
+        "code": "MM653",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "654",
+        "name": "Possible atrial flutter with rapid ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM654",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "655",
+        "name": "Possible atrial flutter with rapid ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM655",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "656",
+        "name": "Possible atrial flutter with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM656",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "657",
+        "name": "Possible atrial flutter with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM657",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "658",
+        "name": "Possible atrial flutter with rapid ventricular response.",
+        "code": "MM658",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "659",
+        "name": "Possible atrial flutter with slow ventricular response",
+        "code": "MM659",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "660",
+        "name": "Possible atrial flutter with slow ventricular response with PVC(s)",
+        "code": "MM660",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "661",
+        "name": "Possible atrial flutter with slow ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM661",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "662",
+        "name": "Possible atrial flutter with slow ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM662",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "663",
+        "name": "Possible atrial flutter with slow ventricular response with PVC(s).",
+        "code": "MM663",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "664",
+        "name": "Possible atrial flutter with slow ventricular response with PVCs",
+        "code": "MM664",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "665",
+        "name": "Possible atrial flutter with slow ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM665",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "666",
+        "name": "Possible atrial flutter with slow ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM666",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "667",
+        "name": "Possible atrial flutter with slow ventricular response with PVCs.",
+        "code": "MM667",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "668",
+        "name": "Possible atrial flutter with slow ventricular response with interpolated PVCs",
+        "code": "MM668",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "669",
+        "name": "Possible atrial flutter with slow ventricular response with multifocal PVCs",
+        "code": "MM669",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "670",
+        "name": "Possible atrial flutter with slow ventricular response.",
+        "code": "MM670",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "671",
+        "name": "Possible atrial flutter with uncontrolled ventricular response",
+        "code": "MM671",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "672",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVC(s)",
+        "code": "MM672",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "673",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM673",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "674",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM674",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "675",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVC(s).",
+        "code": "MM675",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "676",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM676",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "677",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM677",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "678",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with PVCs.",
+        "code": "MM678",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "679",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM679",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "680",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM680",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "681",
+        "name": "Possible atrial flutter with uncontrolled ventricular response with multifocal PVCs.",
+        "code": "MM681",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "682",
+        "name": "Possible atrial flutter with uncontrolled ventricular response.",
+        "code": "MM682",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "683",
+        "name": "Possible atrial flutter.",
+        "code": "MM683",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "684",
+        "name": "Possible ectopic atrial bradycardia",
+        "code": "MM684",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "685",
+        "name": "Possible ectopic atrial bradycardia with PAC(s)",
+        "code": "MM685",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "686",
+        "name": "Possible ectopic atrial bradycardia with PAC(s).",
+        "code": "MM686",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "687",
+        "name": "Possible ectopic atrial bradycardia with PACs",
+        "code": "MM687",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "688",
+        "name": "Possible ectopic atrial bradycardia with PACs.",
+        "code": "MM688",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "689",
+        "name": "Possible ectopic atrial bradycardia with PVC(s)",
+        "code": "MM689",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "690",
+        "name": "Possible ectopic atrial bradycardia with PVC(s) with PAC(s)",
+        "code": "MM690",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "691",
+        "name": "Possible ectopic atrial bradycardia with PVC(s) with PAC(s).",
+        "code": "MM691",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "692",
+        "name": "Possible ectopic atrial bradycardia with PVC(s).",
+        "code": "MM692",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "693",
+        "name": "Possible ectopic atrial bradycardia with PVCs",
+        "code": "MM693",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "694",
+        "name": "Possible ectopic atrial bradycardia with PVCs with PACs",
+        "code": "MM694",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "695",
+        "name": "Possible ectopic atrial bradycardia with PVCs.",
+        "code": "MM695",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "696",
+        "name": "Possible ectopic atrial bradycardia with aberrantly conducted supraventricular complexes",
+        "code": "MM696",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "697",
+        "name": "Possible ectopic atrial bradycardia with aberrantly conducted supraventricular complexes with PACs",
+        "code": "MM697",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "698",
+        "name": "Possible ectopic atrial bradycardia with aberrantly conducted supraventricular complexes with interpolated PVC(s)",
+        "code": "MM698",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "699",
+        "name": "Possible ectopic atrial bradycardia with aberrantly conducted supraventricular complexes with interpolated PVC(s).",
+        "code": "MM699",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "700",
+        "name": "Possible ectopic atrial bradycardia with frequent PACs",
+        "code": "MM700",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "701",
+        "name": "Possible ectopic atrial bradycardia with frequent PVCs",
+        "code": "MM701",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "702",
+        "name": "Possible ectopic atrial bradycardia with frequent PVCs.",
+        "code": "MM702",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "703",
+        "name": "Possible ectopic atrial bradycardia with frequent multifocal PVCs.",
+        "code": "MM703",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "704",
+        "name": "Possible ectopic atrial bradycardia with fusion complexes",
+        "code": "MM704",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "705",
+        "name": "Possible ectopic atrial bradycardia with interpolated PVC(s)",
+        "code": "MM705",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "706",
+        "name": "Possible ectopic atrial bradycardia with interpolated PVC(s).",
+        "code": "MM706",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "707",
+        "name": "Possible ectopic atrial bradycardia with interpolated PVCs",
+        "code": "MM707",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "708",
+        "name": "Possible ectopic atrial bradycardia with interpolated PVCs.",
+        "code": "MM708",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "709",
+        "name": "Possible ectopic atrial bradycardia with multifocal PVCs",
+        "code": "MM709",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "710",
+        "name": "Possible ectopic atrial bradycardia with multifocal PVCs with PACs",
+        "code": "MM710",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "711",
+        "name": "Possible ectopic atrial bradycardia with multifocal PVCs.",
+        "code": "MM711",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "712",
+        "name": "Possible ectopic atrial bradycardia with occasional PACs.",
+        "code": "MM712",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "713",
+        "name": "Possible ectopic atrial bradycardia.",
+        "code": "MM713",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "714",
+        "name": "Possible ectopic atrial rhythm",
+        "code": "MM714",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "715",
+        "name": "Possible ectopic atrial rhythm with 2:1 A-V block",
+        "code": "MM715",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "716",
+        "name": "Possible ectopic atrial rhythm with 2nd degree (Mobitz II) SA block",
+        "code": "MM716",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "717",
+        "name": "Possible ectopic atrial rhythm with 2nd degree (Mobitz II) SA block.",
+        "code": "MM717",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "718",
+        "name": "Possible ectopic atrial rhythm with 2nd degree A-V block, Mobitz I (Wenckebach)",
+        "code": "MM718",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "719",
+        "name": "Possible ectopic atrial rhythm with PAC(s)",
+        "code": "MM719",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "720",
+        "name": "Possible ectopic atrial rhythm with PAC(s) with PVC(s).",
+        "code": "MM720",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "721",
+        "name": "Possible ectopic atrial rhythm with PAC(s).",
+        "code": "MM721",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "722",
+        "name": "Possible ectopic atrial rhythm with PACs",
+        "code": "MM722",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "723",
+        "name": "Possible ectopic atrial rhythm with PACs.",
+        "code": "MM723",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "724",
+        "name": "Possible ectopic atrial rhythm with PVC(s)",
+        "code": "MM724",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "725",
+        "name": "Possible ectopic atrial rhythm with PVC(s) with PAC(s)",
+        "code": "MM725",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "726",
+        "name": "Possible ectopic atrial rhythm with PVC(s) with PAC(s).",
+        "code": "MM726",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "727",
+        "name": "Possible ectopic atrial rhythm with PVC(s).",
+        "code": "MM727",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "728",
+        "name": "Possible ectopic atrial rhythm with PVCs",
+        "code": "MM728",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "729",
+        "name": "Possible ectopic atrial rhythm with PVCs with PACs",
+        "code": "MM729",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "730",
+        "name": "Possible ectopic atrial rhythm with PVCs with PACs.",
+        "code": "MM730",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "731",
+        "name": "Possible ectopic atrial rhythm with PVCs with occasional PACs",
+        "code": "MM731",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "732",
+        "name": "Possible ectopic atrial rhythm with PVCs with occasional PACs.",
+        "code": "MM732",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "733",
+        "name": "Possible ectopic atrial rhythm with PVCs.",
+        "code": "MM733",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "734",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes",
+        "code": "MM734",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "735",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with PAC(s)",
+        "code": "MM735",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "736",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with PACs",
+        "code": "MM736",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "737",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with PVC(s)",
+        "code": "MM737",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "738",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with frequent multifocal PVCs",
+        "code": "MM738",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "739",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with frequent multifocal PVCs.",
+        "code": "MM739",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "740",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with interpolated PVC(s)",
+        "code": "MM740",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "741",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with interpolated PVCs",
+        "code": "MM741",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "742",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes with multifocal PVCs",
+        "code": "MM742",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "743",
+        "name": "Possible ectopic atrial rhythm with aberrantly conducted supraventricular complexes.",
+        "code": "MM743",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "744",
+        "name": "Possible ectopic atrial rhythm with bigeminal PACs",
+        "code": "MM744",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "745",
+        "name": "Possible ectopic atrial rhythm with bigeminal PACs.",
+        "code": "MM745",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "746",
+        "name": "Possible ectopic atrial rhythm with bigeminal PVCs",
+        "code": "MM746",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "747",
+        "name": "Possible ectopic atrial rhythm with bigeminal PVCs.",
+        "code": "MM747",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "748",
+        "name": "Possible ectopic atrial rhythm with frequent PACs",
+        "code": "MM748",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "749",
+        "name": "Possible ectopic atrial rhythm with frequent PACs.",
+        "code": "MM749",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "750",
+        "name": "Possible ectopic atrial rhythm with frequent PVCs",
+        "code": "MM750",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "751",
+        "name": "Possible ectopic atrial rhythm with frequent PVCs with PAC(s)",
+        "code": "MM751",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "752",
+        "name": "Possible ectopic atrial rhythm with frequent PVCs with PAC(s).",
+        "code": "MM752",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "753",
+        "name": "Possible ectopic atrial rhythm with frequent PVCs.",
+        "code": "MM753",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "754",
+        "name": "Possible ectopic atrial rhythm with frequent multifocal PVCs",
+        "code": "MM754",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "755",
+        "name": "Possible ectopic atrial rhythm with frequent multifocal PVCs with PAC(s)",
+        "code": "MM755",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "756",
+        "name": "Possible ectopic atrial rhythm with frequent multifocal PVCs with PACs",
+        "code": "MM756",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "757",
+        "name": "Possible ectopic atrial rhythm with frequent multifocal PVCs with PACs.",
+        "code": "MM757",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "758",
+        "name": "Possible ectopic atrial rhythm with frequent multifocal PVCs.",
+        "code": "MM758",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "759",
+        "name": "Possible ectopic atrial rhythm with intermittent conduction defect",
+        "code": "MM759",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "760",
+        "name": "Possible ectopic atrial rhythm with intermittent conduction defect.",
+        "code": "MM760",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "761",
+        "name": "Possible ectopic atrial rhythm with interpolated PVC(s)",
+        "code": "MM761",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "762",
+        "name": "Possible ectopic atrial rhythm with interpolated PVC(s) with PAC(s)",
+        "code": "MM762",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "763",
+        "name": "Possible ectopic atrial rhythm with interpolated PVC(s).",
+        "code": "MM763",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "764",
+        "name": "Possible ectopic atrial rhythm with interpolated PVCs",
+        "code": "MM764",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "765",
+        "name": "Possible ectopic atrial rhythm with interpolated PVCs with PACs.",
+        "code": "MM765",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "766",
+        "name": "Possible ectopic atrial rhythm with interpolated PVCs.",
+        "code": "MM766",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "767",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs",
+        "code": "MM767",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "768",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs with PAC(s)",
+        "code": "MM768",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "769",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs with PAC(s).",
+        "code": "MM769",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "770",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs with PACs",
+        "code": "MM770",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "771",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs with PACs.",
+        "code": "MM771",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "772",
+        "name": "Possible ectopic atrial rhythm with multifocal PVCs.",
+        "code": "MM772",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "773",
+        "name": "Possible ectopic atrial rhythm with multifocal interpolated PVCs",
+        "code": "MM773",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "774",
+        "name": "Possible ectopic atrial rhythm with multifocal interpolated PVCs.",
+        "code": "MM774",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "775",
+        "name": "Possible ectopic atrial rhythm with occasional PACs",
+        "code": "MM775",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "776",
+        "name": "Possible ectopic atrial rhythm with occasional PACs.",
+        "code": "MM776",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "777",
+        "name": "Possible ectopic atrial rhythm with paroxysmal idioventricular rhythm",
+        "code": "MM777",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "778",
+        "name": "Possible ectopic atrial rhythm with paroxysmal idioventricular rhythm.",
+        "code": "MM778",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "779",
+        "name": "Possible ectopic atrial rhythm with undetermined irregularity",
+        "code": "MM779",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "780",
+        "name": "Possible ectopic atrial rhythm with varying 2nd degree A-V block",
+        "code": "MM780",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "781",
+        "name": "Possible ectopic atrial rhythm.",
+        "code": "MM781",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "782",
+        "name": "Possible ectopic atrial tachycardia",
+        "code": "MM782",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "783",
+        "name": "Possible ectopic atrial tachycardia with PAC(s)",
+        "code": "MM783",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "784",
+        "name": "Possible ectopic atrial tachycardia with PAC(s).",
+        "code": "MM784",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "785",
+        "name": "Possible ectopic atrial tachycardia with PACs",
+        "code": "MM785",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "786",
+        "name": "Possible ectopic atrial tachycardia with PACs.",
+        "code": "MM786",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "787",
+        "name": "Possible ectopic atrial tachycardia with PVC(s)",
+        "code": "MM787",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "788",
+        "name": "Possible ectopic atrial tachycardia with PVC(s) with PAC(s)",
+        "code": "MM788",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "789",
+        "name": "Possible ectopic atrial tachycardia with PVC(s) with PAC(s).",
+        "code": "MM789",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "790",
+        "name": "Possible ectopic atrial tachycardia with PVC(s).",
+        "code": "MM790",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "791",
+        "name": "Possible ectopic atrial tachycardia with PVCs",
+        "code": "MM791",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "792",
+        "name": "Possible ectopic atrial tachycardia with PVCs with PACs",
+        "code": "MM792",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "793",
+        "name": "Possible ectopic atrial tachycardia with PVCs with PACs.",
+        "code": "MM793",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "794",
+        "name": "Possible ectopic atrial tachycardia with PVCs with occasional PACs.",
+        "code": "MM794",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "795",
+        "name": "Possible ectopic atrial tachycardia with PVCs.",
+        "code": "MM795",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "796",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes",
+        "code": "MM796",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "797",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes with PAC(s).",
+        "code": "MM797",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "798",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes with PVC(s) with PAC(s).",
+        "code": "MM798",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "799",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes with PVCs with PACs",
+        "code": "MM799",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "800",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes with PVCs.",
+        "code": "MM800",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "801",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes with frequent multifocal PVCs.",
+        "code": "MM801",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "802",
+        "name": "Possible ectopic atrial tachycardia with aberrantly conducted supraventricular complexes.",
+        "code": "MM802",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "803",
+        "name": "Possible ectopic atrial tachycardia with frequent PACs",
+        "code": "MM803",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "804",
+        "name": "Possible ectopic atrial tachycardia with frequent PACs.",
+        "code": "MM804",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "805",
+        "name": "Possible ectopic atrial tachycardia with frequent PVCs",
+        "code": "MM805",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "806",
+        "name": "Possible ectopic atrial tachycardia with frequent PVCs with PAC(s)",
+        "code": "MM806",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "807",
+        "name": "Possible ectopic atrial tachycardia with frequent PVCs.",
+        "code": "MM807",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "808",
+        "name": "Possible ectopic atrial tachycardia with frequent multifocal PVCs",
+        "code": "MM808",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "809",
+        "name": "Possible ectopic atrial tachycardia with frequent multifocal PVCs with PAC(s)",
+        "code": "MM809",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "810",
+        "name": "Possible ectopic atrial tachycardia with frequent multifocal PVCs with PACs.",
+        "code": "MM810",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "811",
+        "name": "Possible ectopic atrial tachycardia with frequent multifocal PVCs.",
+        "code": "MM811",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "812",
+        "name": "Possible ectopic atrial tachycardia with fusion complexes",
+        "code": "MM812",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "813",
+        "name": "Possible ectopic atrial tachycardia with intermittent conduction defect.",
+        "code": "MM813",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "814",
+        "name": "Possible ectopic atrial tachycardia with interpolated PVC(s).",
+        "code": "MM814",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "815",
+        "name": "Possible ectopic atrial tachycardia with multifocal PVCs",
+        "code": "MM815",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "816",
+        "name": "Possible ectopic atrial tachycardia with multifocal PVCs.",
+        "code": "MM816",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "817",
+        "name": "Possible ectopic atrial tachycardia with non-sustained ventricular tachycardia.",
+        "code": "MM817",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "818",
+        "name": "Possible ectopic atrial tachycardia with occasional PACs.",
+        "code": "MM818",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "819",
+        "name": "Possible ectopic atrial tachycardia with paroxysmal idioventricular rhythm",
+        "code": "MM819",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "820",
+        "name": "Possible ectopic atrial tachycardia.",
+        "code": "MM820",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "821",
+        "name": "Possible idioventricular rhythm",
+        "code": "MM821",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "822",
+        "name": "Possible idioventricular rhythm with slow ventricular response",
+        "code": "MM822",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "823",
+        "name": "Possible idioventricular rhythm with slow ventricular response.",
+        "code": "MM823",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "824",
+        "name": "Possible idioventricular rhythm.",
+        "code": "MM824",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "825",
+        "name": "Possible junctional bradycardia",
+        "code": "MM825",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "826",
+        "name": "Possible junctional bradycardia with PVCs",
+        "code": "MM826",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "827",
+        "name": "Possible junctional bradycardia.",
+        "code": "MM827",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "828",
+        "name": "Possible junctional rhythm",
+        "code": "MM828",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "829",
+        "name": "Possible junctional rhythm with PVC(s)",
+        "code": "MM829",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "830",
+        "name": "Possible junctional rhythm with PVCs",
+        "code": "MM830",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "831",
+        "name": "Possible junctional rhythm with PVCs.",
+        "code": "MM831",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "832",
+        "name": "Possible junctional rhythm.",
+        "code": "MM832",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "833",
+        "name": "Predominant 2:1 AV block",
+        "code": "MM833",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "834",
+        "name": "Predominant 3:1 AV block",
+        "code": "MM834",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "835",
+        "name": "Probable A-V junctional rhythm",
+        "code": "MM835",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "836",
+        "name": "Probable accelerated junctional rhythm",
+        "code": "MM836",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "837",
+        "name": "Probable accelerated junctional rhythm with PVC(s)",
+        "code": "MM837",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "838",
+        "name": "Probable accelerated junctional rhythm with PVC(s).",
+        "code": "MM838",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "839",
+        "name": "Probable accelerated junctional rhythm with PVCs",
+        "code": "MM839",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "840",
+        "name": "Probable accelerated junctional rhythm with PVCs.",
+        "code": "MM840",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "841",
+        "name": "Probable accelerated junctional rhythm with frequent PVCs",
+        "code": "MM841",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "842",
+        "name": "Probable accelerated junctional rhythm with frequent PVCs.",
+        "code": "MM842",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "843",
+        "name": "Probable accelerated junctional rhythm with frequent multifocal PVCs.",
+        "code": "MM843",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "844",
+        "name": "Probable accelerated junctional rhythm with intermittent conduction defect",
+        "code": "MM844",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "845",
+        "name": "Probable accelerated junctional rhythm with multifocal PVCs",
+        "code": "MM845",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "846",
+        "name": "Probable accelerated junctional rhythm with paroxysmal idioventricular rhythm",
+        "code": "MM846",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "847",
+        "name": "Probable accelerated junctional rhythm with paroxysmal idioventricular rhythm.",
+        "code": "MM847",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "848",
+        "name": "Probable accelerated junctional rhythm.",
+        "code": "MM848",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "849",
+        "name": "Probable atrial fibrillation",
+        "code": "MM849",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "850",
+        "name": "Probable atrial fibrillation with PVC(s)",
+        "code": "MM850",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "851",
+        "name": "Probable atrial fibrillation with PVC(s) or aberrant ventricular conduction",
+        "code": "MM851",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "852",
+        "name": "Probable atrial fibrillation with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM852",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "853",
+        "name": "Probable atrial fibrillation with PVC(s).",
+        "code": "MM853",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "854",
+        "name": "Probable atrial fibrillation with PVCs",
+        "code": "MM854",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "855",
+        "name": "Probable atrial fibrillation with PVCs or aberrant ventricular conduction",
+        "code": "MM855",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "856",
+        "name": "Probable atrial fibrillation with PVCs or aberrant ventricular conduction.",
+        "code": "MM856",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "857",
+        "name": "Probable atrial fibrillation with PVCs.",
+        "code": "MM857",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "858",
+        "name": "Probable atrial fibrillation with complete A-V block",
+        "code": "MM858",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "859",
+        "name": "Probable atrial fibrillation with complete A-V block.",
+        "code": "MM859",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "860",
+        "name": "Probable atrial fibrillation with frequent PVCs",
+        "code": "MM860",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "861",
+        "name": "Probable atrial fibrillation with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM861",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "862",
+        "name": "Probable atrial fibrillation with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM862",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "863",
+        "name": "Probable atrial fibrillation with frequent PVCs.",
+        "code": "MM863",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "864",
+        "name": "Probable atrial fibrillation with frequent multifocal PVCs",
+        "code": "MM864",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "865",
+        "name": "Probable atrial fibrillation with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM865",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "866",
+        "name": "Probable atrial fibrillation with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM866",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "867",
+        "name": "Probable atrial fibrillation with frequent multifocal PVCs.",
+        "code": "MM867",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "868",
+        "name": "Probable atrial fibrillation with fusion complexes",
+        "code": "MM868",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "869",
+        "name": "Probable atrial fibrillation with fusion complexes or aberrant ventricular conduction",
+        "code": "MM869",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "870",
+        "name": "Probable atrial fibrillation with intermittent conduction defect",
+        "code": "MM870",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "871",
+        "name": "Probable atrial fibrillation with intermittent conduction defect.",
+        "code": "MM871",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "872",
+        "name": "Probable atrial fibrillation with multifocal PVCs",
+        "code": "MM872",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "873",
+        "name": "Probable atrial fibrillation with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM873",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "874",
+        "name": "Probable atrial fibrillation with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM874",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "875",
+        "name": "Probable atrial fibrillation with multifocal PVCs.",
+        "code": "MM875",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "876",
+        "name": "Probable atrial fibrillation with non-sustained ventricular tachycardia",
+        "code": "MM876",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "877",
+        "name": "Probable atrial fibrillation with non-sustained ventricular tachycardia.",
+        "code": "MM877",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "878",
+        "name": "Probable atrial fibrillation with paroxysmal idioventricular rhythm",
+        "code": "MM878",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "879",
+        "name": "Probable atrial fibrillation with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM879",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "880",
+        "name": "Probable atrial fibrillation with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM880",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "881",
+        "name": "Probable atrial fibrillation with paroxysmal idioventricular rhythm.",
+        "code": "MM881",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "882",
+        "name": "Probable atrial fibrillation with rapid ventricular response",
+        "code": "MM882",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "883",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVC(s)",
+        "code": "MM883",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "884",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM884",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "885",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM885",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "886",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVC(s).",
+        "code": "MM886",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "887",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVCs",
+        "code": "MM887",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "888",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM888",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "889",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM889",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "890",
+        "name": "Probable atrial fibrillation with rapid ventricular response with PVCs.",
+        "code": "MM890",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "891",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM891",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "892",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM892",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "893",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent PVCs.",
+        "code": "MM893",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "894",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent multifocal PVCs",
+        "code": "MM894",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "895",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM895",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "896",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM896",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "897",
+        "name": "Probable atrial fibrillation with rapid ventricular response with frequent multifocal PVCs.",
+        "code": "MM897",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "898",
+        "name": "Probable atrial fibrillation with rapid ventricular response with fusion complexes",
+        "code": "MM898",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "899",
+        "name": "Probable atrial fibrillation with rapid ventricular response with intermittent conduction defect.",
+        "code": "MM899",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "900",
+        "name": "Probable atrial fibrillation with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM900",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "901",
+        "name": "Probable atrial fibrillation with rapid ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM901",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "902",
+        "name": "Probable atrial fibrillation with rapid ventricular response with multifocal PVCs.",
+        "code": "MM902",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "903",
+        "name": "Probable atrial fibrillation with rapid ventricular response with non-sustained ventricular tachycardia",
+        "code": "MM903",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "904",
+        "name": "Probable atrial fibrillation with rapid ventricular response with non-sustained ventricular tachycardia.",
+        "code": "MM904",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "905",
+        "name": "Probable atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction",
+        "code": "MM905",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "906",
+        "name": "Probable atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm or aberrant ventricular conduction.",
+        "code": "MM906",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "907",
+        "name": "Probable atrial fibrillation with rapid ventricular response with paroxysmal idioventricular rhythm.",
+        "code": "MM907",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "908",
+        "name": "Probable atrial fibrillation with rapid ventricular response.",
+        "code": "MM908",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "909",
+        "name": "Probable atrial fibrillation with slow ventricular response",
+        "code": "MM909",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "910",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVC(s)",
+        "code": "MM910",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "911",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM911",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "912",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVC(s) or aberrant ventricular conduction.",
+        "code": "MM912",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "913",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVC(s).",
+        "code": "MM913",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "914",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVCs",
+        "code": "MM914",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "915",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM915",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "916",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM916",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "917",
+        "name": "Probable atrial fibrillation with slow ventricular response with PVCs.",
+        "code": "MM917",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "918",
+        "name": "Probable atrial fibrillation with slow ventricular response with complete A-V block",
+        "code": "MM918",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "919",
+        "name": "Probable atrial fibrillation with slow ventricular response with complete A-V block.",
+        "code": "MM919",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "920",
+        "name": "Probable atrial fibrillation with slow ventricular response with frequent PVCs or aberrant ventricular conduction.",
+        "code": "MM920",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "921",
+        "name": "Probable atrial fibrillation with slow ventricular response with frequent PVCs.",
+        "code": "MM921",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "922",
+        "name": "Probable atrial fibrillation with slow ventricular response with frequent multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM922",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "923",
+        "name": "Probable atrial fibrillation with slow ventricular response with multifocal PVCs or aberrant ventricular conduction",
+        "code": "MM923",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "924",
+        "name": "Probable atrial fibrillation with slow ventricular response with multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM924",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "925",
+        "name": "Probable atrial fibrillation with slow ventricular response with paroxysmal idioventricular rhythm",
+        "code": "MM925",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "926",
+        "name": "Probable atrial fibrillation with slow ventricular response.",
+        "code": "MM926",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "927",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response",
+        "code": "MM927",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "928",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVC(s)",
+        "code": "MM928",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "929",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVC(s) or aberrant ventricular conduction",
+        "code": "MM929",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "930",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVC(s).",
+        "code": "MM930",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "931",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVCs or aberrant ventricular conduction",
+        "code": "MM931",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "932",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVCs or aberrant ventricular conduction.",
+        "code": "MM932",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "933",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with PVCs.",
+        "code": "MM933",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "934",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with frequent PVCs or aberrant ventricular conduction",
+        "code": "MM934",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "935",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response with frequent multifocal PVCs or aberrant ventricular conduction.",
+        "code": "MM935",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "936",
+        "name": "Probable atrial fibrillation with uncontrolled ventricular response.",
+        "code": "MM936",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "937",
+        "name": "Probable atrial fibrillation.",
+        "code": "MM937",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "938",
+        "name": "Probable atrial tachycardia",
+        "code": "MM938",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "939",
+        "name": "Probable atrial tachycardia with PVC(s)",
+        "code": "MM939",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "940",
+        "name": "Probable atrial tachycardia with PVCs.",
+        "code": "MM940",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "941",
+        "name": "Probable atrial tachycardia with frequent PVCs.",
+        "code": "MM941",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "942",
+        "name": "Probable atrial tachycardia with frequent multifocal PVCs",
+        "code": "MM942",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "943",
+        "name": "Probable atrial tachycardia.",
+        "code": "MM943",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "944",
+        "name": "Probable junctional rhythm",
+        "code": "MM944",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "945",
+        "name": "Probable junctional rhythm.",
+        "code": "MM945",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "946",
+        "name": "Probable precordial electrode reversal",
+        "code": "MM946",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "947",
+        "name": "Probable sinus (? atrial) tachycardia",
+        "code": "MM947",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "948",
+        "name": "Probable sinus tachycardia",
+        "code": "MM948",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "949",
+        "name": "Probable sinus tachycardia with PVC(s)",
+        "code": "MM949",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "950",
+        "name": "Probable sinus tachycardia with PVC(s).",
+        "code": "MM950",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "951",
+        "name": "Probable sinus tachycardia with PVCs",
+        "code": "MM951",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "952",
+        "name": "Probable sinus tachycardia with PVCs.",
+        "code": "MM952",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "953",
+        "name": "Probable sinus tachycardia with aberrantly conducted supraventricular complexes",
+        "code": "MM953",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "954",
+        "name": "Probable sinus tachycardia with non-sustained ventricular tachycardia",
+        "code": "MM954",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "955",
+        "name": "Probable sinus tachycardia with non-sustained ventricular tachycardia.",
+        "code": "MM955",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "956",
+        "name": "Probable sinus tachycardia.",
+        "code": "MM956",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "957",
+        "name": "Probable supraventricular tachycardia",
+        "code": "MM957",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "958",
+        "name": "Probable supraventricular tachycardia with PVC(s)",
+        "code": "MM958",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "959",
+        "name": "Probable supraventricular tachycardia with PVCs",
+        "code": "MM959",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "960",
+        "name": "Probable supraventricular tachycardia with PVCs.",
+        "code": "MM960",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "961",
+        "name": "Probable supraventricular tachycardia.",
+        "code": "MM961",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "962",
+        "name": "Probable ventricular tachycardia",
+        "code": "MM962",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "963",
+        "name": "Probable ventricular tachycardia.",
+        "code": "MM963",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "964",
+        "name": "REGULAR A-V SEQUENTIAL PACING",
+        "code": "MM964",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "965",
+        "name": "REGULAR ATRIAL PACING",
+        "code": "MM965",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "966",
+        "name": "REGULAR RHYTHM",
+        "code": "MM966",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "967",
+        "name": "REGULAR SUPRAVENTRICULAR RHYTHM",
+        "code": "MM967",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "968",
+        "name": "REGULAR VENTRICULAR PACING",
+        "code": "MM968",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "969",
+        "name": "REPEAT ECG TO EXCLUDE TECHNICAL ERROR",
+        "code": "MM969",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "970",
+        "name": "Regular A-V sequential pacing",
+        "code": "MM970",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "971",
+        "name": "Regular atrial pacing",
+        "code": "MM971",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "972",
+        "name": "Regular rhythm",
+        "code": "MM972",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "973",
+        "name": "Regular supraventricular rhythm",
+        "code": "MM973",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "974",
+        "name": "Regular supraventricular rhythm.",
+        "code": "MM974",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "975",
+        "name": "Regular ventricular pacing",
+        "code": "MM975",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "976",
+        "name": "Repeat ecg advised",
+        "code": "MM976",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "977",
+        "name": "Right and left arm electrode reversal, interpretation assumes no reversal",
+        "code": "MM977",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "978",
+        "name": "SINUS ARRHYTHMIA",
+        "code": "MM978",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "979",
+        "name": "SINUS BRADYCARDIA",
+        "code": "MM979",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "980",
+        "name": "SINUS BRADYCARDIA. CONSIDER 2:1 SINO-ATRIAL BLOCK.",
+        "code": "MM980",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "981",
+        "name": "SINUS BRADYCARDIA. CONSIDER SINUS RHYTHM WITH 2:1 SINO-ATRIAL BLOCK.",
+        "code": "MM981",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "982",
+        "name": "SINUS RHYTHM",
+        "code": "MM982",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "983",
+        "name": "SINUS TACHYCARDIA",
+        "code": "MM983",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "984",
+        "name": "Second degree AV block, Mobitz II",
+        "code": "MM984",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "985",
+        "name": "Sinus arrhythmia",
+        "code": "MM985",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "986",
+        "name": "Sinus arrhythmia are borderline abnormal for age/sex",
+        "code": "MM986",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "987",
+        "name": "Sinus arrhythmia with 1st degree A-V block",
+        "code": "MM987",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "988",
+        "name": "Sinus arrhythmia with 1st degree A-V block.",
+        "code": "MM988",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "989",
+        "name": "Sinus arrhythmia with PVC(s)",
+        "code": "MM989",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "990",
+        "name": "Sinus arrhythmia with PVC(s) with 1st degree A-V block",
+        "code": "MM990",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "991",
+        "name": "Sinus arrhythmia with PVC(s) with 1st degree A-V block.",
+        "code": "MM991",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "992",
+        "name": "Sinus arrhythmia with PVC(s) with borderline 1st degree A-V block",
+        "code": "MM992",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "993",
+        "name": "Sinus arrhythmia with PVC(s) with borderline 1st degree A-V block.",
+        "code": "MM993",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "994",
+        "name": "Sinus arrhythmia with PVC(s).",
+        "code": "MM994",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "995",
+        "name": "Sinus arrhythmia with PVCs",
+        "code": "MM995",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "996",
+        "name": "Sinus arrhythmia with PVCs with 1st degree A-V block",
+        "code": "MM996",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "997",
+        "name": "Sinus arrhythmia with PVCs with 1st degree A-V block.",
+        "code": "MM997",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "998",
+        "name": "Sinus arrhythmia with PVCs with borderline 1st degree A-V block",
+        "code": "MM998",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "999",
+        "name": "Sinus arrhythmia with PVCs with borderline 1st degree A-V block.",
+        "code": "MM999",
+        "code_system": "MIMIC-IV-ECG"
+      },
+      {
+        "id": "1000",
+        "name": "Sinus arrhythmia with PVCs.",
+        "code": "MM1000",
+        "code_system": "MIMIC-IV-ECG"
+      }
+    ]
+  }
+}
