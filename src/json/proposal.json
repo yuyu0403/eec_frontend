@@ -1,0 +1,84 @@
+{
+    "message": "",
+    "data": {
+        "records": [
+            {
+                "proposal_id": "1",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "no_code",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "initializing",
+                "error_msg": null,
+                "updated_time": "2025-02-17 10:34:11"
+            },
+            {
+                "proposal_id": "2",
+                "proposal_name": "proposal_name_1",
+                "analysis_env": "coding",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "in progress",
+                "error_msg": null,
+                "updated_time": "2025-02-18 11:09:20"
+            },
+            {
+                "proposal_id": "3",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "gan",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "success",
+                "error_msg": null,
+                "updated_time": "2025-02-17 10:34:11"
+            },
+            {
+                "proposal_id": "4",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "no_code",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "failure",
+                "error_msg": "test test",
+                "updated_time": "2025-02-17 10:34:11"
+            },
+            {
+                "proposal_id": "5",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "no_code",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "reviewing",
+                "error_msg": null,
+                "updated_time": "2025-02-17 10:34:11"
+            },
+            {
+                "proposal_id": "6",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "no_code",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "reviewed",
+                "error_msg": null,
+                "updated_time": "2025-02-17 10:34:11"
+            },
+            {
+                "proposal_id": "7",
+                "proposal_name": "proposal_217_1",
+                "analysis_env": "no_code",
+                "dataset": "Mimic-IV",
+                "modality": "ECG",
+                "creator": "ITRI TESTER",
+                "status": "ready",
+                "error_msg": null,
+                "updated_time": "2025-02-17 10:34:11"
+            }
+        ]
+    }
+}

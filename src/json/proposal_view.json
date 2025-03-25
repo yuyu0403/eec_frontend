@@ -1,0 +1,67 @@
+{
+    "proposal_name": "CA_0319_02_GAN",
+    "description": "CA_0319_02_GAN",
+    "analysis_env": "gan",
+    "dataset": "Mimic-IV",
+    "modality": "ECG",
+    "gender": ["Male", "Female"],
+    "age": "20 to 60 years old",
+    "date": "2145-01-01 to 2200-01-01",
+    "augmentation": {
+        "keep": "last",
+        "conditions": [
+            {
+                "sn": "64",
+                "name": "Cardioversion/Defibrillation",
+                "code": "225464",
+                "code_system": "MIMIC-IV-ICU",
+                "time_range": {
+                    "start": null,
+                    "end": null,
+                    "interval_before": null,
+                    "interval_after": "72 hour"
+                }
+            },
+            {
+                "sn": "20",
+                "name": "Intubation",
+                "code": "224385",
+                "code_system": "MIMIC-IV-ICU",
+                "time_range": {
+                    "start": null,
+                    "end": null,
+                    "interval_before": null,
+                    "interval_after": "72 hour"
+                }
+            },
+            {
+                "sn": "148",
+                "name": "ECMO Inflow Line",
+                "code": "229529",
+                "code_system": "MIMIC-IV-ICU",
+                "time_range": {
+                    "start": null,
+                    "end": null,
+                    "interval_before": null,
+                    "interval_after": "72 hour"
+                }
+            },
+            {
+                "sn": "149",
+                "name": "ECMO Outflow Line",
+                "code": "229530",
+                "code_system": "MIMIC-IV-ICU",
+                "time_range": {
+                    "start": null,
+                    "end": null,
+                    "interval_before": null,
+                    "interval_after": "72 hour"
+                }
+            }
+        ]
+    },
+    "creator": "ITRI TESTER",
+    "status": "success",
+    "error_msg": null,
+    "updated_time": "2025-03-19 18:43:05"
+}

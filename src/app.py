@@ -48,6 +48,18 @@ def index():
 def dataclean_json():
     return send_from_directory('json', 'test.json')
 
+@app.route('/json/dashboard.json')
+def dashboard_json():
+    return send_from_directory('json', 'dashboard.json')
+
+@app.route('/json/proposal.json')
+def proposal_json():
+    return send_from_directory('json', 'proposal.json')
+
+@app.route('/json/proposal_view.json')
+def proposal_view_json():
+    return send_from_directory('json', 'proposal_view.json')
+
 
 # 註冊View
 app.register_blueprint(generic_classifier_view)

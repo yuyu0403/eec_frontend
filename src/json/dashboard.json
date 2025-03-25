@@ -1,0 +1,99 @@
+{
+    "message": "",
+    "data": {
+        "age_distribution": {
+            "bins": ["0-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70", "71-80", "81-90", "91-100", ">100"],
+            "counts": [0, 19843, 62129, 40660, 38544, 44909, 39805, 28689, 18325, 6808, 0]
+        },
+        "gender_distribution": {
+            "female": 158553,
+            "male": 141159
+        },
+        "icd_distribution": {
+            "4019   ": 97361,
+            "2724   ": 63875,
+            "I10    ": 51706,
+            "E785   ": 48581,
+            "53081  ": 46238,
+            "25000  ": 41029,
+            "Z87891 ": 38893,
+            "42731  ": 35180,
+            "311    ": 34632,
+            "4280   ": 34597
+        },
+        "lab_tests_distribution": {
+            "lab_test_names": [
+                "Glucose",
+                "Hematocrit",
+                "Hemoglobin",
+                "Creatinine",
+                "Platelet Count",
+                "Urea Nitrogen",
+                "White Blood Cells",
+                "MCHC",
+                "Red Blood Cells",
+                "MCV"
+            ],
+            "counts": [3644449, 3326116, 3300468, 3282655, 3216656, 3189843, 3172016, 3167190, 3167075, 3167074]
+        },
+        "medication_distribution": {
+            "medications": [
+                "Insulin",
+                "0.9% Sodium Chloride",
+                "Sodium Chloride 0.9%  Flush",
+                "Potassium Chloride",
+                "Acetaminophen",
+                "Furosemide",
+                "Heparin",
+                "5% Dextrose",
+                "Docusate Sodium",
+                "Magnesium Sulfate"
+            ],
+            "counts": [600433, 576525, 517879, 476736, 440679, 325623, 310310, 291467, 284879, 281160]
+        },
+        "heart_rate_distribution": {
+            "bins": ["0-51", "51-60", "61-70", "71-80", "81-90", "90-100", ">100"],
+            "counts": [23281, 127725, 286806, 363505, 305540, 194384, 193659]
+        },
+        "arrhythmia_distribution": {
+            "Sinus Rhythm": 18894,
+            "Normal Sinus Rhythm": 12316,
+            "Atrial Fibrillation": 5238,
+            "Sinus Tachycardia": 5133,
+            "Sinus Bradycardia": 3246,
+            "sr": 3020,
+            "Paced Rhythm": 1777,
+            "nsr": 1175,
+            "SR": 1040,
+            "afib": 870
+        },
+        "ecg_intervals": {
+            "PR_interval": {
+                "bins": ["0-100", "101-120", "121-140", "141-160", "161-180", "181-200", "201-220", ">220"],
+                "counts": [293792, 262111, 120395, 15636, 980, 83, 12, 107026]
+            },
+            "QRS_duration": {
+                "bins": ["0-60", "101-120", "121-140", "61-80", "81-100", ">140"],
+                "counts": [2036, 133746, 57616, 118256, 422344, 66037]
+            },
+            "QTc_interval": {
+                "bins": ["0-300", "301-350", "351-400", "401-450", "451-500", ">500"],
+                "counts": [18763, 111089, 299519, 264564, 89047, 17053]
+            }
+        },
+        "stat": {
+            "records": {
+                "categories": ["ECG", "XRAY", "MRI", "CT"],
+                "data": [800035, 4999, 1425, 70]
+            },
+            "subjects": {
+                "categories": ["ECG", "XRAY", "MRI", "CT"],
+                "data": [161352, 2149, 108, 32]
+            },
+            "avg_subjects": {
+                "categories": ["ECG", "XRAY", "MRI", "CT"],
+                "data": [4.958320938073281, 2.326198231735691, 13.194444444444445, 2.1875]
+            }
+        }
+    }
+}
