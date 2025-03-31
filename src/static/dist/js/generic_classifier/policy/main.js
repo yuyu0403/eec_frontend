@@ -1,6 +1,6 @@
-ai.OverviewGC = {
+ai.PolicyGC = {
     setCallback: function () {
-        ai.OverviewGC.setPath();
+        ai.PolicyGC.setPath();
     },
     setPath: function () {
         console.log("setPath policy");

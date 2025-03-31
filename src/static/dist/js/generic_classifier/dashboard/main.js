@@ -1,6 +1,6 @@
-ai.OverviewGC = {
+ai.DashboardGC = {
     setCallback: function () {
-        ai.OverviewGC.setPath();
+        ai.DashboardGC.setPath();
     },
     setPath: function () {
         console.log("setPath dashboard");

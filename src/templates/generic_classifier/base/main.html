@@ -188,6 +188,10 @@
         <!-- Idle JS -->
         <script src="{{ STATIC_BASE }}/static/plugins/jquery-idle/jquery.idle.min.js"></script>
         <script src="{{ STATIC_BASE }}/static/dist/js/idle.js?v={{ ASSET_VERSION }}"></script>
+        <!-- highcharts -->
+        <script src="{{ STATIC_BASE }}/static/plugins/highcharts/highstock.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/highcharts/highcharts-more.js"></script>
+        <script src="{{ STATIC_BASE }}/static/plugins/highcharts/exporting.js"></script>
         <!-- /.js_import -->
 
         {% include "base.html" %} {% include "/generic_classifier/base/js_block.html" %} {% block customized_js %}{% endblock %}
