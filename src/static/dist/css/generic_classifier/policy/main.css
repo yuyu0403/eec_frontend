@@ -1,0 +1,39 @@
+.policy_content{
+    display: flex;
+}
+.menu{
+    position: sticky;
+    border-right: 2px solid #ddd;
+    width: 45%;
+    line-height: 2.5;
+    display: block;
+    margin-top: 1% ;
+    margin-right: 1.5%;
+    font-size: 15px;
+}
+.menu a{
+    display: flex;
+    color: #6c757d;
+    text-decoration: none;
+    align-items: center; 
+    justify-content: center;
+    padding-left: 10px;
+}
+.text{
+    margin-top: 1%;
+    font-size: 18px;
+    height: 80vh; 
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.text::-webkit-scrollbar {
+    display: none;
+}
+.text p{
+    color: #6c757d;
+}
+.menu a.active {
+    color: #008687;
+    border-left: 3px solid #008687;
+    padding-left: 7px;
+}
