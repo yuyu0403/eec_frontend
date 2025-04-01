@@ -1,49 +1,60 @@
 {% extends "/generic_classifier/base/main.html" %} {% block customized_css %}
-<link rel="stylesheet" href="{{ STATIC_BASE }}/static/dist/css/generic_classifier/policy/main.css?v={{ ASSET_VERSION }}" />
+<link rel="stylesheet" href="{{ STATIC_BASE }}/static/dist/css/generic_classifier/dashboard/main.css?v={{ ASSET_VERSION }}" />
 {% endblock %} {% block content %}
 <div class="content-wrapper pt-1" id="default_page">
     <div class="w-100 title_column">
         <label class="currently">Dashboard</label>
     </div>
-
-    <div class="container">
-        <div id="age-distribution" class="chart"></div>
-    </div>
-
-    <div class="container">
-        <div id="gender-distribution" class="chart"></div>
-    </div>
-
-    <div class="container">
-        <div id="icd-distribution" class="chart"></div>
-    </div>
-
-    <div class="container">
-        <div id="lab-tests-boxplot" class="chart"></div>
-    </div>
-
-    <div class="container">
-        <div id="medication-distribution" class="chart"></div>
+    <div class="row">
+        <div class=" card col-7">
+            <div id="age-distribution" class="chart"></div>
+        </div>
+    
+        <div class="card col-5">
+            <div id="gender-distribution" class="chart"></div>
+        </div>
     </div>
     
-    <div class="container">
-        <div id="heart-rate-distribution" class="chart"></div>
+    <div class="row">
+        <div class="card col-4">
+            <div id="icd-distribution" class="chart"></div>
+        </div>
+    
+        <div class="card col-4">
+            <div id="lab-tests-boxplot" class="chart"></div>
+        </div>
+    
+        <div class="card col-4">
+            <div id="medication-distribution" class="chart"></div>
+        </div>
     </div>
     
-    <div class="container">
-        <div id="arrhythmia-distribution" class="chart"></div>
+    <div class="row">
+        <div class="card col-12">
+            <div id="arrhythmia-distribution" class="chart"></div>
+        </div>
     </div>
-
-    <div class="container">
-        <div id="ecg-intervals" class="chart"></div>
+    
+    <div class="row">
+        <div class="card col-6">
+            <div id="heart-rate-distribution" class="chart"></div>
+        </div>
+        <div class="card col-6">
+            <div id="ecg-intervals" class="chart"></div>
+        </div>
     </div>
+    
 </div>
 
 {% endblock %} {% block customized_js %}
-<script src="{{ STATIC_BASE }}/static/dist/js/generic_classifier/policy/main.js?v={{ ASSET_VERSION }}"></script>
+<script src="{{ STATIC_BASE }}/static/dist/js/generic_classifier/dashboard/main.js?v={{ ASSET_VERSION }}"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script> 
+
+
 <script>
     $(function () {
-        ai.OverviewGC.setCallback();
+        ai.OverviewGC.setCallback();    
     });
 </script>
 {% endblock %}
