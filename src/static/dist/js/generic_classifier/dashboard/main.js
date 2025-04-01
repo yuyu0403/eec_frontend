@@ -1,7 +1,11 @@
-ai.OverviewGC = {
+ai.DashboardGC = {
     setCallback: function () {
+<<<<<<< HEAD
         ai.OverviewGC.setPath();
     
+=======
+        ai.DashboardGC.setPath();
+>>>>>>> c70150be53f7ad95a496f042962ad691ab62bc5e
     },
     setPath: function () {
         console.log("setPath dashboard");

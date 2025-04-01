@@ -48,6 +48,7 @@
 
 {% endblock %} {% block customized_js %}
 <script src="{{ STATIC_BASE }}/static/dist/js/generic_classifier/dashboard/main.js?v={{ ASSET_VERSION }}"></script>
+<<<<<<< HEAD
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script> 
 
@@ -55,6 +56,11 @@
 <script>
     $(function () {
         ai.OverviewGC.setCallback();    
+=======
+<script>
+    $(function () {
+        ai.DashboardGC.setCallback();
+>>>>>>> c70150be53f7ad95a496f042962ad691ab62bc5e
     });
 </script>
 {% endblock %}

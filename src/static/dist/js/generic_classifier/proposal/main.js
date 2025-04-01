@@ -1,4 +1,4 @@
-ai.OverviewGC = {
+ai.ProposalGC = {
     setCallback: function () {
         ai.ProposalGC.setPath();
     },
