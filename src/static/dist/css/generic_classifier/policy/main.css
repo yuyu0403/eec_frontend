@@ -1,39 +1,77 @@
-.policy_content{
+.policy_container{
+    color: #B3B3B3 !important;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.container {
     display: flex;
 }
-.menu{
+
+/* 高亮顯示的樣式 */
+.policy-link.active {
+    color: #008687 !important;
+    border-left: #008687 solid 2px;
+}
+
+
+/* 固定側邊欄，使其不會隨著滾動消失 */
+.policy_sidebar {
     position: sticky;
-    border-right: 2px solid #ddd;
-    width: 45%;
-    line-height: 2.5;
-    display: block;
-    margin-top: 1% ;
-    margin-right: 1.5%;
-    font-size: 15px;
-}
-.menu a{
-    display: flex;
-    color: #6c757d;
-    text-decoration: none;
-    align-items: center; 
-    justify-content: center;
-    padding-left: 10px;
-}
-.text{
-    margin-top: 1%;
-    font-size: 18px;
-    height: 80vh; 
+    top: 10px;
+    height: 90vh;
     overflow-y: auto;
-    scroll-behavior: smooth;
+    
 }
-.text::-webkit-scrollbar {
-    display: none;
+
+/* 選單的基礎樣式 */
+.policy_sidebar ul li a {
+    text-decoration: none;
+    color: #B3B3B3; /* 預設文字顏色 */
+    font-size: 17px;
+    display: block;
+    padding: 5px;
+    transition: color 0.3s ease; /* 平滑變化 */
+    /* padding-top: 0; */
 }
-.text p{
-    color: #6c757d;
+
+
+
+
+.policy_sidebar ul {
+    list-style: none;
+    padding-right: 60px;
+    padding-left: 60px;
 }
-.menu a.active {
-    color: #008687;
-    border-left: 3px solid #008687;
-    padding-left: 7px;
+
+.policy_sidebar ul li {
+    margin-bottom: 15px;
+}
+
+
+
+.content {
+    padding: 25px;
+    width: calc(100% - 220px);
+    border-left: 2px solid #B3B3B3;
+    padding-top: 5px;
+}
+
+
+/* 內容區塊的間距 */
+section {
+    padding-bottom: 15px;
+    min-height: 46vh;
+}
+
+
+section p{
+    padding-top: 15px;
+    letter-spacing: 0.2rem;
+}
+
+section:last-child {
+    border-bottom: none;
 }

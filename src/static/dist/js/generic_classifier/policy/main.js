@@ -7,41 +7,59 @@ ai.PolicyGC = {
     },
 };
 
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".policy-link");
+    const sections = document.querySelectorAll("section");
 
-$(function () {
-    $(".menu a").click(function(event) {
-        // 阻止默認行為
-        event.preventDefault();
-        
-        var target = $(this).attr("href");
-        $('.text').animate({
-            scrollTop: $(target).offset().top - $('.text').offset().top + $('.text').scrollTop()
-        }, 60);
 
-        $(".menu a").removeClass("active");
+    links.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
 
-        $(this).addClass("active");
-    });
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
 
-    function checkActiveMenu(){
-        var scrollPosition = $('.text').scrollTop();
-        $(".menu a").each(function() {
-            var target = $(this).attr("href");
-            var targetOffsetTop = $(target).offset().top - $('.text').offset().top;
-            var targetHeight = $(target).outerHeight();
+            if (targetElement) {
+                const offset = -60; // 根據實際情況微調（往上偏一點）
+                const top = targetElement.getBoundingClientRect().top + window.scrollY + offset;
 
-            if (scrollPosition >= targetOffsetTop - 25 && scrollPosition < targetOffsetTop + targetHeight - 25) {
-                $(".menu a").removeClass("active");
-                $(this).addClass("active");
+                window.scrollTo({
+                    top: top,
+                    behavior: "smooth"
+                });
             }
         });
+    });
+
+    function changeActiveLink() {
+        let scrollPosition = window.scrollY + window.innerHeight * 0.5;
+        let activeFound = false;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            const sectionId = section.getAttribute("id");
+            const matchingLink = document.querySelector(`.policy-link[href="#${sectionId}"]`);
+
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                if (matchingLink && !activeFound) {
+                    links.forEach(link => link.classList.remove("active"));
+                    matchingLink.classList.add("active");
+                    activeFound = true;
+                }
+            }
+        });
+
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 10) {
+            links.forEach(link => link.classList.remove("active"));
+            const lastLink = document.querySelector(`.policy-link[href="#${sections[sections.length - 1].id}"]`);
+            if (lastLink) {
+                lastLink.classList.add("active");
+            }
+        }
     }
 
-    $('.text').on('scroll', function() {
-        checkActiveMenu();
-    });
-    checkActiveMenu();
+    window.addEventListener("scroll", changeActiveLink);
+    changeActiveLink();
 });
-
-
 
