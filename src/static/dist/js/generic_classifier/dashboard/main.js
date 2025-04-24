@@ -3,226 +3,622 @@ ai.DashboardGC = {
         ai.DashboardGC.setPath();
     },
     setPath: function () {
-        console.log("setPath dashboard");
-            Highcharts.chart('age-distribution', {
-                chart: {
-                    type: 'column',
-                    backgroundColor: '#F9F9F9'
-                }, title: {
-                    text: 'Age Distribution', style: {
-                        color: '#008687',
-                        fontWeight: 'bold'
-                    }
-                }, xAxis: {
-                    categories: ["0-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61+"], labels: {
-                        style: {color: '#008687'}
-                    }, lineColor: '#008687'
-                }, yAxis: {
+        console.log(" dashboard"); 
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                const records = data.data.stat.records.categories;
+                const recordsdata = data.data.stat.records.data;
+        
+                const maxValue = Math.max(...recordsdata);
+                const recordsData = recordsdata.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+
+                Highcharts.chart('Total-Records-Across-Modalities', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'
+                    },
                     title: {
-                        text: '人數', style: {color: '#008687'}
-                    }
-                }, legend: {
-                    enabled: false,
-                }, tooltip: {
-                    backgroundColor: '#008687', style: {color: '#ffffff'} 
-                }, plotOptions: {
-                    column: {
-                        borderRadius: 5,
+                        text: 'Total Records Across Modalities',
+                        style: {color: '#008687'}
+                    },
+                    xAxis: {
+                        categories: records,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        min: 0, 
+                        tickInterval: 100000,
+                        title: {text: '總資料數', style: {color: '#008687'}}
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '總資料數',
+                        data: recordsData ,
                         dataLabels: {
                             enabled: true,
                         }
-                    }
-                }, series: [{
-                    name: '人數', data: [50, 120, 300, 450, 600, 700, 500], color: '#008687'
-                }]
+                    }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
             });
             
-            
-            Highcharts.chart('gender-distribution', {
-                chart: {
-                    type: 'pie',
-                    backgroundColor: '#F9F9F9'
-                }, title: {
-                    text: 'Gender Distribution', style: {
-                        color: '#008687',
-                        fontWeight: 'bold'
-                    }
-                }, series: [{
-                    name: '人數', data: [{name: '男性', y: 400, color: '#008687',}, {name: '女性', y: 350, color: '#00b89b'},]
-                }]
-            });
-            
-            Highcharts.chart('icd-distribution', {
-                chart: {
-                    type: 'bar',
-                    backgroundColor: '#F9F9F9'
-                },
-                title: {
-                    text: 'ICD Distribution',
-                    style: {color: '#008687'}
-                },
-                xAxis: {
-                    categories: ['I10', 'E11', 'J18'],
-                    labels: {
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                const subjects = data.data.stat.subjects.categories;
+                const subjectsdata = data.data.stat.subjects.data;
+                const maxValue = Math.max(...subjectsdata);
+                const subjectsData = subjectsdata.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('Total-Subjects-Across-Modalities', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'Total Subjects Across Modalities',
                         style: {color: '#008687'}
                     },
-                    lineColor: '#008687'
-                },
-                yAxis: {
-                    title: {text: '病例數', style: {color: '#008687'}}
-                },
-                legend: {enabled: false},
-                series: [{
-                    name: '病例數',
-                    data: [200, 180, 100],
-                    color: '#008687'
-                }]
+                    xAxis: {
+                        categories: subjects,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        min: 0, 
+                        tickInterval: 25000,
+                        title: {text: '總項目數', style: {color: '#008687'}}
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '總項目數',
+                        data: subjectsData ,
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }]
+                });      
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
             });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                const avg_subjects = data.data.stat.avg_subjects.categories;
+                const avg_subjectsdata = data.data.stat.avg_subjects.data;
             
-            Highcharts.chart('lab-tests-boxplot', {
-                chart: {
-                    type: 'boxplot',
-                    backgroundColor: '#F9F9F9'
-                },
-                title: {
-                    text: 'Lab Tests Boxplot',
-                    style: {color: '#008687'}
-                },
-                xAxis: {
-                    categories: ['Glucose', 'Creatinine', 'Sodium', 'Potassium', 'Hemoglobin'],
-                    labels: {
+                const maxValue = Math.max(...avg_subjectsdata);
+                const avgData = avg_subjectsdata.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+            
+                Highcharts.chart('Average-Subjects-Across-Modalities', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'Average Subjects Across Modalities',
+                        style: { color: '#008687' }
+                    },
+                    xAxis: {
+                        categories: avg_subjects,
+                        labels: { style: { color: '#008687' } },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        min: 0,
+                        tickInterval: 2,
+                        title: { text: '平均項目數', style: { color: '#008687' } }
+                    },
+                    legend: { enabled: false },
+                    series: [{
+                        name: '平均項目數',
+                        data: avgData,
+                        dataLabels: { enabled: true }
+                    }]
+                });
+            })
+            
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let bins = data.data.age_distribution.bins;
+                let agecounts = data.data.age_distribution.counts;
+                
+                const maxValue = Math.max(...agecounts);
+                const ageData = agecounts.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('age-distribution', {
+                    chart: {
+                        type: 'column',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'age distribution',
+                        style: {
+                            color: '#008687',
+                            fontWeight: 'bold'
+                        }
+                    },
+                    xAxis: {
+                        categories: bins, 
+                        labels: {
+                            style: { color: '#008687' }
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        title: {
+                            text: '人數',
+                            style: { color: '#008687' }
+                        }
+                    },
+                    legend: {
+                        enabled: false,
+                    },
+                    tooltip: {
+                        backgroundColor: '#008687',
+                        style: { color: '#ffffff' }
+                    },
+                    plotOptions: {
+                        column: {
+                            borderRadius: 5,
+                            dataLabels: {
+                                enabled: true,
+                            }
+                        }
+                    },
+                    series: [{
+                        name: '人數',
+                        data: ageData
+                    }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+            });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let female = data.data.gender_distribution.female;
+                let male = data.data.gender_distribution.male;
+                Highcharts.chart('gender-distribution', {
+                    chart: {
+                        type: 'pie',
+                        backgroundColor:'#F7F7F7'
+                    }, 
+                    title: {
+                        text: 'Gender Distribution', 
+                        style: {
+                            color: '#008687',
+                            fontWeight: 'bold'
+                        }
+                    }, 
+                    series: [{
+                        name: '人數', 
+                        data: [{name: '男性', y:female, color: '#008687',}, 
+                            {name: '女性', y:male, color: '#00b89b'},],
+                        dataLabels: {
+                            enabled: true,
+                            format: '{point.name}: {point.y}人<br>{point.percentage:.1f}%'
+                        }
+                    }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+            });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let icddata = data.data.icd_distribution;
+                let categories = Object.keys(icddata);
+                let seriesData = Object.values(icddata); 
+
+                const maxValue = Math.max(...seriesData);
+                const icdData = seriesData.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('icd-distribution', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'ICD Distribution',
                         style: {color: '#008687'}
                     },
-                    lineColor: '#008687'
-                },
-                yAxis: {
-                    title: {text: '測試值', style: {color: '#008687'}}
-                },
-                legend: {enabled: false},
-                series: [{
-                    name: '測試數據',
-                    data: [
-                        [85, 90, 102, 110, 130],   // Glucose
-                        [0.7, 0.8, 1.1, 1.2, 1.3], // Creatinine
-                        [135, 136, 138, 140, 145], // Sodium
-                        [3.5, 3.8, 4.0, 4.2, 4.8], // Potassium
-                        [12.8, 13.5, 14.2, 14.5, 16] // Hemoglobin
-                    ],
-                    color: '#008687'
-                }]
+                    xAxis: {
+                        categories: categories,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        title: {text: '病例數', style: {color: '#008687'}}
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '病例數',
+                        data: icdData,
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }]
+                });
+
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
             });
-            
-            Highcharts.chart('medication-distribution', {
-                chart: {
-                    type: 'bar',
-                    backgroundColor: '#F9F9F9'
-                },
-                title: {
-                    text: 'Medication Distribution',
-                    style: {color: '#008687'}
-                },
-                xAxis: {
-                    categories: ["Aspirin", "Metformin", "Atorvastatin", "Lisinopril", "Albuterol"],
-                    labels: {
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let lab_test_names = data.data.lab_tests_distribution.lab_test_names;
+                let labcounts = data.data.lab_tests_distribution.counts; 
+                const maxValue = Math.max(...labcounts);
+                const minValue = Math.min(...labcounts);
+                const labData = labcounts.map(val => {
+                    const ratio =(val - minValue) / (maxValue - minValue);
+                    const color = `hsl(180,55%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('lab-tests-distribution', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'},
+                    title: {
+                        text: 'Lab Tests Distribution',
                         style: {color: '#008687'}
                     },
-                    lineColor: '#008687'
-                },
-                yAxis: {
-                    title: {text: '人數', style: {color: '#008687'}}
-                },
-                legend: {enabled: false},
-                series: [{
-                    name: '人數',
-                    data: [150, 200, 250, 180, 90],
-                    color: '#008687'
-                }]
+                    xAxis: {
+                        categories: lab_test_names,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        title: {text: '病例數', style: {color: '#008687'}}
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '病例數',
+                        data: labData,
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }]
+                });
+
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
             });
-            
-            Highcharts.chart('heart-rate-distribution', {
-                chart: {
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let medications = data.data.medication_distribution.medications;
+                let medicationcounts = data.data.medication_distribution.counts;
+
+                const maxValue = Math.max(...medicationcounts);
+                const medData = medicationcounts.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('medication-distribution', {
+                    chart: {
+                        type: 'bar',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'Medication Distribution',
+                        style: {color: '#008687'}
+                    },
+                    xAxis: {
+                        categories: medications,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        title: {text: '人數', style: {color: '#008687'}}
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '人數',
+                        data: medData,
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }]
+                });
+
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+            });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let arrhythmiadata = data.data.arrhythmia_distribution;
+                let arrhythmiakey = Object.keys(arrhythmiadata);
+                let arrhythmiavalue =  Object.values(arrhythmiadata);
+                let colors = ['#008687', '#00b89b', '#00c5a9', '#00d6b6', '#00e1c4', '#00ebd2','#00f5e0'];
+                let pieData = arrhythmiakey.map((key, index) => {
+                    return {
+                        name: `${key}: ${arrhythmiavalue[index]}人`,
+                        y: arrhythmiavalue[index],
+                        color: index < colors.length ? colors[index] : '#000000'
+                    };
+                });
+
+                Highcharts.chart('arrhythmia-distribution', {
+                    chart: {
+                        type: 'pie',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'Arrhythmia Distribution',
+                        style: {color: '#008687'} // 主色系
+                    },
+                    tooltip: {
+                        pointFormat: '{series.name}: <b>{point.y}</b>'
+                    },
+                    plotOptions: {
+                        pie: {
+                            allowPointSelect: true,
+                            cursor: 'pointer',
+                            dataLabels: {
+                                enabled: true,
+                                format: '{point.name} <br> {point.percentage:.1f} %',
+                                style: {
+                                    color: '#000000',
+                                    fontSize: '11px'
+                                },
+                                connectorColor: '#000000'
+                            }
+                        }
+                    },
+                    series: [{
+                        name: '人數',
+                        data: pieData
+                    }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+            });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                let heart_rate = data.data.heart_rate_distribution.bins;
+                let heart_ratecounts = data.data.heart_rate_distribution.counts;
+
+                const maxValue = Math.max(...heart_ratecounts);
+                const heartData = heart_ratecounts.map(val => {
+                    const ratio = val / maxValue;
+                    const color = `hsl(180, 50%, ${55 - ratio * 30}%)`; 
+                    return {
+                        y: val,
+                        color: color
+                    };
+                });
+                Highcharts.chart('heart-rate-distribution', {
+                    chart: {
+                        type: 'column',
+                        backgroundColor: '#F7F7F7'
+                    },
+                    title: {
+                        text: 'Heart Rate Distribution',
+                        style: {color: '#008687'}
+                    },
+                    xAxis: {
+                        categories: heart_rate,
+                        labels: {
+                            style: {color: '#008687'}
+                        },
+                        lineColor: '#008687'
+                    },
+                    yAxis: {
+                        title: {
+                            text: '人數', 
+                            style: {color: '#008687'}
+                        }
+                    },
+                    legend: {enabled: false},
+                    series: [{
+                        name: '人數',
+                        data: heartData,
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+            });
+
+            fetch('http://127.0.0.1:8889/json/dashboard.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 資料
+            })
+            .then(data => {
+                const ecg = data.data.ecg_intervals;
+                const allBins = [
+                "0-100", "101-120", "121-140", "141-160",
+                "161-180", "181-200", "201-220", ">220"
+                ];
+
+                const mapCounts = (bins, counts) => {
+                const binMap = {};
+                bins.forEach((bin, i) => {
+                    binMap[bin] = counts[i];
+                });
+                return allBins.map(bin => binMap[bin] || 0);
+                };
+
+                const prCounts = mapCounts(ecg.PR_interval.bins, ecg.PR_interval.counts);
+                const qrsCounts = mapCounts(ecg.QRS_duration.bins, ecg.QRS_duration.counts);
+                const qtcCounts = mapCounts(ecg.QTc_interval.bins, ecg.QTc_interval.counts);
+
+                Highcharts.chart('ecg-intervals', {
+                chart: { 
                     type: 'column',
-                    backgroundColor: '#F9F9F9'
-                },
-                title: {
-                    text: 'Heart Rate Distribution',
-                    style: {color: '#008687'}
-                },
-                xAxis: {
-                    categories: ["<50", "50-60", "61-70", "71-80", "81-90", "91-100", ">100"],
-                    labels: {
-                        style: {color: '#008687'}
-                    },
-                    lineColor: '#008687'
-                },
-                yAxis: {
-                    title: {text: '人數', style: {color: '#008687'}}
-                },
-                legend: {enabled: false},
-                series: [{
-                    name: '人數',
-                    data: [30, 120, 200, 300, 250, 150, 50],
-                    color: '#008687'
-                }]
-            });
-            
-            Highcharts.chart('arrhythmia-distribution', {
-                chart: {
-                    type: 'pie',
-                    backgroundColor: '#F9F9F9'},
-                title: {
-                    text: 'Arrhythmia Distribution',
-                    style: {color: '#008687'} // 主色系
-                },
-                series: [{
-                    name: '人數',
-                    data: [
-                        {name: 'Normal Sinus Rhythm', y: 400, color: '#008687'},
-                        {name: 'Atrial Fibrillation', y: 150, color: '#00b89b'},
-                        {name: 'Tachycardia', y: 120, color: '#00c5a9'},
-                        {name: 'Bradycardia', y: 80, color: '#00d6b6'},
-                        {name: 'PVC', y: 50, color: '#00e1c4'},
-                        {name: 'Other', y: 100, color: '#00ebd2'}
-                    ]
-                }]
-            });
-            
-            Highcharts.chart('ecg-intervals', {
-                chart: {
-                    type: 'column',
-                    backgroundColor: '#F9F9F9'},
+                    backgroundColor: '#F7F7F7'
+                 },
                 title: {
                     text: 'ECG Intervals',
-                    style: {color: '#008687'} // 主色系
+                    style: { color: '#008687' }
                 },
                 xAxis: {
-                    categories: ["100-120", "120-140", "140-160", "160-180", "180-200", "200-220"],
-                    labels: {
-                        style: {color: '#008687'} // 設定 X 軸標籤顏色
-                    },
-                    lineColor: '#008687' // 設定 X 軸線條顏色
+                    categories: allBins,
+                    labels: { style: { color: '#008687' } },
+                    lineColor: '#008687'
                 },
                 yAxis: {
-                    title: {text: '人數', style: {color: '#008687'}} // 設定 Y 軸顏色
+                    title: { text: '人數', style: { color: '#008687' } }
+                },
+                tooltip: {
+                    shared: true,
+                    valueSuffix: ' 人'
+                },
+                plotOptions: {
+                    column: {
+                    grouping: true,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:,.0f}'
+                    }
+                    }
                 },
                 series: [{
                     name: 'PR Interval',
-                    data: [150, 320, 450, 200, 80, 40],
-                    color: '#008687' // 主色系
+                    data: prCounts,
+                    color: '#008687'
                 }, {
                     name: 'QRS Duration',
-                    data: [100, 500, 350, 50, 0, 0],
+                    data: qrsCounts,
                     color: '#00b89b'
                 }, {
                     name: 'QTc Interval',
-                    data: [50, 200, 500, 150, 30, 0],
+                    data: qtcCounts,
                     color: '#00c5a9'
                 }]
+                });
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
             });
-        
-    },
-};
-
-window.onload = function () {
-    ai.OverviewGC.setCallback();
+           
+    }
 };
