@@ -8,3 +8,29 @@
     margin-left: 680%;
   }
   
+.new_proposal_btn{
+    color: white;
+    background-color: #008687;
+    border: none;
+    border-radius: 10px;
+    padding: 7px !important;
+    margin: 10px 0px;
+}
+
+
+
+.proposal_title{
+    margin: 20px 0px;
+}
+
+.list_word{
+    border: 1px solid black;
+    padding: 8px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.proposal_tbody{
+    color: #8a8a8a;
+    background-color: #f3f1f1;
+}
