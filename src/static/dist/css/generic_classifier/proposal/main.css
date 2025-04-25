@@ -1,24 +1,10 @@
-.proposal_container{
+.content{
     display: flex;
 }
-
-.proposal_addbtn{
-    color: white;
-    background-color: #008687;
-    border: none;
-    border-radius: 10px;
-    padding: 7px;
-    margin: 10px 0px;
-}
-
-.proposal_content{
-    padding: 50px 10px 10px 40px;
-}
-
-.table_head{
-    color: #008687;
-}
-
-table{
-    width: 100rem;
-}
+.right-nav {
+    min-width: 180px;
+    background-color: #f8f9fa;
+    color: #a9a9a9;
+    margin-left: 680%;
+  }
+  

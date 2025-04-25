@@ -4,5 +4,7 @@ ai.ProposalGC = {
     },
     setPath: function () {
         console.log("setPath proposal");
+    
+            
     },
 };
