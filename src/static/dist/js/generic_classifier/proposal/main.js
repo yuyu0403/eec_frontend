@@ -13,13 +13,6 @@ axios.get(url).then((res) => {
     const records = res.data.data.records;
     console.log(records);
 
-    const analysis_modality_icon = {
-        no_code: "far fa-window-maximize",
-        coding: "fas fa-code",
-        gan: "fas fa-download",
-    };
-
-
 
     $.fn.DataTable.ext.pager.numbers_length = 5;//設定底下頁碼數量
     let my_table = $("#proposal_tb").DataTable({  //copy html
@@ -57,7 +50,6 @@ axios.get(url).then((res) => {
     $.each(records, function (idx, val) {
         let proposal_tpl = $(".proposal_list_tbody_tpl").children().clone();
         $(".proposal_name", proposal_tpl).text(val["proposal_name"]);
-        console.log(val);
         const analysisEnvMapping = {
             no_code: "No Code",
             coding: "Coding",
@@ -82,11 +74,11 @@ axios.get(url).then((res) => {
         $(".last_updated_time", proposal_tpl).text(val["updated_time"]);
         $(".action", proposal_tpl)
             .data("task_id", val["proposal_id"])
-            .data("file_name", val["proposal_name"]);
-        // .data("description", val["description"])  如果要在編輯時先顯示曾經的訊息需要這個
-        // .data("status", val["status"])
-        // .data("inference_status", val["is_infer"] ? "on" : "off")
-        // .data("error_msg", val["error_msg"]);
+            .data("file_name", val["proposal_name"])
+            .data("description", val["description"])  //如果要在編輯時先顯示曾經的訊息需要這個
+            .data("status", val["status"])
+            .data("inference_status", val["is_infer"] ? "on" : "off")
+            .data("error_msg", val["error_msg"]);
         // 有錯誤訊息就顯示
         if (val["error_msg"]) {
             $(".warning_msg", proposal_tpl).removeClass("hide");
@@ -137,8 +129,10 @@ axios.get(url).then((res) => {
     // 開啟重新編輯description modal  第一步就開畫面而已
     $(document).on("click", ".edit_description", function () {
         let file_id = $(this).closest(".action").data("task_id"); // 改為提取 file_id
+        let description = $(this).closest(".action").data("description"); //jiade
         console.log("edit_description:", file_id);
         $(".edit_description_btn").data("file_id", file_id);
+        $("input[name=edit_description]").val(description);
         $("#edit_description_modal").modal("show");
     });
 
@@ -179,6 +173,7 @@ axios.get(url).then((res) => {
     });
 
 });
+<<<<<<< HEAD
 
 //view
 $(document).on('click', '.file_view', function () {
@@ -261,3 +256,5 @@ function showProposalDetail(data) {
 }
 
 
+=======
+>>>>>>> 925c783d70fbd0c8115874bb434a08e580821cc7
