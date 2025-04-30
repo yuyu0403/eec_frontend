@@ -2,12 +2,23 @@
     display: flex;
 }
 .right-nav {
-    min-width: 180px;
-    background-color: #f8f9fa;
-    color: #a9a9a9;
-    /* margin-left: 680%; */
+    width: 25.25rem;
+    height: 100%;
+    background-color: #F9F8FB;
+    color: #6A6969;
+    display: flex;
+    justify-content: center;
 }
-
+.right-nav .right_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130%;
+}
+.right_content p{
+    color: #6A6969;
+    font-size: 17px;
+}
 .new_proposal_btn{
     color: white;
     background-color: #008687;
@@ -16,8 +27,6 @@
     padding: 7px !important;
     margin: 10px 0px;
 }
-
-
 
 .proposal_title{
     margin: 20px 0px;

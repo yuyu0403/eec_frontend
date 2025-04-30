@@ -4,8 +4,7 @@ ai.ProposalGC = {
     },
     setPath: function () {
         console.log("setPath proposal");
-    
-            
+         
     },
 };
 
@@ -179,7 +178,86 @@ axios.get(url).then((res) => {
         ai.Global.ToolKit.Confirm.delete.modalShow(file_name, callback_info);
     });
 
-
 });
+
+//view
+$(document).on('click', '.file_view', function () {
+    fetchProposalData();
+});
+function fetchProposalData() {
+    fetch('http://127.0.0.1:8889/json/proposal_view.json') 
+        .then(response => response.json())
+        .then(data => {
+            showProposalDetail(data);
+        })
+        .catch(error => {
+            console.error('Error fetching proposal data:', error);
+        });
+}
+function showProposalDetail(data) {
+    let html = `
+       <div class="proposal-info-box">
+            <h4>Proposal List Info</h4>
+            <hr>
+            <div class="info-item">
+                <label>Proposal Name</label>
+                <input type="text" value="${data.proposal_name}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Description</label>
+                <input type="text" value="${data.description}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Analysis Environment</label>
+                <input type="text" value="${data.analysis_env}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Dataset</label>
+                <input type="text" value="${data.dataset}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Modality</label>
+                <input type="text" value="${data.modality}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Gender</label>
+                <input type="text" value="${data.gender.join(', ')}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Age</label>
+                <input type="text" value="${data.age}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Date</label>
+                <input type="text" value="${data.date}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Creator</label>
+                <input type="text" value="${data.creator}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Status</label>
+                <input type="text" value="${data.status}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Updated Time</label>
+                <input type="text" value="${data.updated_time}" readonly>
+            </div>
+            <div class="info-item">
+                <label>Augmentation Conditions</label>
+                <ul>
+                    ${data.augmentation.conditions.map(c => `<li>${c.name} (Code: ${c.code})</li>`).join('')}
+                </ul>
+            </div>
+            
+        </div>
+    `;
+    data.augmentation.conditions.forEach(condition => {
+        html += `<li>${condition.name} (Code: ${condition.code})</li>`;
+    });
+    html += '</ul>';
+
+    $('.right').html(html);
+}
 
 
