@@ -173,7 +173,6 @@ axios.get(url).then((res) => {
     });
 
 });
-<<<<<<< HEAD
 
 //view
 $(document).on('click', '.file_view', function () {
@@ -256,5 +255,3 @@ function showProposalDetail(data) {
 }
 
 
-=======
->>>>>>> 925c783d70fbd0c8115874bb434a08e580821cc7
