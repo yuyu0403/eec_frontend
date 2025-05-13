@@ -1,10 +1,15 @@
 ai.ProposalGC = {
     setCallback: function () {
         ai.ProposalGC.setPath();
+
+        $(".new_proposal_btn").on("click", function () {
+            window.location.href = "/generic_classifier/new_proposal";
+        });
+
     },
     setPath: function () {
         console.log("setPath proposal");
-         
+        
     },
 };
 
@@ -192,7 +197,7 @@ function showProposalDetail(data) {
     $('.right_content').hide();
     let html = `
        <div class="proposal-info-box">
-            <h3>Proposal List Info</h4>
+            <h3>Proposal List Info</h3>
             <hr>
             <div class="info-item">
                 <h6>Proposal Name</h6>

@@ -22,3 +22,10 @@ def proposal():
         "active_proposal": "active",
     }
     return render_template('generic_classifier/proposal/main.html', **content)
+
+@app.route("/new_proposal", methods=['GET'])
+def new_proposal():
+    content={
+        "active_new_proposal": "active",
+    }
+    return render_template('generic_classifier/new_proposal/main.html', **content)

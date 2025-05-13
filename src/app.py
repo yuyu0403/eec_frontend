@@ -60,6 +60,10 @@ def proposal_json():
 def proposal_view_json():
     return send_from_directory('json', 'proposal_view.json')
 
+@app.route('/json/new_proposal.json')
+def new_proposal_json():
+    return send_from_directory('json', 'new_proposal.json')
+
 
 # 註冊View
 app.register_blueprint(generic_classifier_view)

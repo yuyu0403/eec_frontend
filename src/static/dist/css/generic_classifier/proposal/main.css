@@ -49,6 +49,7 @@
     color: #8a8a8a;
     background-color: #f3f1f1;
 }
+<<<<<<< HEAD
 .view_detail{
     display: flex;
     padding: 2rem;
@@ -83,4 +84,9 @@
     border-radius: 1rem;
     padding: 0.35rem;
     margin-top: 0.1rem;
+=======
+
+.description-input{
+    width: 100%;
+>>>>>>> 669355be28bfc7b8fe92a9757a3928b073aa052a
 }
