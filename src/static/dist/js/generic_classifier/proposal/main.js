@@ -189,69 +189,61 @@ function fetchProposalData() {
         });
 }
 function showProposalDetail(data) {
+    $('.right_content').hide();
     let html = `
        <div class="proposal-info-box">
-            <h4>Proposal List Info</h4>
+            <h3>Proposal List Info</h4>
             <hr>
             <div class="info-item">
-                <label>Proposal Name</label>
-                <input type="text" value="${data.proposal_name}" readonly>
+                <h6>Proposal Name</h6>
+                <p>${data.proposal_name}</p>
             </div>
             <div class="info-item">
-                <label>Description</label>
-                <input type="text" value="${data.description}" readonly>
+                <h6>Description</h6>
+                <p>${data.description}</p>
             </div>
             <div class="info-item">
-                <label>Analysis Environment</label>
-                <input type="text" value="${data.analysis_env}" readonly>
+                <h6>Analysis Environment</h6>
+                <p>${data.analysis_env}</p>
             </div>
             <div class="info-item">
-                <label>Dataset</label>
-                <input type="text" value="${data.dataset}" readonly>
+                <h6>Dataset</h6>
+                <p class="dataset_view">${data.dataset}</p>
             </div>
             <div class="info-item">
-                <label>Modality</label>
-                <input type="text" value="${data.modality}" readonly>
+                <h6>Modality</h6>
+                <p>${data.modality}</p>
             </div>
             <div class="info-item">
-                <label>Gender</label>
-                <input type="text" value="${data.gender.join(', ')}" readonly>
+                <h6>Gender</h6>
+                <p>${data.gender.join(', ')}</p>
             </div>
             <div class="info-item">
-                <label>Age</label>
-                <input type="text" value="${data.age}" readonly>
+                <h6>Age</h6>
+                <p>${data.age}</p>
             </div>
             <div class="info-item">
-                <label>Date</label>
-                <input type="text" value="${data.date}" readonly>
+                <h6>Date</h6>
+                <p>${data.date}</p>
             </div>
             <div class="info-item">
-                <label>Creator</label>
-                <input type="text" value="${data.creator}" readonly>
+                <h6>Data</h6>
+                <p>${data.date}</p>
             </div>
             <div class="info-item">
-                <label>Status</label>
-                <input type="text" value="${data.status}" readonly>
+                <h6>Status</h6>
+                <p>${data.status}</p>
             </div>
             <div class="info-item">
-                <label>Updated Time</label>
-                <input type="text" value="${data.updated_time}" readonly>
+                <h6>Updated Time</h6>
+                <p>${data.updated_time}</p>
             </div>
-            <div class="info-item">
-                <label>Augmentation Conditions</label>
-                <ul>
-                    ${data.augmentation.conditions.map(c => `<li>${c.name} (Code: ${c.code})</li>`).join('')}
-                </ul>
-            </div>
+            
             
         </div>
     `;
-    data.augmentation.conditions.forEach(condition => {
-        html += `<li>${condition.name} (Code: ${condition.code})</li>`;
-    });
-    html += '</ul>';
 
-    $('.right').html(html);
+    $('.view_detail').html(html).show();
 }
 
 
