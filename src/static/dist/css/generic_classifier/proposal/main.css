@@ -2,7 +2,7 @@
     display: flex;
 }
 .right-nav {
-    width: 25.25rem;
+    width: 28.25rem;
     background-color: #F9F8FB;
     color: #6A6969;
     height: 100%;
@@ -77,10 +77,17 @@
     font-size: 1.3rem;
     font-weight: 400;
 }
-.dataset_view{
+.view_dataset{
     border: 0.1rem solid #008687;
     width: 100%;
     border-radius: 1rem;
     padding: 0.35rem;
     margin-top: 0.1rem;
+}
+.view_conditions{
+    border-radius: 1rem;
+    border: 0.2rem solid #008687;
+    padding: 0.3rem;
+    margin-bottom: 0.8rem;
+    line-height: 1;
 }

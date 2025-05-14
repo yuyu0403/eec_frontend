@@ -195,6 +195,24 @@ function fetchProposalData() {
 }
 function showProposalDetail(data) {
     $('.right_content').hide();
+
+    let conditionsHTML = '';
+    if (Array.isArray(data.augmentation.conditions)) {
+        data.augmentation.conditions.forEach(condition => {
+            conditionsHTML += `
+                <div class="view_conditions">
+                    <p><strong>SN:</strong> ${condition.sn}</p>
+                    <p><strong>Name:</strong> ${condition.name}</p>
+                    <p><strong>Code:</strong> ${condition.code}</p>
+                    <p><strong>Code_System:</strong> ${condition.code_system}</p>
+                    <p><strong>Start:</strong>${condition.time_range.start ?? 'null'}</p>
+                    <p><strong>End:</strong> ${condition.time_range.end ?? 'null'}</p>
+                    <p><strong>interval_before:</strong> ${condition.time_range.interval_before ?? 'null'}</p>
+                    <p><strong>interval_after:</strong> ${condition.time_range.interval_after ?? 'null'}</p>
+                </div>
+            `;
+        });
+    }
     let html = `
        <div class="proposal-info-box">
             <h3>Proposal List Info</h3>
@@ -213,7 +231,7 @@ function showProposalDetail(data) {
             </div>
             <div class="info-item">
                 <h6>Dataset</h6>
-                <p class="dataset_view">${data.dataset}</p>
+                <p class="view_dataset">${data.dataset}</p>
             </div>
             <div class="info-item">
                 <h6>Modality</h6>
@@ -231,20 +249,12 @@ function showProposalDetail(data) {
                 <h6>Date</h6>
                 <p>${data.date}</p>
             </div>
-            <div class="info-item">
-                <h6>Data</h6>
-                <p>${data.date}</p>
+            <div>
+                <h6>Augmentation</h6>
+                <pd><strong>Keep : </strong>${data.augmentation.keep}</p>
+                <p><strong>Conditions :</strong></p>
+                ${conditionsHTML}
             </div>
-            <div class="info-item">
-                <h6>Status</h6>
-                <p>${data.status}</p>
-            </div>
-            <div class="info-item">
-                <h6>Updated Time</h6>
-                <p>${data.updated_time}</p>
-            </div>
-            
-            
         </div>
     `;
 
