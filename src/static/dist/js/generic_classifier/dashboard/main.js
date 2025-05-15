@@ -575,7 +575,7 @@ ai.DashboardGC = {
                 chart: { 
                     type: 'column',
                     backgroundColor: '#F7F7F7'
-                 },
+                },
                 title: {
                     text: 'ECG Intervals',
                     style: { color: '#008687' }
@@ -619,6 +619,5 @@ ai.DashboardGC = {
             .catch(error => {
                 console.error('Fetch error:', error);
             });
-           
     }
 };

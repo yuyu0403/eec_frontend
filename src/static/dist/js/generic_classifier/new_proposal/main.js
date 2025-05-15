@@ -42,4 +42,16 @@ fetch('/static/dist/json/option.json') // 替換為你的 API 路徑
     .catch(error => {
     console.error('載入 Dataset 失敗:', error);
     });
+
+    const next_btn1 = document.getElementById('next_btn1');
+    next_btn1.addEventListener('click', function(){
+
+        const extraction_combination = document.getElementById('extraction_combination');
+        const augmentation_combination = document.getElementById('augmentation_combination');
+
+
+        extraction_combination.style.display = "none";
+        augmentation_combination.style.display = "block";
+    });
+
 });
