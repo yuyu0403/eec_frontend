@@ -194,69 +194,71 @@ function fetchProposalData() {
         });
 }
 function showProposalDetail(data) {
+    $('.right_content').hide();
+
+    let conditionsHTML = '';
+    if (Array.isArray(data.augmentation.conditions)) {
+        data.augmentation.conditions.forEach(condition => {
+            conditionsHTML += `
+                <div class="view_conditions">
+                    <p><strong>SN:</strong> ${condition.sn}</p>
+                    <p><strong>Name:</strong> ${condition.name}</p>
+                    <p><strong>Code:</strong> ${condition.code}</p>
+                    <p><strong>Code_System:</strong> ${condition.code_system}</p>
+                    <p><strong>Start:</strong>${condition.time_range.start ?? 'null'}</p>
+                    <p><strong>End:</strong> ${condition.time_range.end ?? 'null'}</p>
+                    <p><strong>interval_before:</strong> ${condition.time_range.interval_before ?? 'null'}</p>
+                    <p><strong>interval_after:</strong> ${condition.time_range.interval_after ?? 'null'}</p>
+                </div>
+            `;
+        });
+    }
     let html = `
-        <div class="proposal-info-box">
-            <h4>Proposal List Info</h4>
+       <div class="proposal-info-box">
+            <h3>Proposal List Info</h3>
             <hr>
             <div class="info-item">
-                <label>Proposal Name</label>
-                <input type="text" value="${data.proposal_name}" readonly>
+                <h6>Proposal Name</h6>
+                <p>${data.proposal_name}</p>
             </div>
             <div class="info-item">
-                <label>Description</label>
-                <input type="text" value="${data.description}" readonly>
+                <h6>Description</h6>
+                <p>${data.description}</p>
             </div>
             <div class="info-item">
-                <label>Analysis Environment</label>
-                <input type="text" value="${data.analysis_env}" readonly>
+                <h6>Analysis Environment</h6>
+                <p>${data.analysis_env}</p>
             </div>
             <div class="info-item">
-                <label>Dataset</label>
-                <input type="text" value="${data.dataset}" readonly>
+                <h6>Dataset</h6>
+                <p class="view_dataset">${data.dataset}</p>
             </div>
             <div class="info-item">
-                <label>Modality</label>
-                <input type="text" value="${data.modality}" readonly>
+                <h6>Modality</h6>
+                <p>${data.modality}</p>
             </div>
             <div class="info-item">
-                <label>Gender</label>
-                <input type="text" value="${data.gender.join(', ')}" readonly>
+                <h6>Gender</h6>
+                <p>${data.gender.join(', ')}</p>
             </div>
             <div class="info-item">
-                <label>Age</label>
-                <input type="text" value="${data.age}" readonly>
+                <h6>Age</h6>
+                <p>${data.age}</p>
             </div>
             <div class="info-item">
-                <label>Date</label>
-                <input type="text" value="${data.date}" readonly>
+                <h6>Date</h6>
+                <p>${data.date}</p>
             </div>
-            <div class="info-item">
-                <label>Creator</label>
-                <input type="text" value="${data.creator}" readonly>
+            <div>
+                <h6>Augmentation</h6>
+                <pd><strong>Keep : </strong>${data.augmentation.keep}</p>
+                <p><strong>Conditions :</strong></p>
+                ${conditionsHTML}
             </div>
-            <div class="info-item">
-                <label>Status</label>
-                <input type="text" value="${data.status}" readonly>
-            </div>
-            <div class="info-item">
-                <label>Updated Time</label>
-                <input type="text" value="${data.updated_time}" readonly>
-            </div>
-            <div class="info-item">
-                <label>Augmentation Conditions</label>
-                <ul>
-                    ${data.augmentation.conditions.map(c => `<li>${c.name} (Code: ${c.code})</li>`).join('')}
-                </ul>
-            </div>
-            
         </div>
     `;
-    data.augmentation.conditions.forEach(condition => {
-        html += `<li>${condition.name} (Code: ${condition.code})</li>`;
-    });
-    html += '</ul>';
 
-    $('.right').html(html);
+    $('.view_detail').html(html).show();
 }
 
 
