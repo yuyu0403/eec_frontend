@@ -214,7 +214,7 @@ function showProposalDetail(data) {
         });
     }
     let html = `
-       <div class="proposal-info-box">
+        <div class="proposal-info-box">
             <h3>Proposal List Info</h3>
             <hr>
             <div class="info-item">

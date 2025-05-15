@@ -48,10 +48,16 @@ fetch('/static/dist/json/option.json') // 替換為你的 API 路徑
 
         const extraction_combination = document.getElementById('extraction_combination');
         const augmentation_combination = document.getElementById('augmentation_combination');
+        const augmentation_icon = document.getElementById('augmentation_icon');
+        const augmentation_p = document.querySelector('.augmentation p');
+        const svg = document.querySelector('.augmentation svg');
 
 
         extraction_combination.style.display = "none";
         augmentation_combination.style.display = "block";
+        augmentation_icon.style.backgroundColor = "#008687";
+        augmentation_p.style.color = "#008687";
+        svg.setAttribute("fill","#FFFFFF")
     });
 
 });
